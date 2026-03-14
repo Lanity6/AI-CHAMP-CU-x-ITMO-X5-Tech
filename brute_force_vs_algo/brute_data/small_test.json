@@ -1,0 +1,96 @@
+[
+  {
+    "task_id": "small_test_001",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 500.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-A",
+        "description": "Box A",
+        "length_mm": 400,
+        "width_mm": 300,
+        "height_mm": 200,
+        "weight_kg": 5.0,
+        "quantity": 3,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-B",
+        "description": "Box B",
+        "length_mm": 500,
+        "width_mm": 400,
+        "height_mm": 300,
+        "weight_kg": 8.0,
+        "quantity": 3,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-E",
+        "description": "Small Cube",
+        "length_mm": 250,
+        "width_mm": 250,
+        "height_mm": 250,
+        "weight_kg": 4.0,
+        "quantity": 4,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "small_test_002",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 300.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-C",
+        "description": "Fragile Glass",
+        "length_mm": 350,
+        "width_mm": 250,
+        "height_mm": 400,
+        "weight_kg": 3.0,
+        "quantity": 4,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-D",
+        "description": "Heavy Brick",
+        "length_mm": 300,
+        "width_mm": 200,
+        "height_mm": 150,
+        "weight_kg": 12.0,
+        "quantity": 4,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-F",
+        "description": "Flat Panel",
+        "length_mm": 600,
+        "width_mm": 400,
+        "height_mm": 100,
+        "weight_kg": 6.0,
+        "quantity": 3,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  }
+]
