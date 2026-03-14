@@ -9,12 +9,8 @@ from pathlib import Path
 
 
 def main():
-    if len(sys.argv) < 3:
-        print(f"Usage: {sys.argv[0]} <results_dir> <output.csv>", file=sys.stderr)
-        sys.exit(1)
-
-    results_dir = Path(sys.argv[1])
-    out_csv = sys.argv[2]
+    results_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("results")
+    out_csv = sys.argv[2] if len(sys.argv) > 2 else "benchmark.csv"
 
     rows = []
     for jf in sorted(results_dir.rglob("*.json")):
