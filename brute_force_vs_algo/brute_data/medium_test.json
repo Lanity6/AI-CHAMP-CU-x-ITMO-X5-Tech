@@ -1,0 +1,92 @@
+[
+  {
+    "task_id": "med_001",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 500.0},
+    "boxes": [
+      {"sku_id": "SKU-A1", "description": "Large Box", "length_mm": 500, "width_mm": 400, "height_mm": 350, "weight_kg": 10.0, "quantity": 3, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-A2", "description": "Medium Box", "length_mm": 350, "width_mm": 250, "height_mm": 200, "weight_kg": 5.0, "quantity": 4, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-A3", "description": "Small Cube", "length_mm": 200, "width_mm": 200, "height_mm": 200, "weight_kg": 3.0, "quantity": 3, "strict_upright": false, "fragile": false, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "med_002",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 400.0},
+    "boxes": [
+      {"sku_id": "SKU-B1", "description": "Fragile Vase", "length_mm": 300, "width_mm": 300, "height_mm": 500, "weight_kg": 2.0, "quantity": 3, "strict_upright": true, "fragile": true, "stackable": true},
+      {"sku_id": "SKU-B2", "description": "Heavy Crate", "length_mm": 400, "width_mm": 300, "height_mm": 250, "weight_kg": 15.0, "quantity": 4, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-B3", "description": "Flat Tray", "length_mm": 500, "width_mm": 400, "height_mm": 100, "weight_kg": 4.0, "quantity": 2, "strict_upright": false, "fragile": false, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "med_003",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 600.0},
+    "boxes": [
+      {"sku_id": "SKU-C1", "description": "Tall Upright", "length_mm": 250, "width_mm": 250, "height_mm": 600, "weight_kg": 7.0, "quantity": 4, "strict_upright": true, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-C2", "description": "Wide Flat", "length_mm": 600, "width_mm": 500, "height_mm": 150, "weight_kg": 8.0, "quantity": 3, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-C3", "description": "Tiny Box", "length_mm": 150, "width_mm": 150, "height_mm": 150, "weight_kg": 1.5, "quantity": 5, "strict_upright": false, "fragile": false, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "med_004",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 350.0},
+    "boxes": [
+      {"sku_id": "SKU-D1", "description": "Fragile Glass", "length_mm": 400, "width_mm": 300, "height_mm": 300, "weight_kg": 1.5, "quantity": 3, "strict_upright": false, "fragile": true, "stackable": true},
+      {"sku_id": "SKU-D2", "description": "Iron Block", "length_mm": 300, "width_mm": 300, "height_mm": 200, "weight_kg": 20.0, "quantity": 4, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-D3", "description": "Paper Pack", "length_mm": 350, "width_mm": 250, "height_mm": 100, "weight_kg": 2.0, "quantity": 5, "strict_upright": false, "fragile": false, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "med_005",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 500.0},
+    "boxes": [
+      {"sku_id": "SKU-E1", "description": "Big Appliance", "length_mm": 600, "width_mm": 500, "height_mm": 400, "weight_kg": 25.0, "quantity": 2, "strict_upright": true, "fragile": true, "stackable": false},
+      {"sku_id": "SKU-E2", "description": "Filler Box", "length_mm": 300, "width_mm": 250, "height_mm": 200, "weight_kg": 3.0, "quantity": 5, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-E3", "description": "Long Tube", "length_mm": 200, "width_mm": 200, "height_mm": 500, "weight_kg": 4.0, "quantity": 3, "strict_upright": true, "fragile": false, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "med_006",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 450.0},
+    "boxes": [
+      {"sku_id": "SKU-F1", "description": "Square Box", "length_mm": 400, "width_mm": 400, "height_mm": 400, "weight_kg": 12.0, "quantity": 3, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-F2", "description": "Fragile Plate", "length_mm": 500, "width_mm": 400, "height_mm": 80, "weight_kg": 1.0, "quantity": 4, "strict_upright": false, "fragile": true, "stackable": true},
+      {"sku_id": "SKU-F3", "description": "Dense Brick", "length_mm": 250, "width_mm": 200, "height_mm": 150, "weight_kg": 10.0, "quantity": 5, "strict_upright": false, "fragile": false, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "med_007",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 500.0},
+    "boxes": [
+      {"sku_id": "SKU-G1", "description": "Uniform A", "length_mm": 300, "width_mm": 250, "height_mm": 200, "weight_kg": 5.0, "quantity": 4, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-G2", "description": "Uniform B", "length_mm": 300, "width_mm": 250, "height_mm": 200, "weight_kg": 5.0, "quantity": 4, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-G3", "description": "Uniform C", "length_mm": 300, "width_mm": 250, "height_mm": 200, "weight_kg": 5.0, "quantity": 4, "strict_upright": false, "fragile": false, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "med_008",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 300.0},
+    "boxes": [
+      {"sku_id": "SKU-H1", "description": "Oversized", "length_mm": 700, "width_mm": 600, "height_mm": 500, "weight_kg": 30.0, "quantity": 1, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-H2", "description": "Mini Box", "length_mm": 200, "width_mm": 150, "height_mm": 100, "weight_kg": 1.5, "quantity": 6, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-H3", "description": "Fragile Jar", "length_mm": 250, "width_mm": 250, "height_mm": 300, "weight_kg": 2.5, "quantity": 4, "strict_upright": true, "fragile": true, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "med_009",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 400.0},
+    "boxes": [
+      {"sku_id": "SKU-I1", "description": "Heavy Plate", "length_mm": 500, "width_mm": 500, "height_mm": 100, "weight_kg": 18.0, "quantity": 3, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-I2", "description": "Light Foam", "length_mm": 400, "width_mm": 300, "height_mm": 350, "weight_kg": 1.0, "quantity": 5, "strict_upright": false, "fragile": true, "stackable": true},
+      {"sku_id": "SKU-I3", "description": "Mid Crate", "length_mm": 350, "width_mm": 280, "height_mm": 220, "weight_kg": 7.0, "quantity": 4, "strict_upright": false, "fragile": false, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "med_010",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 550.0},
+    "boxes": [
+      {"sku_id": "SKU-J1", "description": "Barrel", "length_mm": 350, "width_mm": 350, "height_mm": 500, "weight_kg": 15.0, "quantity": 3, "strict_upright": true, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-J2", "description": "Thin Panel", "length_mm": 600, "width_mm": 400, "height_mm": 50, "weight_kg": 3.0, "quantity": 4, "strict_upright": false, "fragile": true, "stackable": true},
+      {"sku_id": "SKU-J3", "description": "Standard Box", "length_mm": 400, "width_mm": 300, "height_mm": 250, "weight_kg": 6.0, "quantity": 5, "strict_upright": false, "fragile": false, "stackable": true}
+    ]
+  }
+]

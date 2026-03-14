@@ -1,0 +1,1954 @@
+[
+  {
+    "task_id": "med_001",
+    "solver_version": "brute-force-1.0",
+    "solve_time_ms": 10,
+    "placements": [
+      {
+        "sku_id": "SKU-A1",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 350,
+          "width_mm": 400,
+          "height_mm": 500
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-A1",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 400,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 350,
+          "width_mm": 400,
+          "height_mm": 500
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-A1",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 350,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 350,
+          "width_mm": 400,
+          "height_mm": 500
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-A2",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 800,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 200,
+          "height_mm": 350
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-A2",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 250,
+          "y_mm": 800,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 200,
+          "height_mm": 350
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-A2",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 350,
+          "y_mm": 400,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 350
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-A2",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 500,
+          "y_mm": 800,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 200,
+          "height_mm": 350
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-A3",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 550,
+          "y_mm": 400,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 200,
+          "height_mm": 200
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-A3",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 550,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 200,
+          "height_mm": 200
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-A3",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 700,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 200,
+          "height_mm": 200
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5633,
+      "volume_utilization": 0.1267,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "med_002",
+    "solver_version": "brute-force-1.0",
+    "solve_time_ms": 7,
+    "placements": [
+      {
+        "sku_id": "SKU-B2",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 300,
+          "height_mm": 400
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-B2",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 300,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 300,
+          "height_mm": 400
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-B2",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 300,
+          "height_mm": 400
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-B2",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 250,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 300,
+          "height_mm": 400
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-B3",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 900,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 100,
+          "height_mm": 500
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-B3",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 250,
+          "y_mm": 300,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 100,
+          "width_mm": 400,
+          "height_mm": 500
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-B1",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 350,
+          "y_mm": 300,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 300,
+          "width_mm": 300,
+          "height_mm": 500
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-B1",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 350,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 300,
+          "width_mm": 300,
+          "height_mm": 500
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-B1",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 500,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 300,
+          "width_mm": 300,
+          "height_mm": 500
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5615,
+      "volume_utilization": 0.1229,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "med_003",
+    "solver_version": "brute-force-1.0",
+    "solve_time_ms": 5,
+    "placements": [
+      {
+        "sku_id": "SKU-C2",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 500,
+          "height_mm": 600
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-C2",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 500,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 500,
+          "height_mm": 600
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-C2",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 150,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 500,
+          "height_mm": 600
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-C1",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 150,
+          "y_mm": 500,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 250,
+          "height_mm": 600
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-C1",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 150,
+          "y_mm": 750,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 250,
+          "height_mm": 600
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-C1",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 300,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 250,
+          "height_mm": 600
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-C1",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 300,
+          "y_mm": 250,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 250,
+          "height_mm": 600
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-C3",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 400,
+          "y_mm": 500,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 150,
+          "height_mm": 150
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-C3",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 400,
+          "y_mm": 650,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 150,
+          "height_mm": 150
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-C3",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 400,
+          "y_mm": 800,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 150,
+          "height_mm": 150
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-C3",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 550,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 150,
+          "height_mm": 150
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-C3",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 550,
+          "y_mm": 150,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 150,
+          "height_mm": 150
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5629,
+      "volume_utilization": 0.1258,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "med_004",
+    "solver_version": "brute-force-1.0",
+    "solve_time_ms": 12,
+    "placements": [
+      {
+        "sku_id": "SKU-D2",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 300,
+          "height_mm": 300
+        },
+        "rotation_code": "HLW",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-D2",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 300,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 300,
+          "height_mm": 300
+        },
+        "rotation_code": "HLW",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-D2",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 300,
+          "height_mm": 300
+        },
+        "rotation_code": "HLW",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-D2",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 300,
+          "height_mm": 300
+        },
+        "rotation_code": "HLW",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-D3",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 900,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 100,
+          "height_mm": 350
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-D3",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 300,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 100,
+          "width_mm": 250,
+          "height_mm": 350
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-D3",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 550,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 100,
+          "width_mm": 250,
+          "height_mm": 350
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-D3",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 800,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 100,
+          "height_mm": 350
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-D3",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 250,
+          "y_mm": 900,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 100,
+          "height_mm": 350
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-D1",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 300,
+          "y_mm": 300,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 300,
+          "width_mm": 300,
+          "height_mm": 400
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-D1",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 400,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 300,
+          "width_mm": 300,
+          "height_mm": 400
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-D1",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 600,
+          "y_mm": 300,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 300,
+          "width_mm": 300,
+          "height_mm": 400
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5466,
+      "volume_utilization": 0.0932,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "med_005",
+    "solver_version": "brute-force-1.0",
+    "solve_time_ms": 12,
+    "placements": [
+      {
+        "sku_id": "SKU-E3",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 200,
+          "height_mm": 500
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-E3",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 200,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 200,
+          "height_mm": 500
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-E3",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 400,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 200,
+          "height_mm": 500
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-E2",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-E2",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-E2",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 250,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-E2",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 500,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-E2",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 750,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-E1",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 400,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 600,
+          "width_mm": 500,
+          "height_mm": 400
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-E1",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 400,
+          "y_mm": 500,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 600,
+          "width_mm": 500,
+          "height_mm": 400
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5781,
+      "volume_utilization": 0.1562,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "med_006",
+    "solver_version": "brute-force-1.0",
+    "solve_time_ms": 18,
+    "placements": [
+      {
+        "sku_id": "SKU-F1",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 400,
+          "height_mm": 400
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-F1",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 400,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 400,
+          "height_mm": 400
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-F1",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 400,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 400,
+          "height_mm": 400
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-F3",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 800,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 200,
+          "height_mm": 250
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-F3",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 150,
+          "y_mm": 800,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 200,
+          "height_mm": 250
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-F3",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 300,
+          "y_mm": 800,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 200,
+          "height_mm": 250
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-F3",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 400,
+          "y_mm": 400,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 200,
+          "height_mm": 250
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-F3",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 400,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 200,
+          "height_mm": 250
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-F2",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 450,
+          "y_mm": 800,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 80,
+          "height_mm": 500
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-F2",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 450,
+          "y_mm": 880,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 80,
+          "height_mm": 500
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-F2",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 550,
+          "y_mm": 400,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 80,
+          "width_mm": 400,
+          "height_mm": 500
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-F2",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 630,
+          "y_mm": 400,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 80,
+          "width_mm": 400,
+          "height_mm": 500
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5611,
+      "volume_utilization": 0.1223,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "med_007",
+    "solver_version": "brute-force-1.0",
+    "solve_time_ms": 26,
+    "placements": [
+      {
+        "sku_id": "SKU-G1",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-G1",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 250,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-G1",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 500,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-G1",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 750,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-G2",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-G2",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 250,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-G2",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 500,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-G2",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 750,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-G3",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 400,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-G3",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 400,
+          "y_mm": 250,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-G3",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 400,
+          "y_mm": 500,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-G3",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 400,
+          "y_mm": 750,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 200,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5375,
+      "volume_utilization": 0.075,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "med_008",
+    "solver_version": "brute-force-1.0",
+    "solve_time_ms": 7,
+    "placements": [
+      {
+        "sku_id": "SKU-H1",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 500,
+          "width_mm": 600,
+          "height_mm": 700
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-H2",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 100,
+          "width_mm": 150,
+          "height_mm": 200
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-H2",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 750,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 100,
+          "width_mm": 150,
+          "height_mm": 200
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-H2",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 900,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 100,
+          "height_mm": 200
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-H2",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 100,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 100,
+          "width_mm": 150,
+          "height_mm": 200
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-H2",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 100,
+          "y_mm": 750,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 100,
+          "width_mm": 150,
+          "height_mm": 200
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-H2",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 150,
+          "y_mm": 900,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 150,
+          "width_mm": 100,
+          "height_mm": 200
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-H3",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-H3",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 450,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-H3",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 500,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-H3",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 500,
+          "y_mm": 250,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 250,
+          "height_mm": 300
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5631,
+      "volume_utilization": 0.1263,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "med_009",
+    "solver_version": "brute-force-1.0",
+    "solve_time_ms": 16,
+    "placements": [
+      {
+        "sku_id": "SKU-I1",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 100,
+          "width_mm": 500,
+          "height_mm": 500
+        },
+        "rotation_code": "HLW",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-I1",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 500,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 100,
+          "width_mm": 500,
+          "height_mm": 500
+        },
+        "rotation_code": "HLW",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-I1",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 100,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 100,
+          "width_mm": 500,
+          "height_mm": 500
+        },
+        "rotation_code": "HLW",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-I3",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 100,
+          "y_mm": 500,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 220,
+          "width_mm": 280,
+          "height_mm": 350
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-I3",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 100,
+          "y_mm": 780,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 280,
+          "width_mm": 220,
+          "height_mm": 350
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-I3",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 220,
+          "width_mm": 280,
+          "height_mm": 350
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-I3",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 200,
+          "y_mm": 280,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 280,
+          "width_mm": 220,
+          "height_mm": 350
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-I2",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 480,
+          "y_mm": 280,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 300,
+          "width_mm": 350,
+          "height_mm": 400
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-I2",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 480,
+          "y_mm": 630,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 300,
+          "width_mm": 350,
+          "height_mm": 400
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-I2",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 780,
+          "y_mm": 280,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 300,
+          "width_mm": 350,
+          "height_mm": 400
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-I2",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 780,
+          "y_mm": 630,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 300,
+          "width_mm": 350,
+          "height_mm": 400
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-I2",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 100,
+          "y_mm": 500,
+          "z_mm": 350
+        },
+        "dimensions_placed": {
+          "length_mm": 300,
+          "width_mm": 350,
+          "height_mm": 400
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5773,
+      "volume_utilization": 0.1547,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "med_010",
+    "solver_version": "brute-force-1.0",
+    "solve_time_ms": 19,
+    "placements": [
+      {
+        "sku_id": "SKU-J1",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 350,
+          "width_mm": 350,
+          "height_mm": 500
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-J1",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 350,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 350,
+          "width_mm": 350,
+          "height_mm": 500
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-J1",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 350,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 350,
+          "width_mm": 350,
+          "height_mm": 500
+        },
+        "rotation_code": "LWH",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-J3",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 700,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 300,
+          "height_mm": 400
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-J3",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 250,
+          "y_mm": 700,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 300,
+          "height_mm": 400
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-J3",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 350,
+          "y_mm": 350,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 300,
+          "height_mm": 400
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-J3",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 500,
+          "y_mm": 700,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 300,
+          "height_mm": 400
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-J3",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 600,
+          "y_mm": 350,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 300,
+          "height_mm": 400
+        },
+        "rotation_code": "HWL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-J2",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 350,
+          "y_mm": 650,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 50,
+          "height_mm": 600
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-J2",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 700,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 50,
+          "height_mm": 600
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-J2",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 700,
+          "y_mm": 50,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 50,
+          "height_mm": 600
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      },
+      {
+        "sku_id": "SKU-J2",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 700,
+          "y_mm": 100,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 50,
+          "height_mm": 600
+        },
+        "rotation_code": "WHL",
+        "layer": 0
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5795,
+      "volume_utilization": 0.1591,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  }
+]
