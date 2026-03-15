@@ -1,36 +1,24 @@
-import json
 import math
-from pathlib import Path
+import random
 
 import pyvista as pv
 
-
-VALID_ROTATIONS = {"LWH", "LHW", "WLH", "WHL", "HLW", "HWL"}
-
-
-def load_json(path: str | Path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def make_box(x, y, z, sx, sy, sz):
-    return pv.Box(bounds=(x, x + sx, y, y + sy, z, z + sz))
-
-
-def build_boxes_index(input_data: dict) -> dict:
-    return {box["sku_id"]: box for box in input_data.get("boxes", [])}
+from viz_utils import (
+    add_fragile_pattern,
+    add_upright_marks,
+    build_boxes_index,
+    build_legend_description,
+    detect_pallet_type,
+    enrich_placements_with_input_data,
+    get_box_type_key,
+    load_json,
+    make_box,
+    set_visibility,
+)
 
 
-def get_box_type_key(box: dict) -> tuple:
-    return (
-        box.get("description", "").strip(),
-        box.get("length_mm"),
-        box.get("width_mm"),
-        box.get("height_mm"),
-        bool(box.get("strict_upright", False)),
-        bool(box.get("fragile", False)),
-        bool(box.get("stackable", True)),
-    )
+MAX_CASES = 9
+RANDOM_SEED = 42
 
 
 def hsv_to_rgb(h, s, v):
@@ -83,196 +71,10 @@ def build_global_box_type_color_map(inputs_raw):
         h = i / 1000.0
         s = 0.68 + 0.20 * ((i % 4) / 3.0)
         v = 0.78 + 0.18 * ((i % 5) / 4.0)
-
         r, g, b = hsv_to_rgb(h, s, v)
         colors.append(rgb_to_hex(r, g, b))
 
     return {type_key: colors[i] for i, type_key in enumerate(type_keys)}
-
-
-def detect_pallet_type(length_mm: int, width_mm: int) -> str:
-    mapping = {
-        (1200, 800): "EUR / EPAL",
-        (1200, 1000): "FIN",
-        (1219, 1016): "GMA / 48x40",
-    }
-    if (length_mm, width_mm) in mapping:
-        return mapping[(length_mm, width_mm)]
-    if (width_mm, length_mm) in mapping:
-        return mapping[(width_mm, length_mm)]
-    return f"Unknown ({length_mm}x{width_mm})"
-
-
-def get_rotated_dimensions(box_info: dict, rotation_code: str) -> tuple[int, int, int]:
-    dims = {
-        "L": box_info["length_mm"],
-        "W": box_info["width_mm"],
-        "H": box_info["height_mm"],
-    }
-
-    if rotation_code not in VALID_ROTATIONS:
-        raise ValueError(f"Unsupported rotation_code: {rotation_code}")
-
-    return (
-        dims[rotation_code[0]],
-        dims[rotation_code[1]],
-        dims[rotation_code[2]],
-    )
-
-
-def resolve_layers(placements: list[dict]) -> list[dict]:
-    if not placements:
-        return placements
-
-    if any("layer" in p for p in placements):
-        return placements
-
-    unique_z = sorted({p["position"]["z_mm"] for p in placements})
-    z_to_layer = {z: i + 1 for i, z in enumerate(unique_z)}
-
-    out = []
-    for placement in placements:
-        out.append({**placement, "layer": z_to_layer[placement["position"]["z_mm"]]})
-    return out
-
-
-def enrich_placements_with_input_data(input_data: dict, result_data: dict) -> list:
-    boxes_index = build_boxes_index(input_data)
-    placements = resolve_layers(result_data.get("placements", []))
-    enriched = []
-
-    for placement in placements:
-        sku_id = placement["sku_id"]
-        source_box = boxes_index.get(sku_id)
-        if source_box is None:
-            raise KeyError(
-                f"SKU '{sku_id}' from result.json not found in input.json for task_id '{input_data.get('task_id')}'"
-            )
-
-        sx, sy, sz = get_rotated_dimensions(
-            source_box,
-            placement.get("rotation_code", "LWH"),
-        )
-
-        enriched.append(
-            {
-                **placement,
-                "visual_props": {
-                    "description": source_box.get("description"),
-                    "strict_upright": source_box.get("strict_upright", False),
-                    "fragile": source_box.get("fragile", False),
-                    "stackable": source_box.get("stackable", True),
-                    "sku_id": sku_id,
-                },
-                "resolved_dimensions": {
-                    "x_mm": sx,
-                    "y_mm": sy,
-                    "z_mm": sz,
-                },
-            }
-        )
-
-    return enriched
-
-
-def add_line(plotter, p1, p2, color="black", width=2):
-    return plotter.add_mesh(pv.Line(p1, p2), color=color, line_width=width)
-
-
-def add_cross_on_xy_face(plotter, x, y, z, sx, sy, color="black", width_px=2):
-    actors = []
-    actors.append(add_line(plotter, (x, y, z), (x + sx, y + sy, z), color=color, width=width_px))
-    actors.append(add_line(plotter, (x + sx, y, z), (x, y + sy, z), color=color, width=width_px))
-    return actors
-
-
-def add_diagonal_stripes_xy(plotter, x, y, z, sx, sy, spacing=35, color="black", width_px=1):
-    actors = []
-    s = 0
-    while s <= sx + sy:
-        x1 = max(0, s - sy)
-        y1 = s - x1
-        x2 = min(sx, s)
-        y2 = s - x2
-        if 0 <= y1 <= sy and 0 <= y2 <= sy:
-            actors.append(
-                add_line(
-                    plotter,
-                    (x + x1, y + y1, z),
-                    (x + x2, y + y2, z),
-                    color=color,
-                    width=width_px,
-                )
-            )
-        s += spacing
-    return actors
-
-
-def add_diagonal_stripes_xz(plotter, x, y, z, sx, sz, spacing=35, color="black", width_px=1):
-    actors = []
-    s = 0
-    while s <= sx + sz:
-        x1 = max(0, s - sz)
-        z1 = s - x1
-        x2 = min(sx, s)
-        z2 = s - x2
-        if 0 <= z1 <= sz and 0 <= z2 <= sz:
-            actors.append(
-                add_line(
-                    plotter,
-                    (x + x1, y, z + z1),
-                    (x + x2, y, z + z2),
-                    color=color,
-                    width=width_px,
-                )
-            )
-        s += spacing
-    return actors
-
-
-def add_diagonal_stripes_yz(plotter, x, y, z, sy, sz, spacing=35, color="black", width_px=1):
-    actors = []
-    s = 0
-    while s <= sy + sz:
-        y1 = max(0, s - sz)
-        z1 = s - y1
-        y2 = min(sy, s)
-        z2 = s - y2
-        if 0 <= z1 <= sz and 0 <= z2 <= sz:
-            actors.append(
-                add_line(
-                    plotter,
-                    (x, y + y1, z + z1),
-                    (x, y + y2, z + z2),
-                    color=color,
-                    width=width_px,
-                )
-            )
-        s += spacing
-    return actors
-
-
-def add_fragile_pattern(plotter, x, y, z, sx, sy, sz, spacing=35, color="black"):
-    actors = []
-    actors += add_diagonal_stripes_xy(plotter, x, y, z, sx, sy, spacing=spacing, color=color)
-    actors += add_diagonal_stripes_xy(plotter, x, y, z + sz, sx, sy, spacing=spacing, color=color)
-    actors += add_diagonal_stripes_xz(plotter, x, y, z, sx, sz, spacing=spacing, color=color)
-    actors += add_diagonal_stripes_xz(plotter, x, y + sy, z, sx, sz, spacing=spacing, color=color)
-    actors += add_diagonal_stripes_yz(plotter, x, y, z, sy, sz, spacing=spacing, color=color)
-    actors += add_diagonal_stripes_yz(plotter, x + sx, y, z, sy, sz, spacing=spacing, color=color)
-    return actors
-
-
-def add_upright_marks(plotter, x, y, z, sx, sy, sz, color="black"):
-    actors = []
-    actors += add_cross_on_xy_face(plotter, x, y, z, sx, sy, color=color, width_px=2)
-    actors += add_cross_on_xy_face(plotter, x, y, z + sz, sx, sy, color=color, width_px=2)
-    return actors
-
-
-def set_visibility(actors, visible: bool):
-    for actor in actors:
-        actor.SetVisibility(visible)
 
 
 def normalize_cases(inputs_raw, results_raw):
@@ -298,21 +100,14 @@ def normalize_cases(inputs_raw, results_raw):
 
         cases.append((input_case, result_case, idx))
 
+    # Limit number of cases to avoid performance issues
+    total = len(cases)
+    if total > MAX_CASES:
+        rng = random.Random(RANDOM_SEED)
+        selected_indices = sorted(rng.sample(range(total), MAX_CASES))
+        cases = [cases[i] for i in selected_indices]
+
     return cases
-
-
-def build_legend_description(description: str, strict_upright: bool, fragile: bool, stackable: bool) -> str:
-    parts = [description.strip()]
-
-    if strict_upright:
-        parts.append("upright")
-    if stackable is False:
-        parts.append("top only")
-    elif fragile is True:
-        parts.append("fragile")
-
-    parts = [p for p in parts if p and str(p).strip()]
-    return " - ".join(parts)
 
 
 def compute_offsets(cases):
@@ -361,10 +156,7 @@ def prepare_case(plotter, input_data, result_data, box_type_color_map, offset):
         j_resolution=1,
     )
     pallet_actor = plotter.add_mesh(
-        pallet_plane,
-        color="#d6b48a",
-        show_edges=False,
-        lighting=False,
+        pallet_plane, color="#d6b48a", show_edges=False, lighting=False,
     )
     all_actors.append(pallet_actor)
     base_actors.append(pallet_actor)
@@ -373,11 +165,7 @@ def prepare_case(plotter, input_data, result_data, box_type_color_map, offset):
         bounds=(ox, ox + container_length, oy, oy + container_width, oz, oz + container_height)
     )
     container_actor = plotter.add_mesh(
-        container_mesh,
-        style="wireframe",
-        color="black",
-        line_width=1.5,
-        opacity=0.35,
+        container_mesh, style="wireframe", color="black", line_width=1.5, opacity=0.35,
     )
     all_actors.append(container_actor)
     base_actors.append(container_actor)
@@ -418,32 +206,16 @@ def prepare_case(plotter, input_data, result_data, box_type_color_map, offset):
         mesh = make_box(x, y, z, sx, sy, sz)
 
         if stackable is False:
-            actor = plotter.add_mesh(
-                mesh,
-                style="wireframe",
-                color=color,
-                line_width=2.0,
-                opacity=1.0,
-            )
-            current_item_actors.append(actor)
+            actor = plotter.add_mesh(mesh, style="wireframe", color=color, line_width=2.0, opacity=1.0)
         else:
-            actor = plotter.add_mesh(
-                mesh,
-                color=color,
-                opacity=1.0,
-                show_edges=True,
-                edge_color="black",
-                line_width=0.5,
-            )
-            current_item_actors.append(actor)
+            actor = plotter.add_mesh(mesh, color=color, opacity=1.0, show_edges=True, edge_color="black", line_width=0.5)
+        current_item_actors.append(actor)
 
         if strict_upright:
             current_item_actors += add_upright_marks(plotter, x, y, z, sx, sy, sz, color="black")
 
         if fragile:
-            current_item_actors += add_fragile_pattern(
-                plotter, x, y, z, sx, sy, sz, spacing=35, color="black"
-            )
+            current_item_actors += add_fragile_pattern(plotter, x, y, z, sx, sy, sz, spacing=35, color="black")
 
         all_actors.extend(current_item_actors)
         item_actors.extend(current_item_actors)
@@ -583,21 +355,14 @@ def update_header(case_index: int):
     )
 
     plotter.add_text(
-        main_text,
-        position="upper_left",
-        font_size=11,
-        color="black",
-        name=ui_state["main_text_name"],
-        font="arial",
+        main_text, position="upper_left", font_size=11,
+        color="black", name=ui_state["main_text_name"], font="arial",
     )
 
     plotter.add_text(
         f"Active pallet {case_index + 1} / {len(prepared_cases)}",
-        position=(20, 120),
-        font_size=10,
-        color="black",
-        name=ui_state["case_label_name"],
-        font="arial",
+        position=(20, 120), font_size=10,
+        color="black", name=ui_state["case_label_name"], font="arial",
     )
 
 
@@ -610,12 +375,8 @@ def rebuild_legend_ui(case_index: int):
     legend_x = 1380
 
     plotter.add_text(
-        "Legend",
-        position=(legend_x, 960),
-        font_size=12,
-        color="black",
-        name=ui_state["legend_header_name"],
-        font="arial",
+        "Legend", position=(legend_x, 960), font_size=12,
+        color="black", name=ui_state["legend_header_name"], font="arial",
     )
 
     y = 920
@@ -630,12 +391,8 @@ def rebuild_legend_ui(case_index: int):
         )
 
         plotter.add_text(
-            f"■ {text}",
-            position=(legend_x, y),
-            font_size=10,
-            color=item["color"],
-            name=name,
-            font="arial",
+            f"\u25a0 {text}", position=(legend_x, y), font_size=10,
+            color=item["color"], name=name, font="arial",
         )
         ui_state["legend_text_names"].append(name)
 
@@ -704,31 +461,18 @@ def rebuild_layer_ui(case_index: int):
     ui_state["layer_states"] = {layer: False for layer in available_layers}
 
     plotter.add_text(
-        "Layers",
-        position=(20, 840),
-        font_size=12,
-        color="black",
-        name=ui_state["layers_header_name"],
-        font="arial",
+        "Layers", position=(20, 840), font_size=12,
+        color="black", name=ui_state["layers_header_name"], font="arial",
     )
 
     plotter.add_text(
-        "Show all",
-        position=(60, 795),
-        font_size=10,
-        color="black",
-        name=ui_state["show_all_label_name"],
-        font="arial",
+        "Show all", position=(60, 795), font_size=10,
+        color="black", name=ui_state["show_all_label_name"], font="arial",
     )
 
     ui_state["show_all_button"] = plotter.add_checkbox_button_widget(
-        callback=on_show_all,
-        value=True,
-        position=(20, 795),
-        size=20,
-        color_on="green",
-        color_off="lightgray",
-        border_size=1,
+        callback=on_show_all, value=True, position=(20, 795),
+        size=20, color_on="green", color_off="lightgray", border_size=1,
     )
 
     start_y = 755
@@ -743,22 +487,14 @@ def rebuild_layer_ui(case_index: int):
         ui_state["layer_label_names"].append(label_name)
 
         plotter.add_text(
-            f"Layer {layer_value}",
-            position=(60, y_pos),
-            font_size=10,
-            color="black",
-            name=label_name,
-            font="arial",
+            f"Layer {layer_value}", position=(60, y_pos), font_size=10,
+            color="black", name=label_name, font="arial",
         )
 
         widget = plotter.add_checkbox_button_widget(
             callback=lambda state, lv=layer_value: on_layer_toggle(lv, state),
-            value=False,
-            position=(20, y_pos),
-            size=20,
-            color_on="dodgerblue",
-            color_off="lightgray",
-            border_size=1,
+            value=False, position=(20, y_pos), size=20,
+            color_on="dodgerblue", color_off="lightgray", border_size=1,
         )
         ui_state["layer_widgets"].append(widget)
 
@@ -793,43 +529,26 @@ def go_next():
 
 
 center_x = 900
+btn_size = 36
 
 plotter.add_checkbox_button_widget(
-    callback=lambda state: go_prev() if state else None,
-    value=False,
-    position=(center_x - 90, 45),
-    size=22,
-    color_on="lightgray",
-    color_off="lightgray",
-    border_size=1,
+    callback=lambda state: go_prev(),
+    value=False, position=(center_x - btn_size - 10, 20),
+    size=btn_size, color_on="steelblue", color_off="steelblue", border_size=2,
+)
+plotter.add_text(
+    "\u25c0", position=(center_x - btn_size - 2, 22),
+    font_size=14, color="white", name="prev_label", font="arial",
 )
 
 plotter.add_checkbox_button_widget(
-    callback=lambda state: go_next() if state else None,
-    value=False,
-    position=(center_x + 40, 45),
-    size=22,
-    color_on="lightgray",
-    color_off="lightgray",
-    border_size=1,
+    callback=lambda state: go_next(),
+    value=False, position=(center_x + 10, 20),
+    size=btn_size, color_on="steelblue", color_off="steelblue", border_size=2,
 )
-
 plotter.add_text(
-    "<-",
-    position=(center_x - 96, 18),
-    font_size=16,
-    color="black",
-    name="prev_label",
-    font="arial",
-)
-
-plotter.add_text(
-    "->",
-    position=(center_x + 36, 18),
-    font_size=16,
-    color="black",
-    name="next_label",
-    font="arial",
+    "\u25b6", position=(center_x + 18, 22),
+    font_size=14, color="white", name="next_label", font="arial",
 )
 
 highlight_active_case(0)

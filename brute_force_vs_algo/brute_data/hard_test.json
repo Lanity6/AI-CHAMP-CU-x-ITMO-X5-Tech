@@ -40,7 +40,7 @@
         "width_mm": 204,
         "height_mm": 122,
         "weight_kg": 5.92,
-        "quantity": 2,
+        "quantity": 5,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -64,7 +64,7 @@
         "width_mm": 395,
         "height_mm": 399,
         "weight_kg": 1.77,
-        "quantity": 16,
+        "quantity": 8,
         "strict_upright": false,
         "fragile": true,
         "stackable": true
@@ -76,7 +76,7 @@
         "width_mm": 169,
         "height_mm": 325,
         "weight_kg": 7.88,
-        "quantity": 1,
+        "quantity": 6,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -100,7 +100,7 @@
         "width_mm": 386,
         "height_mm": 242,
         "weight_kg": 18.88,
-        "quantity": 4,
+        "quantity": 5,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -112,7 +112,7 @@
         "width_mm": 201,
         "height_mm": 119,
         "weight_kg": 5.91,
-        "quantity": 1,
+        "quantity": 2,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -124,7 +124,7 @@
         "width_mm": 172,
         "height_mm": 320,
         "weight_kg": 8.13,
-        "quantity": 10,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -184,7 +184,7 @@
         "width_mm": 314,
         "height_mm": 346,
         "weight_kg": 22.03,
-        "quantity": 3,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -196,7 +196,7 @@
         "width_mm": 304,
         "height_mm": 148,
         "weight_kg": 9.82,
-        "quantity": 4,
+        "quantity": 5,
         "strict_upright": false,
         "fragile": false,
         "stackable": true
@@ -208,7 +208,7 @@
         "width_mm": 193,
         "height_mm": 331,
         "weight_kg": 9.23,
-        "quantity": 15,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -244,7 +244,7 @@
         "width_mm": 167,
         "height_mm": 322,
         "weight_kg": 8.06,
-        "quantity": 1,
+        "quantity": 2,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -268,7 +268,7 @@
         "width_mm": 294,
         "height_mm": 148,
         "weight_kg": 9.96,
-        "quantity": 2,
+        "quantity": 4,
         "strict_upright": false,
         "fragile": false,
         "stackable": true
@@ -304,7 +304,7 @@
         "width_mm": 394,
         "height_mm": 393,
         "weight_kg": 1.82,
-        "quantity": 7,
+        "quantity": 8,
         "strict_upright": false,
         "fragile": true,
         "stackable": true
@@ -328,7 +328,7 @@
         "width_mm": 171,
         "height_mm": 323,
         "weight_kg": 8.11,
-        "quantity": 11,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -364,7 +364,7 @@
         "width_mm": 173,
         "height_mm": 319,
         "weight_kg": 8.08,
-        "quantity": 15,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -376,7 +376,7 @@
         "width_mm": 190,
         "height_mm": 334,
         "weight_kg": 9.16,
-        "quantity": 1,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -400,7 +400,7 @@
         "width_mm": 396,
         "height_mm": 403,
         "weight_kg": 1.82,
-        "quantity": 6,
+        "quantity": 8,
         "strict_upright": false,
         "fragile": true,
         "stackable": true
@@ -412,7 +412,7 @@
         "width_mm": 189,
         "height_mm": 336,
         "weight_kg": 9.24,
-        "quantity": 1,
+        "quantity": 4,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -424,7 +424,7 @@
         "width_mm": 198,
         "height_mm": 121,
         "weight_kg": 6.08,
-        "quantity": 13,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -448,7 +448,7 @@
         "width_mm": 170,
         "height_mm": 315,
         "weight_kg": 7.94,
-        "quantity": 1,
+        "quantity": 3,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -460,7 +460,7 @@
         "width_mm": 398,
         "height_mm": 399,
         "weight_kg": 1.83,
-        "quantity": 15,
+        "quantity": 8,
         "strict_upright": false,
         "fragile": true,
         "stackable": true
@@ -472,7 +472,7 @@
         "width_mm": 202,
         "height_mm": 121,
         "weight_kg": 6.09,
-        "quantity": 1,
+        "quantity": 6,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -532,7 +532,7 @@
         "width_mm": 295,
         "height_mm": 150,
         "weight_kg": 9.83,
-        "quantity": 1,
+        "quantity": 2,
         "strict_upright": false,
         "fragile": false,
         "stackable": true
@@ -580,7 +580,7 @@
         "width_mm": 316,
         "height_mm": 347,
         "weight_kg": 22.02,
-        "quantity": 9,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -628,7 +628,7 @@
         "width_mm": 398,
         "height_mm": 238,
         "weight_kg": 19.03,
-        "quantity": 11,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -640,7 +640,7 @@
         "width_mm": 169,
         "height_mm": 320,
         "weight_kg": 8.05,
-        "quantity": 1,
+        "quantity": 7,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -652,7 +652,7 @@
         "width_mm": 300,
         "height_mm": 150,
         "weight_kg": 10.19,
-        "quantity": 4,
+        "quantity": 1,
         "strict_upright": false,
         "fragile": false,
         "stackable": true
@@ -676,7 +676,7 @@
         "width_mm": 324,
         "height_mm": 357,
         "weight_kg": 22.15,
-        "quantity": 1,
+        "quantity": 3,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -700,7 +700,7 @@
         "width_mm": 193,
         "height_mm": 324,
         "weight_kg": 9.26,
-        "quantity": 1,
+        "quantity": 4,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -712,7 +712,7 @@
         "width_mm": 388,
         "height_mm": 238,
         "weight_kg": 19.12,
-        "quantity": 17,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -724,7 +724,7 @@
         "width_mm": 168,
         "height_mm": 322,
         "weight_kg": 7.95,
-        "quantity": 4,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -760,7 +760,7 @@
         "width_mm": 399,
         "height_mm": 395,
         "weight_kg": 1.8,
-        "quantity": 11,
+        "quantity": 8,
         "strict_upright": false,
         "fragile": true,
         "stackable": true
@@ -772,7 +772,7 @@
         "width_mm": 299,
         "height_mm": 152,
         "weight_kg": 10.09,
-        "quantity": 1,
+        "quantity": 4,
         "strict_upright": false,
         "fragile": false,
         "stackable": true
@@ -808,7 +808,7 @@
         "width_mm": 203,
         "height_mm": 121,
         "weight_kg": 6.1,
-        "quantity": 14,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -832,7 +832,7 @@
         "width_mm": 301,
         "height_mm": 149,
         "weight_kg": 10.14,
-        "quantity": 2,
+        "quantity": 3,
         "strict_upright": false,
         "fragile": false,
         "stackable": true
@@ -844,7 +844,7 @@
         "width_mm": 187,
         "height_mm": 326,
         "weight_kg": 9.31,
-        "quantity": 3,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -868,7 +868,7 @@
         "width_mm": 321,
         "height_mm": 351,
         "weight_kg": 22.19,
-        "quantity": 14,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -880,7 +880,7 @@
         "width_mm": 400,
         "height_mm": 237,
         "weight_kg": 18.87,
-        "quantity": 3,
+        "quantity": 2,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -892,7 +892,7 @@
         "width_mm": 199,
         "height_mm": 120,
         "weight_kg": 5.96,
-        "quantity": 1,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -952,7 +952,7 @@
         "width_mm": 319,
         "height_mm": 357,
         "weight_kg": 21.69,
-        "quantity": 1,
+        "quantity": 3,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -964,7 +964,7 @@
         "width_mm": 393,
         "height_mm": 242,
         "weight_kg": 19.3,
-        "quantity": 17,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -988,7 +988,7 @@
         "width_mm": 171,
         "height_mm": 325,
         "weight_kg": 7.9,
-        "quantity": 1,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -1024,7 +1024,7 @@
         "width_mm": 197,
         "height_mm": 118,
         "weight_kg": 6.03,
-        "quantity": 12,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1036,7 +1036,7 @@
         "width_mm": 171,
         "height_mm": 315,
         "weight_kg": 8.14,
-        "quantity": 1,
+        "quantity": 7,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -1048,7 +1048,7 @@
         "width_mm": 403,
         "height_mm": 401,
         "weight_kg": 1.8,
-        "quantity": 3,
+        "quantity": 2,
         "strict_upright": false,
         "fragile": true,
         "stackable": true
@@ -1060,7 +1060,7 @@
         "width_mm": 296,
         "height_mm": 148,
         "weight_kg": 9.85,
-        "quantity": 2,
+        "quantity": 1,
         "strict_upright": false,
         "fragile": false,
         "stackable": true
@@ -1084,7 +1084,7 @@
         "width_mm": 200,
         "height_mm": 120,
         "weight_kg": 5.91,
-        "quantity": 12,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1096,7 +1096,7 @@
         "width_mm": 389,
         "height_mm": 235,
         "weight_kg": 18.99,
-        "quantity": 4,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1156,7 +1156,7 @@
         "width_mm": 400,
         "height_mm": 238,
         "weight_kg": 18.87,
-        "quantity": 9,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1192,7 +1192,7 @@
         "width_mm": 203,
         "height_mm": 122,
         "weight_kg": 6.06,
-        "quantity": 1,
+        "quantity": 7,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1216,7 +1216,7 @@
         "width_mm": 187,
         "height_mm": 325,
         "weight_kg": 9.07,
-        "quantity": 7,
+        "quantity": 2,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1240,7 +1240,7 @@
         "width_mm": 187,
         "height_mm": 324,
         "weight_kg": 9.02,
-        "quantity": 5,
+        "quantity": 6,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1252,7 +1252,7 @@
         "width_mm": 321,
         "height_mm": 345,
         "weight_kg": 21.66,
-        "quantity": 1,
+        "quantity": 5,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -1264,7 +1264,7 @@
         "width_mm": 398,
         "height_mm": 238,
         "weight_kg": 19.37,
-        "quantity": 13,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1468,7 +1468,7 @@
         "width_mm": 402,
         "height_mm": 238,
         "weight_kg": 19.12,
-        "quantity": 19,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1480,7 +1480,7 @@
         "width_mm": 204,
         "height_mm": 122,
         "weight_kg": 6.02,
-        "quantity": 1,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1492,7 +1492,7 @@
         "width_mm": 192,
         "height_mm": 330,
         "weight_kg": 9.33,
-        "quantity": 3,
+        "quantity": 7,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1516,7 +1516,7 @@
         "width_mm": 199,
         "height_mm": 120,
         "weight_kg": 6.04,
-        "quantity": 13,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1540,7 +1540,7 @@
         "width_mm": 171,
         "height_mm": 322,
         "weight_kg": 7.91,
-        "quantity": 1,
+        "quantity": 3,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -1552,7 +1552,7 @@
         "width_mm": 188,
         "height_mm": 332,
         "weight_kg": 9.02,
-        "quantity": 5,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1576,7 +1576,7 @@
         "width_mm": 199,
         "height_mm": 120,
         "weight_kg": 5.92,
-        "quantity": 16,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1588,7 +1588,7 @@
         "width_mm": 322,
         "height_mm": 346,
         "weight_kg": 21.97,
-        "quantity": 1,
+        "quantity": 2,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -1612,7 +1612,7 @@
         "width_mm": 391,
         "height_mm": 236,
         "weight_kg": 19.23,
-        "quantity": 1,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1624,7 +1624,7 @@
         "width_mm": 299,
         "height_mm": 147,
         "weight_kg": 9.92,
-        "quantity": 2,
+        "quantity": 1,
         "strict_upright": false,
         "fragile": false,
         "stackable": true
@@ -1636,7 +1636,7 @@
         "width_mm": 405,
         "height_mm": 403,
         "weight_kg": 1.78,
-        "quantity": 4,
+        "quantity": 5,
         "strict_upright": false,
         "fragile": true,
         "stackable": true
@@ -1660,7 +1660,7 @@
         "width_mm": 190,
         "height_mm": 324,
         "weight_kg": 9.24,
-        "quantity": 4,
+        "quantity": 6,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1684,7 +1684,7 @@
         "width_mm": 297,
         "height_mm": 152,
         "weight_kg": 10.02,
-        "quantity": 10,
+        "quantity": 8,
         "strict_upright": false,
         "fragile": false,
         "stackable": true
@@ -1708,7 +1708,7 @@
         "width_mm": 198,
         "height_mm": 121,
         "weight_kg": 5.89,
-        "quantity": 5,
+        "quantity": 6,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1720,7 +1720,7 @@
         "width_mm": 304,
         "height_mm": 152,
         "weight_kg": 10.12,
-        "quantity": 9,
+        "quantity": 8,
         "strict_upright": false,
         "fragile": false,
         "stackable": true
@@ -1732,7 +1732,7 @@
         "width_mm": 398,
         "height_mm": 395,
         "weight_kg": 1.83,
-        "quantity": 7,
+        "quantity": 1,
         "strict_upright": false,
         "fragile": true,
         "stackable": true
@@ -1744,7 +1744,7 @@
         "width_mm": 168,
         "height_mm": 322,
         "weight_kg": 8.07,
-        "quantity": 1,
+        "quantity": 7,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -1780,7 +1780,7 @@
         "width_mm": 317,
         "height_mm": 344,
         "weight_kg": 22.13,
-        "quantity": 3,
+        "quantity": 7,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -1792,7 +1792,7 @@
         "width_mm": 171,
         "height_mm": 316,
         "weight_kg": 8.15,
-        "quantity": 17,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -1804,7 +1804,7 @@
         "width_mm": 306,
         "height_mm": 148,
         "weight_kg": 9.94,
-        "quantity": 2,
+        "quantity": 1,
         "strict_upright": false,
         "fragile": false,
         "stackable": true
@@ -1816,7 +1816,7 @@
         "width_mm": 189,
         "height_mm": 330,
         "weight_kg": 9.19,
-        "quantity": 1,
+        "quantity": 7,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1924,7 +1924,7 @@
         "width_mm": 300,
         "height_mm": 150,
         "weight_kg": 10.09,
-        "quantity": 1,
+        "quantity": 3,
         "strict_upright": false,
         "fragile": false,
         "stackable": true
@@ -1936,7 +1936,7 @@
         "width_mm": 170,
         "height_mm": 324,
         "weight_kg": 7.93,
-        "quantity": 1,
+        "quantity": 7,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -1948,7 +1948,7 @@
         "width_mm": 324,
         "height_mm": 349,
         "weight_kg": 21.78,
-        "quantity": 16,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": true,
         "stackable": true
@@ -1984,7 +1984,7 @@
         "width_mm": 197,
         "height_mm": 119,
         "weight_kg": 5.91,
-        "quantity": 5,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -1996,7 +1996,7 @@
         "width_mm": 295,
         "height_mm": 150,
         "weight_kg": 9.99,
-        "quantity": 11,
+        "quantity": 8,
         "strict_upright": false,
         "fragile": false,
         "stackable": true
@@ -2044,7 +2044,7 @@
         "width_mm": 199,
         "height_mm": 122,
         "weight_kg": 5.95,
-        "quantity": 12,
+        "quantity": 8,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -2068,7 +2068,7 @@
         "width_mm": 401,
         "height_mm": 236,
         "weight_kg": 19.29,
-        "quantity": 1,
+        "quantity": 4,
         "strict_upright": true,
         "fragile": false,
         "stackable": true
@@ -2092,7 +2092,7 @@
         "width_mm": 298,
         "height_mm": 149,
         "weight_kg": 9.95,
-        "quantity": 2,
+        "quantity": 3,
         "strict_upright": false,
         "fragile": false,
         "stackable": true

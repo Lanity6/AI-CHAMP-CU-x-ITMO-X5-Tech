@@ -27,10 +27,11 @@ def _total_items(boxes):
 
 
 def generate_task(task_id: str, target_items_min: int, target_items_max: int,
-                  seed: int) -> dict:
+                  seed: int, max_qty_per_sku: int = 50) -> dict:
     """Generate a single task with total items in [target_items_min, target_items_max].
 
     Strategy: pick random SKU types and adjust quantities to hit the target range.
+    max_qty_per_sku caps quantity per SKU to avoid pathological BB cases.
     """
     set_seed(seed)
     pallet = random.choice(PALLETS)
@@ -39,9 +40,9 @@ def generate_task(task_id: str, target_items_min: int, target_items_max: int,
 
     # Choose number of SKU types based on difficulty
     if target_items_max <= 10:
-        k = random.randint(2, 3)
-    elif target_items_max <= 14:
         k = random.randint(2, 4)
+    elif target_items_max <= 14:
+        k = random.randint(3, 5)
     else:
         k = random.randint(3, 6)
 
@@ -52,14 +53,19 @@ def generate_task(task_id: str, target_items_min: int, target_items_max: int,
     for key in chosen_keys:
         boxes.append(create_box(key, 1, 1))
 
-    # Distribute remaining items randomly among SKUs
+    # Distribute remaining items randomly among SKUs (respecting max_qty_per_sku)
     current = _total_items(boxes)
     target = random.randint(target_items_min, target_items_max)
     remaining = target - current
 
     while remaining > 0:
-        idx = random.randint(0, len(boxes) - 1)
-        add = min(remaining, random.randint(1, max(1, remaining)))
+        # Only add to SKUs that haven't reached the cap
+        eligible = [i for i in range(len(boxes)) if boxes[i]["quantity"] < max_qty_per_sku]
+        if not eligible:
+            break
+        idx = random.choice(eligible)
+        max_add = min(remaining, max_qty_per_sku - boxes[idx]["quantity"])
+        add = min(max_add, random.randint(1, max(1, remaining)))
         boxes[idx]["quantity"] += add
         remaining -= add
 
@@ -77,11 +83,12 @@ def generate_task(task_id: str, target_items_min: int, target_items_max: int,
 
 
 def generate_dataset(prefix: str, items_min: int, items_max: int,
-                     base_seed: int) -> list:
+                     base_seed: int, max_qty_per_sku: int = 50) -> list:
     tasks = []
     for i in range(1, NUM_TASKS + 1):
         tid = f"{prefix}_{i:03d}"
-        task = generate_task(tid, items_min, items_max, seed=base_seed + i)
+        task = generate_task(tid, items_min, items_max, seed=base_seed + i,
+                             max_qty_per_sku=max_qty_per_sku)
         actual = _total_items(task["boxes"])
         tasks.append(task)
         print(f"  {tid}: {len(task['boxes'])} SKU types, {actual} total items")
@@ -92,14 +99,15 @@ def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     configs = [
-        ("small_test", 6, 10, 1000),
-        ("medium_test", 8, 10, 2000),
-        ("hard_test", 18, 25, 3000),
+        # (name, items_min, items_max, base_seed, max_qty_per_sku)
+        ("small_test", 6, 10, 1000, 4),
+        ("medium_test", 8, 10, 2000, 4),
+        ("hard_test", 18, 25, 3000, 8),
     ]
 
-    for name, lo, hi, base_seed in configs:
+    for name, lo, hi, base_seed, max_qty in configs:
         print(f"\n=== Generating {name}.json ({NUM_TASKS} tasks, {lo}-{hi} items) ===")
-        tasks = generate_dataset(name, lo, hi, base_seed)
+        tasks = generate_dataset(name, lo, hi, base_seed, max_qty_per_sku=max_qty)
 
         counts = [_total_items(t["boxes"]) for t in tasks]
         print(f"  Items range: {min(counts)}-{max(counts)}, "
