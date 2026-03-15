@@ -487,18 +487,17 @@ def rebuild_legend_ui(case_index: int):
 
 
 def apply_layer_visibility():
-    case_index = ui_state["current_case_index"]
-    case_data = prepared_cases[case_index]
     any_enabled = any(ui_state["layer_states"].values())
 
-    set_visibility(case_data["base_actors"], True)
-    set_visibility(case_data["item_actors"], False)
+    for case_data in prepared_cases:
+        set_visibility(case_data["base_actors"], True)
+        set_visibility(case_data["item_actors"], False)
 
-    if any_enabled:
-        for layer, enabled in ui_state["layer_states"].items():
-            if enabled:
-                for actor in case_data["layer_actors"].get(layer, []):
-                    actor.SetVisibility(True)
+        if any_enabled:
+            for layer, enabled in ui_state["layer_states"].items():
+                if enabled:
+                    for actor in case_data["layer_actors"].get(layer, []):
+                        actor.SetVisibility(True)
 
     plotter.render()
 
@@ -516,9 +515,6 @@ def on_layer_toggle(layer_value, state):
 
 
 def on_show_all(state):
-    case_index = ui_state["current_case_index"]
-    case_data = prepared_cases[case_index]
-
     if state:
         for layer in ui_state["layer_states"]:
             ui_state["layer_states"][layer] = False
@@ -529,11 +525,13 @@ def on_show_all(state):
             except Exception:
                 pass
 
-        set_visibility(case_data["base_actors"], True)
-        set_visibility(case_data["item_actors"], True)
+        for case_data in prepared_cases:
+            set_visibility(case_data["base_actors"], True)
+            set_visibility(case_data["item_actors"], True)
     else:
-        set_visibility(case_data["base_actors"], True)
-        set_visibility(case_data["item_actors"], False)
+        for case_data in prepared_cases:
+            set_visibility(case_data["base_actors"], True)
+            set_visibility(case_data["item_actors"], False)
 
     plotter.render()
 
@@ -615,8 +613,11 @@ def _scroll_layers_down(_state=None):
 def rebuild_layer_ui(case_index: int):
     clear_layer_ui()
 
-    case_data = prepared_cases[case_index]
-    available_layers = sorted(case_data["layer_actors"].keys())
+    # Collect layers from ALL cases
+    all_layers = set()
+    for cd in prepared_cases:
+        all_layers.update(cd["layer_actors"].keys())
+    available_layers = sorted(all_layers)
 
     old_states = ui_state["layer_states"]
     new_states = {}
