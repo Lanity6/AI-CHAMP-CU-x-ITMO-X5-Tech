@@ -1,0 +1,95 @@
+[
+  {
+    "task_id": "hard_001",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 800.0},
+    "boxes": [
+      {"sku_id": "SKU-HA1", "description": "Large Crate", "length_mm": 600, "width_mm": 500, "height_mm": 400, "weight_kg": 20.0, "quantity": 5, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HA2", "description": "Fragile Monitor", "length_mm": 550, "width_mm": 400, "height_mm": 100, "weight_kg": 3.0, "quantity": 6, "strict_upright": false, "fragile": true, "stackable": true},
+      {"sku_id": "SKU-HA3", "description": "Dense Block", "length_mm": 300, "width_mm": 250, "height_mm": 200, "weight_kg": 12.0, "quantity": 8, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HA4", "description": "Tall Bottle", "length_mm": 200, "width_mm": 200, "height_mm": 500, "weight_kg": 4.0, "quantity": 6, "strict_upright": true, "fragile": true, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "hard_002",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 600.0},
+    "boxes": [
+      {"sku_id": "SKU-HB1", "description": "Water Pack", "length_mm": 275, "width_mm": 194, "height_mm": 330, "weight_kg": 9.35, "quantity": 15, "strict_upright": true, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HB2", "description": "Sugar Bag", "length_mm": 407, "width_mm": 298, "height_mm": 152, "weight_kg": 9.89, "quantity": 10, "strict_upright": false, "fragile": false, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "hard_003",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 500.0},
+    "boxes": [
+      {"sku_id": "SKU-HC1", "description": "Appliance Box", "length_mm": 700, "width_mm": 500, "height_mm": 600, "weight_kg": 35.0, "quantity": 2, "strict_upright": true, "fragile": true, "stackable": false},
+      {"sku_id": "SKU-HC2", "description": "Packing Fill", "length_mm": 250, "width_mm": 200, "height_mm": 150, "weight_kg": 2.0, "quantity": 10, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HC3", "description": "Metal Shelf", "length_mm": 500, "width_mm": 400, "height_mm": 80, "weight_kg": 8.0, "quantity": 5, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HC4", "description": "Glass Panel", "length_mm": 600, "width_mm": 400, "height_mm": 50, "weight_kg": 5.0, "quantity": 3, "strict_upright": false, "fragile": true, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "hard_004",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 700.0},
+    "boxes": [
+      {"sku_id": "SKU-HD1", "description": "Uniform Box A", "length_mm": 400, "width_mm": 300, "height_mm": 250, "weight_kg": 6.0, "quantity": 8, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HD2", "description": "Uniform Box B", "length_mm": 400, "width_mm": 300, "height_mm": 250, "weight_kg": 6.0, "quantity": 8, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HD3", "description": "Uniform Box C", "length_mm": 400, "width_mm": 300, "height_mm": 250, "weight_kg": 6.0, "quantity": 9, "strict_upright": false, "fragile": false, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "hard_005",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 450.0},
+    "boxes": [
+      {"sku_id": "SKU-HE1", "description": "Oversized Panel", "length_mm": 1000, "width_mm": 800, "height_mm": 100, "weight_kg": 25.0, "quantity": 3, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HE2", "description": "Small Fragile", "length_mm": 200, "width_mm": 150, "height_mm": 100, "weight_kg": 1.0, "quantity": 10, "strict_upright": false, "fragile": true, "stackable": true},
+      {"sku_id": "SKU-HE3", "description": "Heavy Cube", "length_mm": 300, "width_mm": 300, "height_mm": 300, "weight_kg": 15.0, "quantity": 7, "strict_upright": false, "fragile": false, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "hard_006",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 900.0},
+    "boxes": [
+      {"sku_id": "SKU-HF1", "description": "Mixed A", "length_mm": 350, "width_mm": 280, "height_mm": 220, "weight_kg": 7.0, "quantity": 6, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HF2", "description": "Mixed B", "length_mm": 450, "width_mm": 350, "height_mm": 300, "weight_kg": 10.0, "quantity": 5, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HF3", "description": "Mixed C Fragile", "length_mm": 300, "width_mm": 250, "height_mm": 400, "weight_kg": 3.0, "quantity": 4, "strict_upright": true, "fragile": true, "stackable": true},
+      {"sku_id": "SKU-HF4", "description": "Mixed D Heavy", "length_mm": 500, "width_mm": 400, "height_mm": 150, "weight_kg": 18.0, "quantity": 5, "strict_upright": false, "fragile": false, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "hard_007",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 500.0},
+    "boxes": [
+      {"sku_id": "SKU-HG1", "description": "Tall Narrow", "length_mm": 200, "width_mm": 150, "height_mm": 700, "weight_kg": 5.0, "quantity": 8, "strict_upright": true, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HG2", "description": "Wide Flat", "length_mm": 600, "width_mm": 500, "height_mm": 80, "weight_kg": 4.0, "quantity": 6, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HG3", "description": "Fragile Egg Tray", "length_mm": 400, "width_mm": 300, "height_mm": 100, "weight_kg": 1.5, "quantity": 6, "strict_upright": false, "fragile": true, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "hard_008",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 650.0},
+    "boxes": [
+      {"sku_id": "SKU-HH1", "description": "Tetris L", "length_mm": 500, "width_mm": 300, "height_mm": 200, "weight_kg": 8.0, "quantity": 7, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HH2", "description": "Tetris T", "length_mm": 350, "width_mm": 350, "height_mm": 250, "weight_kg": 9.0, "quantity": 6, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HH3", "description": "Tetris Frag", "length_mm": 400, "width_mm": 200, "height_mm": 150, "weight_kg": 2.0, "quantity": 7, "strict_upright": false, "fragile": true, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "hard_009",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 400.0},
+    "boxes": [
+      {"sku_id": "SKU-HI1", "description": "Non-stackable Big", "length_mm": 500, "width_mm": 400, "height_mm": 350, "weight_kg": 20.0, "quantity": 3, "strict_upright": false, "fragile": false, "stackable": false},
+      {"sku_id": "SKU-HI2", "description": "Stackable Med", "length_mm": 350, "width_mm": 300, "height_mm": 200, "weight_kg": 5.0, "quantity": 8, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HI3", "description": "Fragile Small", "length_mm": 250, "width_mm": 200, "height_mm": 150, "weight_kg": 1.5, "quantity": 9, "strict_upright": false, "fragile": true, "stackable": true}
+    ]
+  },
+  {
+    "task_id": "hard_010",
+    "pallet": {"length_mm": 1200, "width_mm": 1000, "max_height_mm": 2000, "max_weight_kg": 750.0},
+    "boxes": [
+      {"sku_id": "SKU-HJ1", "description": "Variety A", "length_mm": 600, "width_mm": 400, "height_mm": 300, "weight_kg": 14.0, "quantity": 4, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HJ2", "description": "Variety B", "length_mm": 300, "width_mm": 300, "height_mm": 200, "weight_kg": 6.0, "quantity": 6, "strict_upright": false, "fragile": false, "stackable": true},
+      {"sku_id": "SKU-HJ3", "description": "Variety C Frag", "length_mm": 400, "width_mm": 350, "height_mm": 250, "weight_kg": 2.5, "quantity": 5, "strict_upright": true, "fragile": true, "stackable": true},
+      {"sku_id": "SKU-HJ4", "description": "Variety D Tiny", "length_mm": 150, "width_mm": 150, "height_mm": 100, "weight_kg": 1.0, "quantity": 10, "strict_upright": false, "fragile": false, "stackable": true}
+    ]
+  }
+]
