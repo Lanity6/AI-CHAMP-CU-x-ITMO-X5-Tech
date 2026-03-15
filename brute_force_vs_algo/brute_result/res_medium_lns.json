@@ -1,0 +1,4637 @@
+[
+  {
+    "task_id": "medium_test_001",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 3,
+    "placements": [
+      {
+        "sku_id": "SKU-BANANA-1936",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 497,
+          "width_mm": 389,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-1936",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 389,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 497,
+          "width_mm": 389,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-1936",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 497,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 497,
+          "width_mm": 389,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-1936",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 497,
+          "y_mm": 389,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 497,
+          "width_mm": 389,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-1936",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 240
+        },
+        "dimensions_placed": {
+          "length_mm": 497,
+          "width_mm": 389,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-1936",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 389,
+          "z_mm": 240
+        },
+        "dimensions_placed": {
+          "length_mm": 497,
+          "width_mm": 389,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-1936",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 497,
+          "y_mm": 0,
+          "z_mm": 240
+        },
+        "dimensions_placed": {
+          "length_mm": 497,
+          "width_mm": 389,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-1936",
+        "instance_index": 7,
+        "position": {
+          "x_mm": 497,
+          "y_mm": 389,
+          "z_mm": 240
+        },
+        "dimensions_placed": {
+          "length_mm": 497,
+          "width_mm": 389,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-2421",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 778,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 282,
+          "width_mm": 193,
+          "height_mm": 331
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5786,
+      "volume_utilization": 0.1571,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_002",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 8,
+    "placements": [
+      {
+        "sku_id": "SKU-WATER-9397",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 278,
+          "width_mm": 187,
+          "height_mm": 328
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-9397",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 187,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 278,
+          "width_mm": 187,
+          "height_mm": 328
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-2857",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 374,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 609,
+          "width_mm": 406,
+          "height_mm": 402
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-2857",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 609,
+          "y_mm": 374,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 609,
+          "width_mm": 406,
+          "height_mm": 402
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-2857",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 187,
+          "z_mm": 402
+        },
+        "dimensions_placed": {
+          "length_mm": 406,
+          "width_mm": 609,
+          "height_mm": 402
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-2857",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 406,
+          "y_mm": 187,
+          "z_mm": 402
+        },
+        "dimensions_placed": {
+          "length_mm": 406,
+          "width_mm": 609,
+          "height_mm": 402
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-2857",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 812,
+          "y_mm": 187,
+          "z_mm": 402
+        },
+        "dimensions_placed": {
+          "length_mm": 406,
+          "width_mm": 609,
+          "height_mm": 402
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-2857",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 804
+        },
+        "dimensions_placed": {
+          "length_mm": 406,
+          "width_mm": 609,
+          "height_mm": 402
+        },
+        "rotation_code": "WLH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.6273,
+      "volume_utilization": 0.2545,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_003",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 3,
+    "placements": [
+      {
+        "sku_id": "SKU-WATER-7539",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 283,
+          "width_mm": 192,
+          "height_mm": 335
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-7539",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 192,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 283,
+          "width_mm": 192,
+          "height_mm": 335
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-3731",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 384,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 298,
+          "width_mm": 197,
+          "height_mm": 119
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-3731",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 581,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 298,
+          "width_mm": 197,
+          "height_mm": 119
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-3731",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 283,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 298,
+          "width_mm": 197,
+          "height_mm": 119
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-3731",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 298,
+          "y_mm": 384,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 298,
+          "width_mm": 197,
+          "height_mm": 119
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-3731",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 298,
+          "y_mm": 581,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 298,
+          "width_mm": 197,
+          "height_mm": 119
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-3731",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 581,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 298,
+          "width_mm": 197,
+          "height_mm": 119
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-3731",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 596,
+          "y_mm": 384,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 298,
+          "width_mm": 197,
+          "height_mm": 119
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-3731",
+        "instance_index": 7,
+        "position": {
+          "x_mm": 596,
+          "y_mm": 581,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 298,
+          "width_mm": 197,
+          "height_mm": 119
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5267,
+      "volume_utilization": 0.0534,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_004",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 5,
+    "placements": [
+      {
+        "sku_id": "SKU-CANNED-4380",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 305,
+          "width_mm": 197,
+          "height_mm": 122
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4380",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 197,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 305,
+          "width_mm": 197,
+          "height_mm": 122
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4380",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 394,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 305,
+          "width_mm": 197,
+          "height_mm": 122
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4380",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 591,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 305,
+          "width_mm": 197,
+          "height_mm": 122
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4380",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 788,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 305,
+          "width_mm": 197,
+          "height_mm": 122
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4380",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 305,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 305,
+          "width_mm": 197,
+          "height_mm": 122
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-8253",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 305,
+          "y_mm": 197,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 592,
+          "width_mm": 400,
+          "height_mm": 406
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-8253",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 305,
+          "y_mm": 597,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 592,
+          "width_mm": 400,
+          "height_mm": 406
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-8253",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 305,
+          "y_mm": 0,
+          "z_mm": 406
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 592,
+          "height_mm": 406
+        },
+        "rotation_code": "WLH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5671,
+      "volume_utilization": 0.1342,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_005",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 1,
+    "placements": [
+      {
+        "sku_id": "SKU-BANANA-4431",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 501,
+          "width_mm": 393,
+          "height_mm": 236
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-4431",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 393,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 501,
+          "width_mm": 393,
+          "height_mm": 236
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-7557",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 236
+        },
+        "dimensions_placed": {
+          "length_mm": 255,
+          "width_mm": 172,
+          "height_mm": 317
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-7557",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 172,
+          "z_mm": 236
+        },
+        "dimensions_placed": {
+          "length_mm": 255,
+          "width_mm": 172,
+          "height_mm": 317
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-7557",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 344,
+          "z_mm": 236
+        },
+        "dimensions_placed": {
+          "length_mm": 255,
+          "width_mm": 172,
+          "height_mm": 317
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-7557",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 516,
+          "z_mm": 236
+        },
+        "dimensions_placed": {
+          "length_mm": 255,
+          "width_mm": 172,
+          "height_mm": 317
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-7557",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 255,
+          "y_mm": 0,
+          "z_mm": 236
+        },
+        "dimensions_placed": {
+          "length_mm": 255,
+          "width_mm": 172,
+          "height_mm": 317
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-7557",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 255,
+          "y_mm": 172,
+          "z_mm": 236
+        },
+        "dimensions_placed": {
+          "length_mm": 255,
+          "width_mm": 172,
+          "height_mm": 317
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-7557",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 255,
+          "y_mm": 344,
+          "z_mm": 236
+        },
+        "dimensions_placed": {
+          "length_mm": 255,
+          "width_mm": 172,
+          "height_mm": 317
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-7557",
+        "instance_index": 7,
+        "position": {
+          "x_mm": 255,
+          "y_mm": 516,
+          "z_mm": 236
+        },
+        "dimensions_placed": {
+          "length_mm": 255,
+          "width_mm": 172,
+          "height_mm": 317
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5425,
+      "volume_utilization": 0.0851,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_006",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 1,
+    "placements": [
+      {
+        "sku_id": "SKU-BANANA-6293",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 505,
+          "width_mm": 396,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-6293",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 396,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 505,
+          "width_mm": 396,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-6293",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 505,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 505,
+          "width_mm": 396,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-6293",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 505,
+          "y_mm": 396,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 505,
+          "width_mm": 396,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-6293",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 240
+        },
+        "dimensions_placed": {
+          "length_mm": 505,
+          "width_mm": 396,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-6293",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 396,
+          "z_mm": 240
+        },
+        "dimensions_placed": {
+          "length_mm": 505,
+          "width_mm": 396,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-6293",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 505,
+          "y_mm": 0,
+          "z_mm": 240
+        },
+        "dimensions_placed": {
+          "length_mm": 505,
+          "width_mm": 396,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4462",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 792,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 299,
+          "width_mm": 200,
+          "height_mm": 122
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-4124",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 505,
+          "y_mm": 396,
+          "z_mm": 240
+        },
+        "dimensions_placed": {
+          "length_mm": 622,
+          "width_mm": 326,
+          "height_mm": 349
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5836,
+      "volume_utilization": 0.1671,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_007",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 6,
+    "placements": [
+      {
+        "sku_id": "SKU-WINE-6749",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 247,
+          "width_mm": 171,
+          "height_mm": 324
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-8708",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 171,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 598,
+          "width_mm": 397,
+          "height_mm": 397
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-8708",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 598,
+          "y_mm": 171,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 598,
+          "width_mm": 397,
+          "height_mm": 397
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-8708",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 397
+        },
+        "dimensions_placed": {
+          "length_mm": 397,
+          "width_mm": 598,
+          "height_mm": 397
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-8708",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 397,
+          "y_mm": 0,
+          "z_mm": 397
+        },
+        "dimensions_placed": {
+          "length_mm": 397,
+          "width_mm": 598,
+          "height_mm": 397
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-8708",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 794,
+          "y_mm": 0,
+          "z_mm": 397
+        },
+        "dimensions_placed": {
+          "length_mm": 397,
+          "width_mm": 598,
+          "height_mm": 397
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-8708",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 794
+        },
+        "dimensions_placed": {
+          "length_mm": 598,
+          "width_mm": 397,
+          "height_mm": 397
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-8708",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 598,
+          "y_mm": 0,
+          "z_mm": 794
+        },
+        "dimensions_placed": {
+          "length_mm": 598,
+          "width_mm": 397,
+          "height_mm": 397
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-8708",
+        "instance_index": 7,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 1191
+        },
+        "dimensions_placed": {
+          "length_mm": 598,
+          "width_mm": 397,
+          "height_mm": 397
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-8708",
+        "instance_index": 8,
+        "position": {
+          "x_mm": 598,
+          "y_mm": 0,
+          "z_mm": 1191
+        },
+        "dimensions_placed": {
+          "length_mm": 598,
+          "width_mm": 397,
+          "height_mm": 397
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.7494,
+      "volume_utilization": 0.4988,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_008",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 1,
+    "placements": [
+      {
+        "sku_id": "SKU-BANANA-7319",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 499,
+          "width_mm": 398,
+          "height_mm": 236
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4829",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 398,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 202,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4829",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 297,
+          "y_mm": 398,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 202,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4829",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 499,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 202,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4829",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 594,
+          "y_mm": 398,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 202,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4829",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 796,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 202,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4829",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 891,
+          "y_mm": 398,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 202,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4829",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 398,
+          "z_mm": 120
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 202,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-5479",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 297,
+          "y_mm": 398,
+          "z_mm": 120
+        },
+        "dimensions_placed": {
+          "length_mm": 246,
+          "width_mm": 168,
+          "height_mm": 324
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-5479",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 499,
+          "y_mm": 0,
+          "z_mm": 120
+        },
+        "dimensions_placed": {
+          "length_mm": 246,
+          "width_mm": 168,
+          "height_mm": 324
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5359,
+      "volume_utilization": 0.0718,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_009",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 1,
+    "placements": [
+      {
+        "sku_id": "SKU-BANANA-1966",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 510,
+          "width_mm": 400,
+          "height_mm": 234
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-1966",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 400,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 510,
+          "width_mm": 400,
+          "height_mm": 234
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-1966",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 510,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 510,
+          "width_mm": 400,
+          "height_mm": 234
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-1966",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 510,
+          "y_mm": 400,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 510,
+          "width_mm": 400,
+          "height_mm": 234
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-6594",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 234
+        },
+        "dimensions_placed": {
+          "length_mm": 247,
+          "width_mm": 168,
+          "height_mm": 315
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-6594",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 168,
+          "z_mm": 234
+        },
+        "dimensions_placed": {
+          "length_mm": 247,
+          "width_mm": 168,
+          "height_mm": 315
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-6594",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 336,
+          "z_mm": 234
+        },
+        "dimensions_placed": {
+          "length_mm": 247,
+          "width_mm": 168,
+          "height_mm": 315
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-6594",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 504,
+          "z_mm": 234
+        },
+        "dimensions_placed": {
+          "length_mm": 247,
+          "width_mm": 168,
+          "height_mm": 315
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-6594",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 672,
+          "z_mm": 234
+        },
+        "dimensions_placed": {
+          "length_mm": 247,
+          "width_mm": 168,
+          "height_mm": 315
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-6594",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 247,
+          "y_mm": 0,
+          "z_mm": 234
+        },
+        "dimensions_placed": {
+          "length_mm": 247,
+          "width_mm": 168,
+          "height_mm": 315
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5561,
+      "volume_utilization": 0.1122,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_010",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 1,
+    "placements": [
+      {
+        "sku_id": "SKU-SUGAR-9345",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 404,
+          "width_mm": 297,
+          "height_mm": 151
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-3070",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 297,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 603,
+          "width_mm": 400,
+          "height_mm": 405
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-3070",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 603,
+          "y_mm": 297,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 405,
+          "height_mm": 603
+        },
+        "rotation_code": "WHL"
+      },
+      {
+        "sku_id": "SKU-CHIPS-3070",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 297,
+          "z_mm": 405
+        },
+        "dimensions_placed": {
+          "length_mm": 603,
+          "width_mm": 400,
+          "height_mm": 405
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-3070",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 603,
+          "y_mm": 297,
+          "z_mm": 603
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 405,
+          "height_mm": 603
+        },
+        "rotation_code": "WHL"
+      },
+      {
+        "sku_id": "SKU-CHIPS-3070",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 297,
+          "z_mm": 810
+        },
+        "dimensions_placed": {
+          "length_mm": 603,
+          "width_mm": 400,
+          "height_mm": 405
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-8177",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 404,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 249,
+          "width_mm": 173,
+          "height_mm": 317
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-8177",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 653,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 249,
+          "width_mm": 173,
+          "height_mm": 317
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-8177",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 902,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 249,
+          "width_mm": 173,
+          "height_mm": 317
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.6584,
+      "volume_utilization": 0.3168,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_011",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 1,
+    "placements": [
+      {
+        "sku_id": "SKU-WATER-4639",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 282,
+          "width_mm": 193,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-4639",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 193,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 282,
+          "width_mm": 193,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-4639",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 386,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 282,
+          "width_mm": 193,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-4639",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 579,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 282,
+          "width_mm": 193,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-4639",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 772,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 282,
+          "width_mm": 193,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-4639",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 282,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 282,
+          "width_mm": 193,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-4639",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 282,
+          "y_mm": 193,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 282,
+          "width_mm": 193,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-3749",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 282,
+          "y_mm": 386,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 298,
+          "width_mm": 196,
+          "height_mm": 119
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-3749",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 282,
+          "y_mm": 582,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 298,
+          "width_mm": 196,
+          "height_mm": 119
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-3749",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 282,
+          "y_mm": 778,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 298,
+          "width_mm": 196,
+          "height_mm": 119
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5293,
+      "volume_utilization": 0.0586,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_012",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 2,
+    "placements": [
+      {
+        "sku_id": "SKU-WATER-1160",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 280,
+          "width_mm": 193,
+          "height_mm": 336
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-2749",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 193,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 396,
+          "width_mm": 299,
+          "height_mm": 148
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-2749",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 492,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 396,
+          "width_mm": 299,
+          "height_mm": 148
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-2749",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 280,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 396,
+          "width_mm": 148,
+          "height_mm": 299
+        },
+        "rotation_code": "LHW"
+      },
+      {
+        "sku_id": "SKU-SUGAR-2749",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 396,
+          "y_mm": 193,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 396,
+          "width_mm": 299,
+          "height_mm": 148
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-2749",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 396,
+          "y_mm": 492,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 396,
+          "width_mm": 299,
+          "height_mm": 148
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-2749",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 676,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 396,
+          "width_mm": 148,
+          "height_mm": 299
+        },
+        "rotation_code": "LHW"
+      },
+      {
+        "sku_id": "SKU-SUGAR-2749",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 792,
+          "y_mm": 193,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 396,
+          "width_mm": 299,
+          "height_mm": 148
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-2749",
+        "instance_index": 7,
+        "position": {
+          "x_mm": 792,
+          "y_mm": 492,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 396,
+          "width_mm": 299,
+          "height_mm": 148
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-7684",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 193,
+          "z_mm": 148
+        },
+        "dimensions_placed": {
+          "length_mm": 302,
+          "width_mm": 201,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5479,
+      "volume_utilization": 0.0959,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_013",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 1,
+    "placements": [
+      {
+        "sku_id": "SKU-CANNED-6560",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 303,
+          "width_mm": 199,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-6560",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 199,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 303,
+          "width_mm": 199,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-6560",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 398,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 303,
+          "width_mm": 199,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-6560",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 597,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 303,
+          "width_mm": 199,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-6560",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 796,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 303,
+          "width_mm": 199,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-6560",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 303,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 303,
+          "width_mm": 199,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-1909",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 120
+        },
+        "dimensions_placed": {
+          "length_mm": 246,
+          "width_mm": 169,
+          "height_mm": 323
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-1909",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 169,
+          "z_mm": 120
+        },
+        "dimensions_placed": {
+          "length_mm": 246,
+          "width_mm": 169,
+          "height_mm": 323
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-1909",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 338,
+          "z_mm": 120
+        },
+        "dimensions_placed": {
+          "length_mm": 246,
+          "width_mm": 169,
+          "height_mm": 323
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-1909",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 507,
+          "z_mm": 120
+        },
+        "dimensions_placed": {
+          "length_mm": 246,
+          "width_mm": 169,
+          "height_mm": 323
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5202,
+      "volume_utilization": 0.0405,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_014",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 1,
+    "placements": [
+      {
+        "sku_id": "SKU-SUGAR-7998",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 399,
+          "width_mm": 300,
+          "height_mm": 151
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-7998",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 300,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 399,
+          "width_mm": 300,
+          "height_mm": 151
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-3890",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 280,
+          "width_mm": 188,
+          "height_mm": 325
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-3890",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 788,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 280,
+          "width_mm": 188,
+          "height_mm": 325
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-3890",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 280,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 280,
+          "width_mm": 188,
+          "height_mm": 325
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-3890",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 280,
+          "y_mm": 788,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 280,
+          "width_mm": 188,
+          "height_mm": 325
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-3890",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 399,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 280,
+          "width_mm": 188,
+          "height_mm": 325
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-3890",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 399,
+          "y_mm": 188,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 280,
+          "width_mm": 188,
+          "height_mm": 325
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-3890",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 399,
+          "y_mm": 376,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 280,
+          "width_mm": 188,
+          "height_mm": 325
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-5263",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 560,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 302,
+          "width_mm": 199,
+          "height_mm": 120
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.534,
+      "volume_utilization": 0.068,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_015",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 359,
+    "placements": [
+      {
+        "sku_id": "SKU-CANNED-3223",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 303,
+          "width_mm": 201,
+          "height_mm": 121
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-3223",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 201,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 303,
+          "width_mm": 201,
+          "height_mm": 121
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-3223",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 402,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 303,
+          "width_mm": 201,
+          "height_mm": 121
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-1663",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 121
+        },
+        "dimensions_placed": {
+          "length_mm": 322,
+          "width_mm": 621,
+          "height_mm": 344
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-EGGS-1663",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 621,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 621,
+          "width_mm": 322,
+          "height_mm": 344
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-1663",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 322,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 322,
+          "width_mm": 621,
+          "height_mm": 344
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-EGGS-1663",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 644,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 322,
+          "width_mm": 621,
+          "height_mm": 344
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-EGGS-1663",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 465
+        },
+        "dimensions_placed": {
+          "length_mm": 322,
+          "width_mm": 621,
+          "height_mm": 344
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-EGGS-1663",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 809
+        },
+        "dimensions_placed": {
+          "length_mm": 322,
+          "width_mm": 621,
+          "height_mm": 344
+        },
+        "rotation_code": "WLH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5778,
+      "volume_utilization": 0.1755,
+      "item_coverage": 1.0,
+      "fragility_score": 0.9,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_016",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 1,
+    "placements": [
+      {
+        "sku_id": "SKU-BANANA-2342",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 507,
+          "width_mm": 395,
+          "height_mm": 237
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-2342",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 395,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 507,
+          "width_mm": 395,
+          "height_mm": 237
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-2342",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 507,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 507,
+          "width_mm": 395,
+          "height_mm": 237
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-3539",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 790,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 278,
+          "width_mm": 189,
+          "height_mm": 327
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-3539",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 278,
+          "y_mm": 790,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 278,
+          "width_mm": 189,
+          "height_mm": 327
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-3539",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 507,
+          "y_mm": 395,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 278,
+          "width_mm": 189,
+          "height_mm": 327
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-3539",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 507,
+          "y_mm": 584,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 278,
+          "width_mm": 189,
+          "height_mm": 327
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-5861",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 785,
+          "y_mm": 395,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 408,
+          "width_mm": 591,
+          "height_mm": 407
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-5861",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 237
+        },
+        "dimensions_placed": {
+          "length_mm": 408,
+          "width_mm": 591,
+          "height_mm": 407
+        },
+        "rotation_code": "WLH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5822,
+      "volume_utilization": 0.1645,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_017",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 1,
+    "placements": [
+      {
+        "sku_id": "SKU-WATER-4428",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 283,
+          "width_mm": 193,
+          "height_mm": 329
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-4428",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 193,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 283,
+          "width_mm": 193,
+          "height_mm": 329
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-4428",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 386,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 283,
+          "width_mm": 193,
+          "height_mm": 329
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-4428",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 579,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 283,
+          "width_mm": 193,
+          "height_mm": 329
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-4428",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 283,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 283,
+          "width_mm": 193,
+          "height_mm": 329
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-4428",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 283,
+          "y_mm": 193,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 283,
+          "width_mm": 193,
+          "height_mm": 329
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-4428",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 283,
+          "y_mm": 386,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 283,
+          "width_mm": 193,
+          "height_mm": 329
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-4907",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 283,
+          "y_mm": 579,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 305,
+          "width_mm": 199,
+          "height_mm": 122
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-2320",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 566,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 609,
+          "width_mm": 396,
+          "height_mm": 404
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5667,
+      "volume_utilization": 0.1335,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_018",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 0,
+    "placements": [
+      {
+        "sku_id": "SKU-BANANA-9309",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 498,
+          "width_mm": 393,
+          "height_mm": 239
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-9309",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 393,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 498,
+          "width_mm": 393,
+          "height_mm": 239
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-9309",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 498,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 498,
+          "width_mm": 393,
+          "height_mm": 239
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-9309",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 498,
+          "y_mm": 393,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 498,
+          "width_mm": 393,
+          "height_mm": 239
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-9309",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 239
+        },
+        "dimensions_placed": {
+          "length_mm": 498,
+          "width_mm": 393,
+          "height_mm": 239
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-9309",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 393,
+          "z_mm": 239
+        },
+        "dimensions_placed": {
+          "length_mm": 498,
+          "width_mm": 393,
+          "height_mm": 239
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-9309",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 498,
+          "y_mm": 0,
+          "z_mm": 239
+        },
+        "dimensions_placed": {
+          "length_mm": 498,
+          "width_mm": 393,
+          "height_mm": 239
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-2049",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 498,
+          "y_mm": 393,
+          "z_mm": 239
+        },
+        "dimensions_placed": {
+          "length_mm": 249,
+          "width_mm": 170,
+          "height_mm": 319
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5688,
+      "volume_utilization": 0.1376,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_019",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 2,
+    "placements": [
+      {
+        "sku_id": "SKU-SUGAR-7780",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 402,
+          "width_mm": 304,
+          "height_mm": 150
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-7780",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 304,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 402,
+          "width_mm": 304,
+          "height_mm": 150
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-7780",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 608,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 402,
+          "width_mm": 150,
+          "height_mm": 304
+        },
+        "rotation_code": "LHW"
+      },
+      {
+        "sku_id": "SKU-WINE-5016",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 150
+        },
+        "dimensions_placed": {
+          "length_mm": 251,
+          "width_mm": 172,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-5016",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 172,
+          "z_mm": 150
+        },
+        "dimensions_placed": {
+          "length_mm": 251,
+          "width_mm": 172,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-5016",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 344,
+          "z_mm": 150
+        },
+        "dimensions_placed": {
+          "length_mm": 251,
+          "width_mm": 172,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-5016",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 251,
+          "y_mm": 0,
+          "z_mm": 150
+        },
+        "dimensions_placed": {
+          "length_mm": 251,
+          "width_mm": 172,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-5016",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 251,
+          "y_mm": 172,
+          "z_mm": 150
+        },
+        "dimensions_placed": {
+          "length_mm": 251,
+          "width_mm": 172,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-5016",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 251,
+          "y_mm": 344,
+          "z_mm": 150
+        },
+        "dimensions_placed": {
+          "length_mm": 251,
+          "width_mm": 172,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-5016",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 608,
+          "z_mm": 304
+        },
+        "dimensions_placed": {
+          "length_mm": 251,
+          "width_mm": 172,
+          "height_mm": 326
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5444,
+      "volume_utilization": 0.0888,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_020",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 241,
+    "placements": [
+      {
+        "sku_id": "SKU-EGGS-8249",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 629,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 326,
+          "width_mm": 629,
+          "height_mm": 351
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-WINE-4933",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 629,
+          "y_mm": 629,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 254,
+          "width_mm": 169,
+          "height_mm": 316
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-4933",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 629,
+          "y_mm": 798,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 254,
+          "width_mm": 169,
+          "height_mm": 316
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-4933",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 883,
+          "y_mm": 629,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 254,
+          "width_mm": 169,
+          "height_mm": 316
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-8249",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 629,
+          "width_mm": 326,
+          "height_mm": 351
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-8249",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 326,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 629,
+          "width_mm": 326,
+          "height_mm": 351
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-8249",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 652,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 629,
+          "width_mm": 326,
+          "height_mm": 351
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-8249",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 351
+        },
+        "dimensions_placed": {
+          "length_mm": 629,
+          "width_mm": 326,
+          "height_mm": 351
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5759,
+      "volume_utilization": 0.1617,
+      "item_coverage": 1.0,
+      "fragility_score": 0.95,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_021",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 307,
+    "placements": [
+      {
+        "sku_id": "SKU-SUGAR-8265",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 393,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 400,
+          "width_mm": 295,
+          "height_mm": 149
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-9758",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 509,
+          "width_mm": 393,
+          "height_mm": 236
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3698",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 236
+        },
+        "dimensions_placed": {
+          "length_mm": 323,
+          "width_mm": 638,
+          "height_mm": 352
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3698",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 509,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 638,
+          "width_mm": 323,
+          "height_mm": 352
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3698",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 509,
+          "y_mm": 323,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 638,
+          "width_mm": 323,
+          "height_mm": 352
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3698",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 509,
+          "y_mm": 646,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 638,
+          "width_mm": 323,
+          "height_mm": 352
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3698",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 588
+        },
+        "dimensions_placed": {
+          "length_mm": 323,
+          "width_mm": 638,
+          "height_mm": 352
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3698",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 940
+        },
+        "dimensions_placed": {
+          "length_mm": 323,
+          "width_mm": 638,
+          "height_mm": 352
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3698",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 1292
+        },
+        "dimensions_placed": {
+          "length_mm": 323,
+          "width_mm": 638,
+          "height_mm": 352
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3698",
+        "instance_index": 7,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 1644
+        },
+        "dimensions_placed": {
+          "length_mm": 323,
+          "width_mm": 638,
+          "height_mm": 352
+        },
+        "rotation_code": "WLH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.6144,
+      "volume_utilization": 0.2688,
+      "item_coverage": 1.0,
+      "fragility_score": 0.8,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_022",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 2,
+    "placements": [
+      {
+        "sku_id": "SKU-WATER-5340",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 275,
+          "width_mm": 192,
+          "height_mm": 335
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-1200",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 192,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 609,
+          "width_mm": 404,
+          "height_mm": 397
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-1200",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 596,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 609,
+          "width_mm": 404,
+          "height_mm": 397
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-1200",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 609,
+          "y_mm": 192,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 609,
+          "width_mm": 404,
+          "height_mm": 397
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-1200",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 609,
+          "y_mm": 596,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 609,
+          "width_mm": 404,
+          "height_mm": 397
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-1200",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 397
+        },
+        "dimensions_placed": {
+          "length_mm": 404,
+          "width_mm": 609,
+          "height_mm": 397
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-WINE-1995",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 404,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 171,
+          "height_mm": 323
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-1995",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 654,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 171,
+          "height_mm": 323
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-1995",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 904,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 171,
+          "height_mm": 323
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.6105,
+      "volume_utilization": 0.221,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_023",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 1,
+    "placements": [
+      {
+        "sku_id": "SKU-WATER-2150",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 281,
+          "width_mm": 192,
+          "height_mm": 334
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-2150",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 192,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 281,
+          "width_mm": 192,
+          "height_mm": 334
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-2150",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 384,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 281,
+          "width_mm": 192,
+          "height_mm": 334
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-2150",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 576,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 281,
+          "width_mm": 192,
+          "height_mm": 334
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-2150",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 768,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 281,
+          "width_mm": 192,
+          "height_mm": 334
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-6525",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 281,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 302,
+          "width_mm": 202,
+          "height_mm": 121
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-6525",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 281,
+          "y_mm": 202,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 302,
+          "width_mm": 202,
+          "height_mm": 121
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-6525",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 281,
+          "y_mm": 404,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 302,
+          "width_mm": 202,
+          "height_mm": 121
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-3916",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 281,
+          "y_mm": 0,
+          "z_mm": 121
+        },
+        "dimensions_placed": {
+          "length_mm": 247,
+          "width_mm": 173,
+          "height_mm": 316
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5262,
+      "volume_utilization": 0.0524,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_024",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 520,
+    "placements": [
+      {
+        "sku_id": "SKU-EGGS-5976",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 622,
+          "width_mm": 323,
+          "height_mm": 354
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-5976",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 323,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 622,
+          "width_mm": 323,
+          "height_mm": 354
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-9164",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 354
+        },
+        "dimensions_placed": {
+          "length_mm": 597,
+          "width_mm": 400,
+          "height_mm": 402
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-9164",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 756
+        },
+        "dimensions_placed": {
+          "length_mm": 597,
+          "width_mm": 400,
+          "height_mm": 402
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-9164",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 1158
+        },
+        "dimensions_placed": {
+          "length_mm": 597,
+          "width_mm": 400,
+          "height_mm": 402
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-5976",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 646,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 622,
+          "width_mm": 323,
+          "height_mm": 354
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-5976",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 622,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 323,
+          "width_mm": 622,
+          "height_mm": 354
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-EGGS-5976",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 1560
+        },
+        "dimensions_placed": {
+          "length_mm": 622,
+          "width_mm": 323,
+          "height_mm": 354
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-5976",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 646,
+          "z_mm": 354
+        },
+        "dimensions_placed": {
+          "length_mm": 622,
+          "width_mm": 323,
+          "height_mm": 354
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-5976",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 646,
+          "z_mm": 708
+        },
+        "dimensions_placed": {
+          "length_mm": 622,
+          "width_mm": 323,
+          "height_mm": 354
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.6487,
+      "volume_utilization": 0.3274,
+      "item_coverage": 1.0,
+      "fragility_score": 0.85,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_025",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 226,
+    "placements": [
+      {
+        "sku_id": "SKU-EGGS-3839",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 631,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 318,
+          "width_mm": 631,
+          "height_mm": 348
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-WINE-7567",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 631,
+          "y_mm": 631,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 246,
+          "width_mm": 167,
+          "height_mm": 316
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3839",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 631,
+          "width_mm": 318,
+          "height_mm": 348
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3839",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 318,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 631,
+          "width_mm": 318,
+          "height_mm": 348
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3839",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 636,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 631,
+          "width_mm": 318,
+          "height_mm": 348
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3839",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 348
+        },
+        "dimensions_placed": {
+          "length_mm": 631,
+          "width_mm": 318,
+          "height_mm": 348
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3839",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 696
+        },
+        "dimensions_placed": {
+          "length_mm": 631,
+          "width_mm": 318,
+          "height_mm": 348
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-3839",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 1044
+        },
+        "dimensions_placed": {
+          "length_mm": 631,
+          "width_mm": 318,
+          "height_mm": 348
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5863,
+      "volume_utilization": 0.2026,
+      "item_coverage": 1.0,
+      "fragility_score": 0.85,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_026",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 1,
+    "placements": [
+      {
+        "sku_id": "SKU-BANANA-1188",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 508,
+          "width_mm": 397,
+          "height_mm": 241
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-1188",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 397,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 508,
+          "width_mm": 397,
+          "height_mm": 241
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-1188",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 508,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 508,
+          "width_mm": 397,
+          "height_mm": 241
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-8226",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 508,
+          "y_mm": 397,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 201,
+          "height_mm": 118
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-8226",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 508,
+          "y_mm": 598,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 201,
+          "height_mm": 118
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-8226",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 805,
+          "y_mm": 397,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 201,
+          "height_mm": 118
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-8226",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 805,
+          "y_mm": 598,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 201,
+          "height_mm": 118
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-8226",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 508,
+          "y_mm": 397,
+          "z_mm": 118
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 201,
+          "height_mm": 118
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-4658",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 241
+        },
+        "dimensions_placed": {
+          "length_mm": 609,
+          "width_mm": 402,
+          "height_mm": 399
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5806,
+      "volume_utilization": 0.1613,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_027",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 0,
+    "placements": [
+      {
+        "sku_id": "SKU-BANANA-7653",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 505,
+          "width_mm": 399,
+          "height_mm": 238
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-5173",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 399,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 285,
+          "width_mm": 192,
+          "height_mm": 332
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-5173",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 591,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 285,
+          "width_mm": 192,
+          "height_mm": 332
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-5173",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 285,
+          "y_mm": 399,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 285,
+          "width_mm": 192,
+          "height_mm": 332
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-5173",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 285,
+          "y_mm": 591,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 285,
+          "width_mm": 192,
+          "height_mm": 332
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-5533",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 505,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 201,
+          "height_mm": 121
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-5533",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 570,
+          "y_mm": 399,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 201,
+          "height_mm": 121
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CANNED-5533",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 802,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 297,
+          "width_mm": 201,
+          "height_mm": 121
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5412,
+      "volume_utilization": 0.0823,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_028",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 780,
+    "placements": [
+      {
+        "sku_id": "SKU-EGGS-7099",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 492,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 627,
+          "width_mm": 326,
+          "height_mm": 352
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-9628",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 492,
+          "width_mm": 400,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-9628",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 240
+        },
+        "dimensions_placed": {
+          "length_mm": 492,
+          "width_mm": 400,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-9628",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 480
+        },
+        "dimensions_placed": {
+          "length_mm": 492,
+          "width_mm": 400,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-BANANA-9628",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 720
+        },
+        "dimensions_placed": {
+          "length_mm": 492,
+          "width_mm": 400,
+          "height_mm": 240
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-7099",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 960
+        },
+        "dimensions_placed": {
+          "length_mm": 627,
+          "width_mm": 326,
+          "height_mm": 352
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-7099",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 492,
+          "y_mm": 326,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 627,
+          "width_mm": 326,
+          "height_mm": 352
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-7099",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 492,
+          "y_mm": 652,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 627,
+          "width_mm": 326,
+          "height_mm": 352
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.5993,
+      "volume_utilization": 0.1986,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_029",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 2,
+    "placements": [
+      {
+        "sku_id": "SKU-SUGAR-8662",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 398,
+          "width_mm": 300,
+          "height_mm": 148
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-8662",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 300,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 398,
+          "width_mm": 300,
+          "height_mm": 148
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-8662",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 398,
+          "width_mm": 300,
+          "height_mm": 148
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-8662",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 398,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 398,
+          "width_mm": 300,
+          "height_mm": 148
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-8662",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 398,
+          "y_mm": 300,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 398,
+          "width_mm": 300,
+          "height_mm": 148
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-8662",
+        "instance_index": 5,
+        "position": {
+          "x_mm": 398,
+          "y_mm": 600,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 398,
+          "width_mm": 300,
+          "height_mm": 148
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-SUGAR-8662",
+        "instance_index": 6,
+        "position": {
+          "x_mm": 796,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 398,
+          "width_mm": 300,
+          "height_mm": 148
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-9152",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 148
+        },
+        "dimensions_placed": {
+          "length_mm": 622,
+          "width_mm": 314,
+          "height_mm": 346
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-EGGS-9152",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 314,
+          "z_mm": 148
+        },
+        "dimensions_placed": {
+          "length_mm": 622,
+          "width_mm": 314,
+          "height_mm": 346
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WINE-7697",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 628,
+          "z_mm": 148
+        },
+        "dimensions_placed": {
+          "length_mm": 250,
+          "width_mm": 170,
+          "height_mm": 317
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.555,
+      "volume_utilization": 0.1099,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  },
+  {
+    "task_id": "medium_test_030",
+    "solver_version": "lns-1.0",
+    "solve_time_ms": 2,
+    "placements": [
+      {
+        "sku_id": "SKU-BANANA-6750",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 0,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 497,
+          "width_mm": 394,
+          "height_mm": 239
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-8685",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 394,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 282,
+          "width_mm": 193,
+          "height_mm": 328
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-8685",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 587,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 282,
+          "width_mm": 193,
+          "height_mm": 328
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-8685",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 780,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 282,
+          "width_mm": 193,
+          "height_mm": 328
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-8685",
+        "instance_index": 3,
+        "position": {
+          "x_mm": 282,
+          "y_mm": 394,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 282,
+          "width_mm": 193,
+          "height_mm": 328
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-WATER-8685",
+        "instance_index": 4,
+        "position": {
+          "x_mm": 282,
+          "y_mm": 587,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 282,
+          "width_mm": 193,
+          "height_mm": 328
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-2512",
+        "instance_index": 0,
+        "position": {
+          "x_mm": 564,
+          "y_mm": 394,
+          "z_mm": 0
+        },
+        "dimensions_placed": {
+          "length_mm": 602,
+          "width_mm": 399,
+          "height_mm": 404
+        },
+        "rotation_code": "LWH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-2512",
+        "instance_index": 1,
+        "position": {
+          "x_mm": 0,
+          "y_mm": 394,
+          "z_mm": 328
+        },
+        "dimensions_placed": {
+          "length_mm": 399,
+          "width_mm": 602,
+          "height_mm": 404
+        },
+        "rotation_code": "WLH"
+      },
+      {
+        "sku_id": "SKU-CHIPS-2512",
+        "instance_index": 2,
+        "position": {
+          "x_mm": 399,
+          "y_mm": 394,
+          "z_mm": 404
+        },
+        "dimensions_placed": {
+          "length_mm": 602,
+          "width_mm": 399,
+          "height_mm": 404
+        },
+        "rotation_code": "LWH"
+      }
+    ],
+    "unplaced": [],
+    "metrics": {
+      "valid": true,
+      "final_score": 0.589,
+      "volume_utilization": 0.178,
+      "item_coverage": 1.0,
+      "fragility_score": 1.0,
+      "time_score": 1.0
+    }
+  }
+]

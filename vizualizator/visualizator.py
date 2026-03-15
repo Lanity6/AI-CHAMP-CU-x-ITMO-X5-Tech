@@ -388,8 +388,8 @@ def prepare_case(plotter, input_data, result_data, box_type_color_map):
     }
 
 
-INPUT_JSON_PATH = "dataset_200_1.json"
-RESULT_JSON_PATH = "solve_v1_dataset_200_1.json"
+INPUT_JSON_PATH = "../datasets/dataset_100.json"
+RESULT_JSON_PATH = "../results/lns_solver/dataset_100.json"
 
 inputs_raw = load_json(INPUT_JSON_PATH)
 results_raw = load_json(RESULT_JSON_PATH)
