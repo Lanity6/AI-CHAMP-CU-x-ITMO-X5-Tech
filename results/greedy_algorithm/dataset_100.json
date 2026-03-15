@@ -2,7 +2,7 @@
   {
     "task_id": "heavy_water_0000",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 612,
+    "solve_time_ms": 586,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8808",
@@ -1832,7 +1832,7 @@
   {
     "task_id": "liquid_tetris_0002",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 214,
+    "solve_time_ms": 209,
     "placements": [
       {
         "sku_id": "SKU-WATER-2500",
@@ -3054,7 +3054,7 @@
   {
     "task_id": "random_mixed_0003",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 271,
+    "solve_time_ms": 263,
     "placements": [
       {
         "sku_id": "SKU-BANANA-5414",
@@ -4057,7 +4057,7 @@
   {
     "task_id": "heavy_water_0004",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 421,
+    "solve_time_ms": 416,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-5741",
@@ -5231,7 +5231,7 @@
   {
     "task_id": "fragile_tower_0005",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 49,
+    "solve_time_ms": 50,
     "placements": [
       {
         "sku_id": "SKU-CHIPS-8628",
@@ -5583,7 +5583,7 @@
   {
     "task_id": "liquid_tetris_0006",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 325,
+    "solve_time_ms": 322,
     "placements": [
       {
         "sku_id": "SKU-WATER-2320",
@@ -7749,7 +7749,7 @@
   {
     "task_id": "heavy_water_0008",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 443,
+    "solve_time_ms": 446,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-9296",
@@ -9350,7 +9350,7 @@
   {
     "task_id": "liquid_tetris_0010",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 239,
+    "solve_time_ms": 241,
     "placements": [
       {
         "sku_id": "SKU-WATER-1533",
@@ -10796,7 +10796,7 @@
   {
     "task_id": "random_mixed_0011",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 301,
+    "solve_time_ms": 300,
     "placements": [
       {
         "sku_id": "SKU-BANANA-7664",
@@ -12140,7 +12140,7 @@
   {
     "task_id": "heavy_water_0012",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 500,
+    "solve_time_ms": 508,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8540",
@@ -13634,7 +13634,7 @@
   {
     "task_id": "fragile_tower_0013",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 47,
+    "solve_time_ms": 49,
     "placements": [
       {
         "sku_id": "SKU-BANANA-5763",
@@ -13933,7 +13933,7 @@
   {
     "task_id": "liquid_tetris_0014",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 277,
+    "solve_time_ms": 279,
     "placements": [
       {
         "sku_id": "SKU-WATER-9636",
@@ -15315,7 +15315,7 @@
   {
     "task_id": "random_mixed_0015",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 153,
+    "solve_time_ms": 151,
     "placements": [
       {
         "sku_id": "SKU-BANANA-6134",
@@ -15987,7 +15987,7 @@
   {
     "task_id": "heavy_water_0016",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 605,
+    "solve_time_ms": 603,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-4897",
@@ -17892,7 +17892,7 @@
   {
     "task_id": "liquid_tetris_0018",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 302,
+    "solve_time_ms": 310,
     "placements": [
       {
         "sku_id": "SKU-WATER-3012",
@@ -19338,7 +19338,7 @@
   {
     "task_id": "random_mixed_0019",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 62,
+    "solve_time_ms": 64,
     "placements": [
       {
         "sku_id": "SKU-BANANA-4303",
@@ -19936,7 +19936,7 @@
   {
     "task_id": "heavy_water_0020",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 684,
+    "solve_time_ms": 687,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-1442",
@@ -21542,7 +21542,7 @@
   {
     "task_id": "fragile_tower_0021",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 47,
+    "solve_time_ms": 46,
     "placements": [
       {
         "sku_id": "SKU-BANANA-7848",
@@ -21889,7 +21889,7 @@
   {
     "task_id": "liquid_tetris_0022",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 335,
+    "solve_time_ms": 337,
     "placements": [
       {
         "sku_id": "SKU-WATER-4975",
@@ -23351,7 +23351,7 @@
   {
     "task_id": "random_mixed_0023",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 95,
+    "solve_time_ms": 96,
     "placements": [
       {
         "sku_id": "SKU-BANANA-7212",
@@ -23986,7 +23986,7 @@
   {
     "task_id": "heavy_water_0024",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 465,
+    "solve_time_ms": 461,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-3478",
@@ -25976,7 +25976,7 @@
   {
     "task_id": "liquid_tetris_0026",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 123,
+    "solve_time_ms": 121,
     "placements": [
       {
         "sku_id": "SKU-CANNED-1471",
@@ -27043,7 +27043,7 @@
   {
     "task_id": "random_mixed_0027",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 534,
+    "solve_time_ms": 526,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-3253",
@@ -28248,7 +28248,7 @@
   {
     "task_id": "heavy_water_0028",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 568,
+    "solve_time_ms": 559,
     "placements": [
       {
         "sku_id": "SKU-WATER-3143",
@@ -29651,7 +29651,7 @@
   {
     "task_id": "fragile_tower_0029",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 64,
+    "solve_time_ms": 61,
     "placements": [
       {
         "sku_id": "SKU-BANANA-2247",
@@ -29982,7 +29982,7 @@
   {
     "task_id": "liquid_tetris_0030",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 225,
+    "solve_time_ms": 227,
     "placements": [
       {
         "sku_id": "SKU-WATER-5738",
@@ -31460,7 +31460,7 @@
   {
     "task_id": "random_mixed_0031",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 163,
+    "solve_time_ms": 158,
     "placements": [
       {
         "sku_id": "SKU-BANANA-3287",
@@ -32260,7 +32260,7 @@
   {
     "task_id": "heavy_water_0032",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 442,
+    "solve_time_ms": 434,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-9338",
@@ -33466,7 +33466,7 @@
   {
     "task_id": "fragile_tower_0033",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 112,
+    "solve_time_ms": 107,
     "placements": [
       {
         "sku_id": "SKU-BANANA-3740",
@@ -33877,7 +33877,7 @@
   {
     "task_id": "liquid_tetris_0034",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 161,
+    "solve_time_ms": 162,
     "placements": [
       {
         "sku_id": "SKU-WATER-6850",
@@ -35189,7 +35189,7 @@
   {
     "task_id": "random_mixed_0035",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 198,
+    "solve_time_ms": 211,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-2584",
@@ -36037,7 +36037,7 @@
   {
     "task_id": "heavy_water_0036",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 439,
+    "solve_time_ms": 544,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-9233",
@@ -37259,7 +37259,7 @@
   {
     "task_id": "fragile_tower_0037",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 45,
+    "solve_time_ms": 55,
     "placements": [
       {
         "sku_id": "SKU-BANANA-2500",
@@ -37590,7 +37590,7 @@
   {
     "task_id": "liquid_tetris_0038",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 87,
+    "solve_time_ms": 110,
     "placements": [
       {
         "sku_id": "SKU-CANNED-7565",
@@ -38673,7 +38673,7 @@
   {
     "task_id": "random_mixed_0039",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 76,
+    "solve_time_ms": 90,
     "placements": [
       {
         "sku_id": "SKU-BANANA-2768",
@@ -39377,7 +39377,7 @@
   {
     "task_id": "heavy_water_0040",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 325,
+    "solve_time_ms": 377,
     "placements": [
       {
         "sku_id": "SKU-WATER-9584",
@@ -40935,7 +40935,7 @@
   {
     "task_id": "fragile_tower_0041",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 28,
+    "solve_time_ms": 32,
     "placements": [
       {
         "sku_id": "SKU-BANANA-6443",
@@ -41314,7 +41314,7 @@
   {
     "task_id": "liquid_tetris_0042",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 44,
+    "solve_time_ms": 51,
     "placements": [
       {
         "sku_id": "SKU-CANNED-9928",
@@ -42221,7 +42221,7 @@
   {
     "task_id": "random_mixed_0043",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 78,
+    "solve_time_ms": 89,
     "placements": [
       {
         "sku_id": "SKU-BANANA-2000",
@@ -42861,7 +42861,7 @@
   {
     "task_id": "heavy_water_0044",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 287,
+    "solve_time_ms": 314,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-1144",
@@ -44830,7 +44830,7 @@
   {
     "task_id": "liquid_tetris_0046",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 104,
+    "solve_time_ms": 106,
     "placements": [
       {
         "sku_id": "SKU-WATER-7553",
@@ -46868,7 +46868,7 @@
   {
     "task_id": "heavy_water_0048",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 316,
+    "solve_time_ms": 311,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8141",
@@ -48789,7 +48789,7 @@
   {
     "task_id": "liquid_tetris_0050",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 70,
+    "solve_time_ms": 71,
     "placements": [
       {
         "sku_id": "SKU-CANNED-6232",
@@ -49920,7 +49920,7 @@
   {
     "task_id": "random_mixed_0051",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 58,
+    "solve_time_ms": 57,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-9983",
@@ -50555,7 +50555,7 @@
   {
     "task_id": "heavy_water_0052",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 241,
+    "solve_time_ms": 239,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-3607",
@@ -54034,7 +54034,7 @@
   {
     "task_id": "random_mixed_0055",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 63,
+    "solve_time_ms": 62,
     "placements": [
       {
         "sku_id": "SKU-BANANA-4796",
@@ -58334,7 +58334,7 @@
   {
     "task_id": "random_mixed_0059",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 6,
+    "solve_time_ms": 7,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-4167",
@@ -58622,7 +58622,7 @@
   {
     "task_id": "heavy_water_0060",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 156,
+    "solve_time_ms": 154,
     "placements": [
       {
         "sku_id": "SKU-WATER-5643",
@@ -60708,7 +60708,7 @@
   {
     "task_id": "liquid_tetris_0062",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 85,
+    "solve_time_ms": 84,
     "placements": [
       {
         "sku_id": "SKU-WATER-3834",
@@ -62068,7 +62068,7 @@
   {
     "task_id": "random_mixed_0063",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 73,
+    "solve_time_ms": 72,
     "placements": [
       {
         "sku_id": "SKU-WATER-4317",
@@ -62718,7 +62718,7 @@
   {
     "task_id": "heavy_water_0064",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 282,
+    "solve_time_ms": 278,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-4299",
@@ -65754,7 +65754,7 @@
   {
     "task_id": "random_mixed_0067",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 37,
+    "solve_time_ms": 20,
     "placements": [
       {
         "sku_id": "SKU-CANNED-5372",
@@ -66154,7 +66154,7 @@
   {
     "task_id": "heavy_water_0068",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 230,
+    "solve_time_ms": 187,
     "placements": [
       {
         "sku_id": "SKU-WATER-8640",
@@ -67925,7 +67925,7 @@
   {
     "task_id": "fragile_tower_0069",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 63,
+    "solve_time_ms": 51,
     "placements": [
       {
         "sku_id": "SKU-BANANA-1611",
@@ -68336,7 +68336,7 @@
   {
     "task_id": "liquid_tetris_0070",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 125,
+    "solve_time_ms": 105,
     "placements": [
       {
         "sku_id": "SKU-WATER-5818",
@@ -69243,7 +69243,7 @@
   {
     "task_id": "random_mixed_0071",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 46,
+    "solve_time_ms": 41,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8489",
@@ -70049,7 +70049,7 @@
   {
     "task_id": "heavy_water_0072",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 325,
+    "solve_time_ms": 311,
     "placements": [
       {
         "sku_id": "SKU-WATER-4051",
@@ -71847,7 +71847,7 @@
   {
     "task_id": "liquid_tetris_0074",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 102,
+    "solve_time_ms": 101,
     "placements": [
       {
         "sku_id": "SKU-WATER-9442",
@@ -73165,7 +73165,7 @@
   {
     "task_id": "random_mixed_0075",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 157,
+    "solve_time_ms": 154,
     "placements": [
       {
         "sku_id": "SKU-BANANA-8958",
@@ -74493,7 +74493,7 @@
   {
     "task_id": "heavy_water_0076",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 358,
+    "solve_time_ms": 356,
     "placements": [
       {
         "sku_id": "SKU-WATER-8590",
@@ -76574,7 +76574,7 @@
   {
     "task_id": "liquid_tetris_0078",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 69,
+    "solve_time_ms": 70,
     "placements": [
       {
         "sku_id": "SKU-WATER-2573",
@@ -78552,7 +78552,7 @@
   {
     "task_id": "heavy_water_0080",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 167,
+    "solve_time_ms": 166,
     "placements": [
       {
         "sku_id": "SKU-WATER-7454",
@@ -80307,7 +80307,7 @@
   {
     "task_id": "fragile_tower_0081",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 28,
+    "solve_time_ms": 27,
     "placements": [
       {
         "sku_id": "SKU-BANANA-8426",
@@ -80670,7 +80670,7 @@
   {
     "task_id": "liquid_tetris_0082",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 83,
+    "solve_time_ms": 81,
     "placements": [
       {
         "sku_id": "SKU-WATER-9026",
@@ -81353,7 +81353,7 @@
   {
     "task_id": "random_mixed_0083",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 222,
+    "solve_time_ms": 219,
     "placements": [
       {
         "sku_id": "SKU-BANANA-3848",
@@ -82761,7 +82761,7 @@
   {
     "task_id": "heavy_water_0084",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 165,
+    "solve_time_ms": 159,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8541",
@@ -84415,7 +84415,7 @@
   {
     "task_id": "fragile_tower_0085",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 33,
+    "solve_time_ms": 32,
     "placements": [
       {
         "sku_id": "SKU-BANANA-2754",
@@ -84767,7 +84767,7 @@
   {
     "task_id": "liquid_tetris_0086",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 104,
+    "solve_time_ms": 101,
     "placements": [
       {
         "sku_id": "SKU-WATER-6201",
@@ -86704,7 +86704,7 @@
   {
     "task_id": "heavy_water_0088",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 173,
+    "solve_time_ms": 170,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8601",
@@ -88737,7 +88737,7 @@
   {
     "task_id": "liquid_tetris_0090",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 79,
+    "solve_time_ms": 78,
     "placements": [
       {
         "sku_id": "SKU-WATER-2518",
@@ -90167,7 +90167,7 @@
   {
     "task_id": "heavy_water_0092",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 313,
+    "solve_time_ms": 309,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-2547",
@@ -94211,7 +94211,7 @@
   {
     "task_id": "heavy_water_0096",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 200,
+    "solve_time_ms": 206,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-1357",
@@ -95337,7 +95337,7 @@
   {
     "task_id": "fragile_tower_0097",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 18,
+    "solve_time_ms": 17,
     "placements": [
       {
         "sku_id": "SKU-CHIPS-1681",
@@ -95625,7 +95625,7 @@
   {
     "task_id": "liquid_tetris_0098",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 75,
+    "solve_time_ms": 70,
     "placements": [
       {
         "sku_id": "SKU-CANNED-1122",
@@ -96692,7 +96692,7 @@
   {
     "task_id": "random_mixed_0099",
     "solver_version": "greedy-1.0",
-    "solve_time_ms": 162,
+    "solve_time_ms": 161,
     "placements": [
       {
         "sku_id": "SKU-BANANA-9754",
