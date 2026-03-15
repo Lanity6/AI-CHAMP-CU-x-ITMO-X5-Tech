@@ -1,0 +1,7676 @@
+[
+  {
+    "task_id": "heavy_water_0600",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-6636",
+        "description": "Water Pack",
+        "length_mm": 281,
+        "width_mm": 187,
+        "height_mm": 331,
+        "weight_kg": 9.05,
+        "quantity": 105,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-8269",
+        "description": "Sugar 10kg",
+        "length_mm": 399,
+        "width_mm": 295,
+        "height_mm": 147,
+        "weight_kg": 10.06,
+        "quantity": 52,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0601",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-9946",
+        "description": "Bananas Box",
+        "length_mm": 507,
+        "width_mm": 388,
+        "height_mm": 241,
+        "weight_kg": 19.0,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-6866",
+        "description": "Chips Carton",
+        "length_mm": 599,
+        "width_mm": 403,
+        "height_mm": 403,
+        "weight_kg": 1.79,
+        "quantity": 21,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-4943",
+        "description": "Eggs 360pcs",
+        "length_mm": 629,
+        "width_mm": 324,
+        "height_mm": 347,
+        "weight_kg": 22.16,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0602",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-4031",
+        "description": "Water Pack",
+        "length_mm": 278,
+        "width_mm": 192,
+        "height_mm": 330,
+        "weight_kg": 9.24,
+        "quantity": 32,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-2694",
+        "description": "Wine Case",
+        "length_mm": 250,
+        "width_mm": 173,
+        "height_mm": 318,
+        "weight_kg": 7.98,
+        "quantity": 29,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-4458",
+        "description": "Canned Peas",
+        "length_mm": 303,
+        "width_mm": 199,
+        "height_mm": 119,
+        "weight_kg": 5.91,
+        "quantity": 34,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0603",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WINE-8476",
+        "description": "Wine Case",
+        "length_mm": 246,
+        "width_mm": 171,
+        "height_mm": 320,
+        "weight_kg": 8.13,
+        "quantity": 18,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-4037",
+        "description": "Bananas Box",
+        "length_mm": 507,
+        "width_mm": 400,
+        "height_mm": 237,
+        "weight_kg": 19.25,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-2663",
+        "description": "Chips Carton",
+        "length_mm": 604,
+        "width_mm": 406,
+        "height_mm": 392,
+        "weight_kg": 1.77,
+        "quantity": 10,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-3947",
+        "description": "Eggs 360pcs",
+        "length_mm": 625,
+        "width_mm": 319,
+        "height_mm": 352,
+        "weight_kg": 21.82,
+        "quantity": 6,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-1043",
+        "description": "Water Pack",
+        "length_mm": 278,
+        "width_mm": 188,
+        "height_mm": 327,
+        "weight_kg": 9.05,
+        "quantity": 22,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-4591",
+        "description": "Canned Peas",
+        "length_mm": 300,
+        "width_mm": 204,
+        "height_mm": 122,
+        "weight_kg": 6.11,
+        "quantity": 16,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0604",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-4323",
+        "description": "Water Pack",
+        "length_mm": 285,
+        "width_mm": 192,
+        "height_mm": 328,
+        "weight_kg": 9.27,
+        "quantity": 116,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-6743",
+        "description": "Sugar 10kg",
+        "length_mm": 404,
+        "width_mm": 305,
+        "height_mm": 149,
+        "weight_kg": 10.0,
+        "quantity": 46,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0605",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-8121",
+        "description": "Bananas Box",
+        "length_mm": 503,
+        "width_mm": 388,
+        "height_mm": 238,
+        "weight_kg": 18.98,
+        "quantity": 12,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-8151",
+        "description": "Chips Carton",
+        "length_mm": 590,
+        "width_mm": 393,
+        "height_mm": 406,
+        "weight_kg": 1.77,
+        "quantity": 29,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-8789",
+        "description": "Eggs 360pcs",
+        "length_mm": 622,
+        "width_mm": 321,
+        "height_mm": 350,
+        "weight_kg": 21.83,
+        "quantity": 6,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0606",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-1924",
+        "description": "Water Pack",
+        "length_mm": 278,
+        "width_mm": 189,
+        "height_mm": 328,
+        "weight_kg": 9.18,
+        "quantity": 34,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-3680",
+        "description": "Wine Case",
+        "length_mm": 252,
+        "width_mm": 168,
+        "height_mm": 317,
+        "weight_kg": 8.11,
+        "quantity": 25,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-7767",
+        "description": "Canned Peas",
+        "length_mm": 298,
+        "width_mm": 202,
+        "height_mm": 118,
+        "weight_kg": 6.01,
+        "quantity": 32,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0607",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CANNED-1636",
+        "description": "Canned Peas",
+        "length_mm": 305,
+        "width_mm": 202,
+        "height_mm": 120,
+        "weight_kg": 6.12,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-3034",
+        "description": "Bananas Box",
+        "length_mm": 501,
+        "width_mm": 400,
+        "height_mm": 242,
+        "weight_kg": 18.97,
+        "quantity": 14,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-3031",
+        "description": "Sugar 10kg",
+        "length_mm": 407,
+        "width_mm": 299,
+        "height_mm": 148,
+        "weight_kg": 9.82,
+        "quantity": 22,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-5602",
+        "description": "Water Pack",
+        "length_mm": 282,
+        "width_mm": 189,
+        "height_mm": 326,
+        "weight_kg": 9.03,
+        "quantity": 15,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0608",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-4346",
+        "description": "Water Pack",
+        "length_mm": 282,
+        "width_mm": 190,
+        "height_mm": 336,
+        "weight_kg": 9.36,
+        "quantity": 115,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-6916",
+        "description": "Sugar 10kg",
+        "length_mm": 405,
+        "width_mm": 296,
+        "height_mm": 152,
+        "weight_kg": 10.05,
+        "quantity": 52,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0609",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-6068",
+        "description": "Bananas Box",
+        "length_mm": 493,
+        "width_mm": 396,
+        "height_mm": 236,
+        "weight_kg": 19.33,
+        "quantity": 14,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-1200",
+        "description": "Chips Carton",
+        "length_mm": 612,
+        "width_mm": 403,
+        "height_mm": 401,
+        "weight_kg": 1.8,
+        "quantity": 29,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-8469",
+        "description": "Eggs 360pcs",
+        "length_mm": 622,
+        "width_mm": 315,
+        "height_mm": 350,
+        "weight_kg": 21.65,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0610",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-7677",
+        "description": "Water Pack",
+        "length_mm": 278,
+        "width_mm": 194,
+        "height_mm": 328,
+        "weight_kg": 9.09,
+        "quantity": 39,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-1870",
+        "description": "Wine Case",
+        "length_mm": 246,
+        "width_mm": 172,
+        "height_mm": 324,
+        "weight_kg": 7.93,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-3298",
+        "description": "Canned Peas",
+        "length_mm": 303,
+        "width_mm": 203,
+        "height_mm": 118,
+        "weight_kg": 5.95,
+        "quantity": 40,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0611",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-EGGS-4093",
+        "description": "Eggs 360pcs",
+        "length_mm": 630,
+        "width_mm": 321,
+        "height_mm": 357,
+        "weight_kg": 21.71,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-3201",
+        "description": "Sugar 10kg",
+        "length_mm": 393,
+        "width_mm": 302,
+        "height_mm": 153,
+        "weight_kg": 9.82,
+        "quantity": 17,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-9086",
+        "description": "Water Pack",
+        "length_mm": 278,
+        "width_mm": 191,
+        "height_mm": 334,
+        "weight_kg": 9.03,
+        "quantity": 11,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-1431",
+        "description": "Bananas Box",
+        "length_mm": 497,
+        "width_mm": 399,
+        "height_mm": 241,
+        "weight_kg": 18.74,
+        "quantity": 16,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-7864",
+        "description": "Chips Carton",
+        "length_mm": 608,
+        "width_mm": 400,
+        "height_mm": 396,
+        "weight_kg": 1.79,
+        "quantity": 18,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-5269",
+        "description": "Canned Peas",
+        "length_mm": 304,
+        "width_mm": 198,
+        "height_mm": 118,
+        "weight_kg": 6.05,
+        "quantity": 12,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0612",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-4501",
+        "description": "Water Pack",
+        "length_mm": 283,
+        "width_mm": 191,
+        "height_mm": 335,
+        "weight_kg": 9.23,
+        "quantity": 130,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-4591",
+        "description": "Sugar 10kg",
+        "length_mm": 406,
+        "width_mm": 298,
+        "height_mm": 149,
+        "weight_kg": 10.08,
+        "quantity": 40,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0613",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-3065",
+        "description": "Bananas Box",
+        "length_mm": 508,
+        "width_mm": 398,
+        "height_mm": 239,
+        "weight_kg": 18.97,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-2554",
+        "description": "Chips Carton",
+        "length_mm": 602,
+        "width_mm": 404,
+        "height_mm": 398,
+        "weight_kg": 1.79,
+        "quantity": 18,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-7919",
+        "description": "Eggs 360pcs",
+        "length_mm": 632,
+        "width_mm": 326,
+        "height_mm": 343,
+        "weight_kg": 22.08,
+        "quantity": 8,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0614",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-4787",
+        "description": "Water Pack",
+        "length_mm": 281,
+        "width_mm": 188,
+        "height_mm": 331,
+        "weight_kg": 9.22,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-3399",
+        "description": "Wine Case",
+        "length_mm": 247,
+        "width_mm": 173,
+        "height_mm": 324,
+        "weight_kg": 7.97,
+        "quantity": 29,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-3681",
+        "description": "Canned Peas",
+        "length_mm": 299,
+        "width_mm": 199,
+        "height_mm": 121,
+        "weight_kg": 5.98,
+        "quantity": 42,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0615",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-1460",
+        "description": "Bananas Box",
+        "length_mm": 494,
+        "width_mm": 399,
+        "height_mm": 242,
+        "weight_kg": 19.25,
+        "quantity": 14,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-8569",
+        "description": "Eggs 360pcs",
+        "length_mm": 638,
+        "width_mm": 326,
+        "height_mm": 355,
+        "weight_kg": 21.82,
+        "quantity": 18,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-4907",
+        "description": "Sugar 10kg",
+        "length_mm": 407,
+        "width_mm": 298,
+        "height_mm": 151,
+        "weight_kg": 10.0,
+        "quantity": 6,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-8883",
+        "description": "Chips Carton",
+        "length_mm": 609,
+        "width_mm": 407,
+        "height_mm": 395,
+        "weight_kg": 1.8,
+        "quantity": 6,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-3745",
+        "description": "Wine Case",
+        "length_mm": 249,
+        "width_mm": 172,
+        "height_mm": 317,
+        "weight_kg": 7.86,
+        "quantity": 21,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-3834",
+        "description": "Water Pack",
+        "length_mm": 277,
+        "width_mm": 188,
+        "height_mm": 330,
+        "weight_kg": 9.32,
+        "quantity": 17,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-1856",
+        "description": "Canned Peas",
+        "length_mm": 297,
+        "width_mm": 203,
+        "height_mm": 119,
+        "weight_kg": 5.95,
+        "quantity": 21,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0616",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-8339",
+        "description": "Water Pack",
+        "length_mm": 280,
+        "width_mm": 190,
+        "height_mm": 328,
+        "weight_kg": 9.36,
+        "quantity": 92,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-4350",
+        "description": "Sugar 10kg",
+        "length_mm": 405,
+        "width_mm": 300,
+        "height_mm": 147,
+        "weight_kg": 9.85,
+        "quantity": 60,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0617",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-8759",
+        "description": "Bananas Box",
+        "length_mm": 501,
+        "width_mm": 390,
+        "height_mm": 242,
+        "weight_kg": 19.11,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-7816",
+        "description": "Chips Carton",
+        "length_mm": 599,
+        "width_mm": 395,
+        "height_mm": 404,
+        "weight_kg": 1.83,
+        "quantity": 21,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-3248",
+        "description": "Eggs 360pcs",
+        "length_mm": 638,
+        "width_mm": 321,
+        "height_mm": 357,
+        "weight_kg": 21.93,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0618",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-3977",
+        "description": "Water Pack",
+        "length_mm": 279,
+        "width_mm": 189,
+        "height_mm": 326,
+        "weight_kg": 9.04,
+        "quantity": 21,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-3572",
+        "description": "Wine Case",
+        "length_mm": 252,
+        "width_mm": 173,
+        "height_mm": 316,
+        "weight_kg": 7.92,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-5626",
+        "description": "Canned Peas",
+        "length_mm": 302,
+        "width_mm": 199,
+        "height_mm": 118,
+        "weight_kg": 6.05,
+        "quantity": 44,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0619",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-EGGS-9848",
+        "description": "Eggs 360pcs",
+        "length_mm": 639,
+        "width_mm": 321,
+        "height_mm": 345,
+        "weight_kg": 21.66,
+        "quantity": 8,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-7971",
+        "description": "Sugar 10kg",
+        "length_mm": 393,
+        "width_mm": 300,
+        "height_mm": 152,
+        "weight_kg": 10.1,
+        "quantity": 16,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-1282",
+        "description": "Wine Case",
+        "length_mm": 253,
+        "width_mm": 171,
+        "height_mm": 319,
+        "weight_kg": 7.93,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-2958",
+        "description": "Canned Peas",
+        "length_mm": 296,
+        "width_mm": 196,
+        "height_mm": 118,
+        "weight_kg": 6.11,
+        "quantity": 24,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0620",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-8120",
+        "description": "Water Pack",
+        "length_mm": 280,
+        "width_mm": 191,
+        "height_mm": 334,
+        "weight_kg": 9.05,
+        "quantity": 126,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-8934",
+        "description": "Sugar 10kg",
+        "length_mm": 395,
+        "width_mm": 306,
+        "height_mm": 148,
+        "weight_kg": 9.82,
+        "quantity": 52,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0621",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-9489",
+        "description": "Bananas Box",
+        "length_mm": 499,
+        "width_mm": 400,
+        "height_mm": 238,
+        "weight_kg": 19.19,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-6100",
+        "description": "Chips Carton",
+        "length_mm": 604,
+        "width_mm": 403,
+        "height_mm": 399,
+        "weight_kg": 1.79,
+        "quantity": 28,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-6315",
+        "description": "Eggs 360pcs",
+        "length_mm": 634,
+        "width_mm": 326,
+        "height_mm": 353,
+        "weight_kg": 22.25,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0622",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-1977",
+        "description": "Water Pack",
+        "length_mm": 285,
+        "width_mm": 190,
+        "height_mm": 328,
+        "weight_kg": 9.38,
+        "quantity": 33,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-1102",
+        "description": "Wine Case",
+        "length_mm": 249,
+        "width_mm": 171,
+        "height_mm": 318,
+        "weight_kg": 8.02,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-1846",
+        "description": "Canned Peas",
+        "length_mm": 302,
+        "width_mm": 200,
+        "height_mm": 118,
+        "weight_kg": 5.89,
+        "quantity": 30,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0623",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-SUGAR-6044",
+        "description": "Sugar 10kg",
+        "length_mm": 406,
+        "width_mm": 305,
+        "height_mm": 148,
+        "weight_kg": 9.92,
+        "quantity": 6,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-7358",
+        "description": "Bananas Box",
+        "length_mm": 503,
+        "width_mm": 396,
+        "height_mm": 244,
+        "weight_kg": 19.08,
+        "quantity": 22,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-6508",
+        "description": "Wine Case",
+        "length_mm": 246,
+        "width_mm": 167,
+        "height_mm": 326,
+        "weight_kg": 8.1,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-4542",
+        "description": "Eggs 360pcs",
+        "length_mm": 632,
+        "width_mm": 323,
+        "height_mm": 343,
+        "weight_kg": 22.35,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-8767",
+        "description": "Chips Carton",
+        "length_mm": 604,
+        "width_mm": 403,
+        "height_mm": 403,
+        "weight_kg": 1.82,
+        "quantity": 22,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-7802",
+        "description": "Water Pack",
+        "length_mm": 284,
+        "width_mm": 189,
+        "height_mm": 333,
+        "weight_kg": 9.14,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-4625",
+        "description": "Canned Peas",
+        "length_mm": 300,
+        "width_mm": 198,
+        "height_mm": 121,
+        "weight_kg": 5.9,
+        "quantity": 5,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0624",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-1526",
+        "description": "Water Pack",
+        "length_mm": 277,
+        "width_mm": 188,
+        "height_mm": 334,
+        "weight_kg": 9.14,
+        "quantity": 113,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-1809",
+        "description": "Sugar 10kg",
+        "length_mm": 406,
+        "width_mm": 298,
+        "height_mm": 151,
+        "weight_kg": 10.07,
+        "quantity": 49,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0625",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-5160",
+        "description": "Bananas Box",
+        "length_mm": 504,
+        "width_mm": 401,
+        "height_mm": 237,
+        "weight_kg": 18.86,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-2749",
+        "description": "Chips Carton",
+        "length_mm": 605,
+        "width_mm": 394,
+        "height_mm": 395,
+        "weight_kg": 1.77,
+        "quantity": 26,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-9995",
+        "description": "Eggs 360pcs",
+        "length_mm": 632,
+        "width_mm": 314,
+        "height_mm": 346,
+        "weight_kg": 22.4,
+        "quantity": 6,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0626",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-2995",
+        "description": "Water Pack",
+        "length_mm": 277,
+        "width_mm": 191,
+        "height_mm": 332,
+        "weight_kg": 9.14,
+        "quantity": 32,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-4487",
+        "description": "Wine Case",
+        "length_mm": 245,
+        "width_mm": 170,
+        "height_mm": 326,
+        "weight_kg": 7.92,
+        "quantity": 24,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-8461",
+        "description": "Canned Peas",
+        "length_mm": 306,
+        "width_mm": 203,
+        "height_mm": 121,
+        "weight_kg": 6.04,
+        "quantity": 32,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0627",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-SUGAR-2803",
+        "description": "Sugar 10kg",
+        "length_mm": 399,
+        "width_mm": 296,
+        "height_mm": 151,
+        "weight_kg": 10.01,
+        "quantity": 22,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-4171",
+        "description": "Canned Peas",
+        "length_mm": 304,
+        "width_mm": 198,
+        "height_mm": 121,
+        "weight_kg": 5.92,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-2180",
+        "description": "Bananas Box",
+        "length_mm": 494,
+        "width_mm": 394,
+        "height_mm": 242,
+        "weight_kg": 19.35,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-5501",
+        "description": "Eggs 360pcs",
+        "length_mm": 641,
+        "width_mm": 320,
+        "height_mm": 351,
+        "weight_kg": 22.32,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0628",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-2527",
+        "description": "Water Pack",
+        "length_mm": 281,
+        "width_mm": 192,
+        "height_mm": 330,
+        "weight_kg": 9.07,
+        "quantity": 88,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-8211",
+        "description": "Sugar 10kg",
+        "length_mm": 406,
+        "width_mm": 299,
+        "height_mm": 152,
+        "weight_kg": 9.87,
+        "quantity": 48,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0629",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-6130",
+        "description": "Bananas Box",
+        "length_mm": 502,
+        "width_mm": 401,
+        "height_mm": 234,
+        "weight_kg": 18.84,
+        "quantity": 18,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-8645",
+        "description": "Chips Carton",
+        "length_mm": 600,
+        "width_mm": 402,
+        "height_mm": 397,
+        "weight_kg": 1.79,
+        "quantity": 15,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-2259",
+        "description": "Eggs 360pcs",
+        "length_mm": 637,
+        "width_mm": 315,
+        "height_mm": 351,
+        "weight_kg": 21.87,
+        "quantity": 7,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0630",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-3537",
+        "description": "Water Pack",
+        "length_mm": 285,
+        "width_mm": 193,
+        "height_mm": 331,
+        "weight_kg": 9.09,
+        "quantity": 25,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-7227",
+        "description": "Wine Case",
+        "length_mm": 251,
+        "width_mm": 171,
+        "height_mm": 316,
+        "weight_kg": 8.16,
+        "quantity": 28,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-9197",
+        "description": "Canned Peas",
+        "length_mm": 304,
+        "width_mm": 204,
+        "height_mm": 121,
+        "weight_kg": 6.1,
+        "quantity": 42,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0631",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CANNED-9353",
+        "description": "Canned Peas",
+        "length_mm": 305,
+        "width_mm": 203,
+        "height_mm": 121,
+        "weight_kg": 6.09,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-6935",
+        "description": "Sugar 10kg",
+        "length_mm": 404,
+        "width_mm": 301,
+        "height_mm": 151,
+        "weight_kg": 10.15,
+        "quantity": 21,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-1525",
+        "description": "Eggs 360pcs",
+        "length_mm": 622,
+        "width_mm": 321,
+        "height_mm": 351,
+        "weight_kg": 21.69,
+        "quantity": 5,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-7705",
+        "description": "Chips Carton",
+        "length_mm": 593,
+        "width_mm": 393,
+        "height_mm": 404,
+        "weight_kg": 1.83,
+        "quantity": 15,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-1699",
+        "description": "Water Pack",
+        "length_mm": 282,
+        "width_mm": 192,
+        "height_mm": 330,
+        "weight_kg": 9.14,
+        "quantity": 25,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-6419",
+        "description": "Bananas Box",
+        "length_mm": 502,
+        "width_mm": 396,
+        "height_mm": 239,
+        "weight_kg": 19.15,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0632",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-4808",
+        "description": "Water Pack",
+        "length_mm": 285,
+        "width_mm": 186,
+        "height_mm": 335,
+        "weight_kg": 9.13,
+        "quantity": 85,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-4494",
+        "description": "Sugar 10kg",
+        "length_mm": 396,
+        "width_mm": 300,
+        "height_mm": 151,
+        "weight_kg": 10.06,
+        "quantity": 59,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0633",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-7070",
+        "description": "Bananas Box",
+        "length_mm": 512,
+        "width_mm": 399,
+        "height_mm": 238,
+        "weight_kg": 18.68,
+        "quantity": 15,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-4125",
+        "description": "Chips Carton",
+        "length_mm": 607,
+        "width_mm": 395,
+        "height_mm": 408,
+        "weight_kg": 1.82,
+        "quantity": 29,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-7865",
+        "description": "Eggs 360pcs",
+        "length_mm": 630,
+        "width_mm": 324,
+        "height_mm": 354,
+        "weight_kg": 21.65,
+        "quantity": 8,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0634",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-4596",
+        "description": "Water Pack",
+        "length_mm": 282,
+        "width_mm": 186,
+        "height_mm": 329,
+        "weight_kg": 9.21,
+        "quantity": 27,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-9914",
+        "description": "Wine Case",
+        "length_mm": 253,
+        "width_mm": 167,
+        "height_mm": 315,
+        "weight_kg": 7.95,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-7365",
+        "description": "Canned Peas",
+        "length_mm": 301,
+        "width_mm": 198,
+        "height_mm": 119,
+        "weight_kg": 5.89,
+        "quantity": 34,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0635",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CANNED-3197",
+        "description": "Canned Peas",
+        "length_mm": 301,
+        "width_mm": 201,
+        "height_mm": 122,
+        "weight_kg": 5.94,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-5340",
+        "description": "Chips Carton",
+        "length_mm": 611,
+        "width_mm": 398,
+        "height_mm": 399,
+        "weight_kg": 1.77,
+        "quantity": 24,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-6012",
+        "description": "Wine Case",
+        "length_mm": 247,
+        "width_mm": 167,
+        "height_mm": 324,
+        "weight_kg": 8.09,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-8793",
+        "description": "Water Pack",
+        "length_mm": 276,
+        "width_mm": 187,
+        "height_mm": 330,
+        "weight_kg": 9.33,
+        "quantity": 11,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-9944",
+        "description": "Sugar 10kg",
+        "length_mm": 397,
+        "width_mm": 304,
+        "height_mm": 150,
+        "weight_kg": 9.89,
+        "quantity": 20,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-9546",
+        "description": "Bananas Box",
+        "length_mm": 497,
+        "width_mm": 389,
+        "height_mm": 236,
+        "weight_kg": 18.75,
+        "quantity": 15,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0636",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-1065",
+        "description": "Water Pack",
+        "length_mm": 276,
+        "width_mm": 190,
+        "height_mm": 328,
+        "weight_kg": 9.11,
+        "quantity": 100,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-7607",
+        "description": "Sugar 10kg",
+        "length_mm": 401,
+        "width_mm": 297,
+        "height_mm": 147,
+        "weight_kg": 10.08,
+        "quantity": 40,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0637",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-4258",
+        "description": "Bananas Box",
+        "length_mm": 497,
+        "width_mm": 388,
+        "height_mm": 239,
+        "weight_kg": 19.13,
+        "quantity": 12,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-3999",
+        "description": "Chips Carton",
+        "length_mm": 589,
+        "width_mm": 404,
+        "height_mm": 406,
+        "weight_kg": 1.83,
+        "quantity": 23,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-8820",
+        "description": "Eggs 360pcs",
+        "length_mm": 641,
+        "width_mm": 314,
+        "height_mm": 348,
+        "weight_kg": 21.72,
+        "quantity": 5,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0638",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-4810",
+        "description": "Water Pack",
+        "length_mm": 280,
+        "width_mm": 193,
+        "height_mm": 333,
+        "weight_kg": 9.37,
+        "quantity": 24,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-6163",
+        "description": "Wine Case",
+        "length_mm": 249,
+        "width_mm": 172,
+        "height_mm": 321,
+        "weight_kg": 7.94,
+        "quantity": 22,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-8214",
+        "description": "Canned Peas",
+        "length_mm": 299,
+        "width_mm": 202,
+        "height_mm": 119,
+        "weight_kg": 5.9,
+        "quantity": 44,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0639",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-EGGS-4262",
+        "description": "Eggs 360pcs",
+        "length_mm": 636,
+        "width_mm": 316,
+        "height_mm": 351,
+        "weight_kg": 22.24,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-4821",
+        "description": "Canned Peas",
+        "length_mm": 297,
+        "width_mm": 198,
+        "height_mm": 119,
+        "weight_kg": 5.89,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-2910",
+        "description": "Sugar 10kg",
+        "length_mm": 397,
+        "width_mm": 302,
+        "height_mm": 152,
+        "weight_kg": 10.17,
+        "quantity": 7,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-5822",
+        "description": "Water Pack",
+        "length_mm": 281,
+        "width_mm": 188,
+        "height_mm": 325,
+        "weight_kg": 9.09,
+        "quantity": 14,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-1875",
+        "description": "Bananas Box",
+        "length_mm": 510,
+        "width_mm": 386,
+        "height_mm": 234,
+        "weight_kg": 19.36,
+        "quantity": 16,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-8112",
+        "description": "Chips Carton",
+        "length_mm": 596,
+        "width_mm": 393,
+        "height_mm": 395,
+        "weight_kg": 1.77,
+        "quantity": 14,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-1950",
+        "description": "Wine Case",
+        "length_mm": 247,
+        "width_mm": 171,
+        "height_mm": 321,
+        "weight_kg": 8.07,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0640",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-8464",
+        "description": "Water Pack",
+        "length_mm": 276,
+        "width_mm": 189,
+        "height_mm": 326,
+        "weight_kg": 9.26,
+        "quantity": 97,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-9154",
+        "description": "Sugar 10kg",
+        "length_mm": 398,
+        "width_mm": 299,
+        "height_mm": 149,
+        "weight_kg": 10.05,
+        "quantity": 52,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0641",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-1207",
+        "description": "Bananas Box",
+        "length_mm": 504,
+        "width_mm": 393,
+        "height_mm": 242,
+        "weight_kg": 18.9,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-7522",
+        "description": "Chips Carton",
+        "length_mm": 607,
+        "width_mm": 393,
+        "height_mm": 398,
+        "weight_kg": 1.79,
+        "quantity": 28,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-3903",
+        "description": "Eggs 360pcs",
+        "length_mm": 638,
+        "width_mm": 319,
+        "height_mm": 350,
+        "weight_kg": 22.42,
+        "quantity": 6,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0642",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-5129",
+        "description": "Water Pack",
+        "length_mm": 284,
+        "width_mm": 190,
+        "height_mm": 331,
+        "weight_kg": 9.35,
+        "quantity": 22,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-6454",
+        "description": "Wine Case",
+        "length_mm": 249,
+        "width_mm": 170,
+        "height_mm": 318,
+        "weight_kg": 7.97,
+        "quantity": 28,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-1669",
+        "description": "Canned Peas",
+        "length_mm": 300,
+        "width_mm": 199,
+        "height_mm": 122,
+        "weight_kg": 6.11,
+        "quantity": 36,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0643",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CANNED-6785",
+        "description": "Canned Peas",
+        "length_mm": 294,
+        "width_mm": 201,
+        "height_mm": 120,
+        "weight_kg": 5.99,
+        "quantity": 6,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-8249",
+        "description": "Chips Carton",
+        "length_mm": 590,
+        "width_mm": 399,
+        "height_mm": 404,
+        "weight_kg": 1.83,
+        "quantity": 12,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-2034",
+        "description": "Water Pack",
+        "length_mm": 276,
+        "width_mm": 187,
+        "height_mm": 331,
+        "weight_kg": 9.03,
+        "quantity": 12,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-3507",
+        "description": "Sugar 10kg",
+        "length_mm": 408,
+        "width_mm": 295,
+        "height_mm": 150,
+        "weight_kg": 9.92,
+        "quantity": 10,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-8607",
+        "description": "Bananas Box",
+        "length_mm": 507,
+        "width_mm": 398,
+        "height_mm": 244,
+        "weight_kg": 19.26,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-5063",
+        "description": "Wine Case",
+        "length_mm": 249,
+        "width_mm": 169,
+        "height_mm": 322,
+        "weight_kg": 7.97,
+        "quantity": 17,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-9700",
+        "description": "Eggs 360pcs",
+        "length_mm": 642,
+        "width_mm": 314,
+        "height_mm": 349,
+        "weight_kg": 21.62,
+        "quantity": 24,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0644",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-6189",
+        "description": "Water Pack",
+        "length_mm": 279,
+        "width_mm": 187,
+        "height_mm": 329,
+        "weight_kg": 9.35,
+        "quantity": 115,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-9809",
+        "description": "Sugar 10kg",
+        "length_mm": 395,
+        "width_mm": 294,
+        "height_mm": 150,
+        "weight_kg": 10.12,
+        "quantity": 60,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0645",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-3506",
+        "description": "Bananas Box",
+        "length_mm": 500,
+        "width_mm": 388,
+        "height_mm": 234,
+        "weight_kg": 19.35,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-6055",
+        "description": "Chips Carton",
+        "length_mm": 594,
+        "width_mm": 407,
+        "height_mm": 397,
+        "weight_kg": 1.79,
+        "quantity": 18,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-9959",
+        "description": "Eggs 360pcs",
+        "length_mm": 626,
+        "width_mm": 320,
+        "height_mm": 344,
+        "weight_kg": 22.25,
+        "quantity": 5,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0646",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-6314",
+        "description": "Water Pack",
+        "length_mm": 283,
+        "width_mm": 191,
+        "height_mm": 333,
+        "weight_kg": 9.31,
+        "quantity": 32,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-7083",
+        "description": "Wine Case",
+        "length_mm": 249,
+        "width_mm": 169,
+        "height_mm": 322,
+        "weight_kg": 7.94,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-5157",
+        "description": "Canned Peas",
+        "length_mm": 294,
+        "width_mm": 199,
+        "height_mm": 121,
+        "weight_kg": 5.99,
+        "quantity": 45,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0647",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-EGGS-8275",
+        "description": "Eggs 360pcs",
+        "length_mm": 629,
+        "width_mm": 317,
+        "height_mm": 355,
+        "weight_kg": 21.79,
+        "quantity": 16,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-1700",
+        "description": "Bananas Box",
+        "length_mm": 510,
+        "width_mm": 386,
+        "height_mm": 237,
+        "weight_kg": 18.89,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-8557",
+        "description": "Wine Case",
+        "length_mm": 255,
+        "width_mm": 173,
+        "height_mm": 317,
+        "weight_kg": 8.01,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-7147",
+        "description": "Chips Carton",
+        "length_mm": 606,
+        "width_mm": 395,
+        "height_mm": 404,
+        "weight_kg": 1.77,
+        "quantity": 14,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-9594",
+        "description": "Sugar 10kg",
+        "length_mm": 401,
+        "width_mm": 304,
+        "height_mm": 148,
+        "weight_kg": 9.99,
+        "quantity": 11,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-3288",
+        "description": "Canned Peas",
+        "length_mm": 305,
+        "width_mm": 201,
+        "height_mm": 119,
+        "weight_kg": 5.93,
+        "quantity": 16,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0648",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-3925",
+        "description": "Water Pack",
+        "length_mm": 281,
+        "width_mm": 190,
+        "height_mm": 334,
+        "weight_kg": 9.1,
+        "quantity": 106,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-6611",
+        "description": "Sugar 10kg",
+        "length_mm": 400,
+        "width_mm": 301,
+        "height_mm": 152,
+        "weight_kg": 9.84,
+        "quantity": 42,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0649",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-4699",
+        "description": "Bananas Box",
+        "length_mm": 499,
+        "width_mm": 396,
+        "height_mm": 243,
+        "weight_kg": 19.13,
+        "quantity": 14,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-1532",
+        "description": "Chips Carton",
+        "length_mm": 596,
+        "width_mm": 397,
+        "height_mm": 399,
+        "weight_kg": 1.78,
+        "quantity": 24,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-8156",
+        "description": "Eggs 360pcs",
+        "length_mm": 632,
+        "width_mm": 324,
+        "height_mm": 348,
+        "weight_kg": 21.83,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0650",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-3760",
+        "description": "Water Pack",
+        "length_mm": 284,
+        "width_mm": 190,
+        "height_mm": 332,
+        "weight_kg": 9.2,
+        "quantity": 24,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-5305",
+        "description": "Wine Case",
+        "length_mm": 254,
+        "width_mm": 172,
+        "height_mm": 324,
+        "weight_kg": 8.14,
+        "quantity": 17,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-4923",
+        "description": "Canned Peas",
+        "length_mm": 306,
+        "width_mm": 201,
+        "height_mm": 120,
+        "weight_kg": 5.96,
+        "quantity": 37,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0651",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-EGGS-5063",
+        "description": "Eggs 360pcs",
+        "length_mm": 640,
+        "width_mm": 323,
+        "height_mm": 346,
+        "weight_kg": 21.87,
+        "quantity": 6,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-1220",
+        "description": "Bananas Box",
+        "length_mm": 507,
+        "width_mm": 399,
+        "height_mm": 242,
+        "weight_kg": 19.18,
+        "quantity": 5,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-9685",
+        "description": "Canned Peas",
+        "length_mm": 298,
+        "width_mm": 203,
+        "height_mm": 118,
+        "weight_kg": 6.03,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-1700",
+        "description": "Sugar 10kg",
+        "length_mm": 404,
+        "width_mm": 299,
+        "height_mm": 148,
+        "weight_kg": 10.17,
+        "quantity": 6,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-9381",
+        "description": "Chips Carton",
+        "length_mm": 609,
+        "width_mm": 395,
+        "height_mm": 393,
+        "weight_kg": 1.81,
+        "quantity": 12,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0652",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-9605",
+        "description": "Water Pack",
+        "length_mm": 281,
+        "width_mm": 190,
+        "height_mm": 335,
+        "weight_kg": 9.28,
+        "quantity": 84,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-2890",
+        "description": "Sugar 10kg",
+        "length_mm": 407,
+        "width_mm": 297,
+        "height_mm": 149,
+        "weight_kg": 9.91,
+        "quantity": 54,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0653",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-9082",
+        "description": "Bananas Box",
+        "length_mm": 512,
+        "width_mm": 395,
+        "height_mm": 239,
+        "weight_kg": 18.83,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-7218",
+        "description": "Chips Carton",
+        "length_mm": 599,
+        "width_mm": 405,
+        "height_mm": 401,
+        "weight_kg": 1.8,
+        "quantity": 29,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-9198",
+        "description": "Eggs 360pcs",
+        "length_mm": 630,
+        "width_mm": 317,
+        "height_mm": 354,
+        "weight_kg": 21.8,
+        "quantity": 6,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0654",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-7290",
+        "description": "Water Pack",
+        "length_mm": 281,
+        "width_mm": 192,
+        "height_mm": 332,
+        "weight_kg": 9.05,
+        "quantity": 34,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-9025",
+        "description": "Wine Case",
+        "length_mm": 254,
+        "width_mm": 168,
+        "height_mm": 316,
+        "weight_kg": 7.99,
+        "quantity": 24,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-2100",
+        "description": "Canned Peas",
+        "length_mm": 302,
+        "width_mm": 203,
+        "height_mm": 118,
+        "weight_kg": 6.04,
+        "quantity": 38,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0655",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-1432",
+        "description": "Water Pack",
+        "length_mm": 283,
+        "width_mm": 194,
+        "height_mm": 331,
+        "weight_kg": 9.26,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-3078",
+        "description": "Bananas Box",
+        "length_mm": 494,
+        "width_mm": 395,
+        "height_mm": 242,
+        "weight_kg": 19.03,
+        "quantity": 24,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-9910",
+        "description": "Eggs 360pcs",
+        "length_mm": 638,
+        "width_mm": 320,
+        "height_mm": 353,
+        "weight_kg": 22.31,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-4429",
+        "description": "Sugar 10kg",
+        "length_mm": 398,
+        "width_mm": 296,
+        "height_mm": 147,
+        "weight_kg": 9.82,
+        "quantity": 18,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-7484",
+        "description": "Wine Case",
+        "length_mm": 251,
+        "width_mm": 167,
+        "height_mm": 324,
+        "weight_kg": 7.92,
+        "quantity": 25,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0656",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-8349",
+        "description": "Water Pack",
+        "length_mm": 281,
+        "width_mm": 187,
+        "height_mm": 330,
+        "weight_kg": 9.2,
+        "quantity": 115,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-2412",
+        "description": "Sugar 10kg",
+        "length_mm": 396,
+        "width_mm": 301,
+        "height_mm": 151,
+        "weight_kg": 10.12,
+        "quantity": 42,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0657",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-6169",
+        "description": "Bananas Box",
+        "length_mm": 508,
+        "width_mm": 391,
+        "height_mm": 240,
+        "weight_kg": 18.95,
+        "quantity": 17,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-8980",
+        "description": "Chips Carton",
+        "length_mm": 600,
+        "width_mm": 406,
+        "height_mm": 393,
+        "weight_kg": 1.82,
+        "quantity": 23,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-2953",
+        "description": "Eggs 360pcs",
+        "length_mm": 619,
+        "width_mm": 323,
+        "height_mm": 351,
+        "weight_kg": 21.84,
+        "quantity": 7,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0658",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-5642",
+        "description": "Water Pack",
+        "length_mm": 275,
+        "width_mm": 190,
+        "height_mm": 332,
+        "weight_kg": 9.02,
+        "quantity": 34,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-1519",
+        "description": "Wine Case",
+        "length_mm": 247,
+        "width_mm": 167,
+        "height_mm": 319,
+        "weight_kg": 8.11,
+        "quantity": 24,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-1288",
+        "description": "Canned Peas",
+        "length_mm": 297,
+        "width_mm": 196,
+        "height_mm": 120,
+        "weight_kg": 6.0,
+        "quantity": 43,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0659",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CANNED-5379",
+        "description": "Canned Peas",
+        "length_mm": 299,
+        "width_mm": 203,
+        "height_mm": 119,
+        "weight_kg": 6.02,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-5645",
+        "description": "Wine Case",
+        "length_mm": 250,
+        "width_mm": 168,
+        "height_mm": 315,
+        "weight_kg": 7.98,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-3200",
+        "description": "Sugar 10kg",
+        "length_mm": 395,
+        "width_mm": 295,
+        "height_mm": 151,
+        "weight_kg": 10.13,
+        "quantity": 22,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-4552",
+        "description": "Bananas Box",
+        "length_mm": 507,
+        "width_mm": 390,
+        "height_mm": 242,
+        "weight_kg": 19.02,
+        "quantity": 24,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-2613",
+        "description": "Eggs 360pcs",
+        "length_mm": 619,
+        "width_mm": 317,
+        "height_mm": 352,
+        "weight_kg": 21.59,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-1922",
+        "description": "Water Pack",
+        "length_mm": 281,
+        "width_mm": 188,
+        "height_mm": 329,
+        "weight_kg": 9.02,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0660",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-7215",
+        "description": "Water Pack",
+        "length_mm": 277,
+        "width_mm": 193,
+        "height_mm": 325,
+        "weight_kg": 9.07,
+        "quantity": 87,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-9993",
+        "description": "Sugar 10kg",
+        "length_mm": 396,
+        "width_mm": 299,
+        "height_mm": 151,
+        "weight_kg": 10.02,
+        "quantity": 58,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0661",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-7813",
+        "description": "Bananas Box",
+        "length_mm": 498,
+        "width_mm": 387,
+        "height_mm": 239,
+        "weight_kg": 18.76,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-8281",
+        "description": "Chips Carton",
+        "length_mm": 612,
+        "width_mm": 402,
+        "height_mm": 405,
+        "weight_kg": 1.81,
+        "quantity": 27,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-9517",
+        "description": "Eggs 360pcs",
+        "length_mm": 626,
+        "width_mm": 321,
+        "height_mm": 353,
+        "weight_kg": 21.89,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0662",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-2863",
+        "description": "Water Pack",
+        "length_mm": 275,
+        "width_mm": 188,
+        "height_mm": 334,
+        "weight_kg": 9.32,
+        "quantity": 40,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-9321",
+        "description": "Wine Case",
+        "length_mm": 253,
+        "width_mm": 171,
+        "height_mm": 314,
+        "weight_kg": 8.03,
+        "quantity": 30,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-9968",
+        "description": "Canned Peas",
+        "length_mm": 299,
+        "width_mm": 200,
+        "height_mm": 120,
+        "weight_kg": 6.12,
+        "quantity": 38,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0663",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WINE-2611",
+        "description": "Wine Case",
+        "length_mm": 252,
+        "width_mm": 170,
+        "height_mm": 319,
+        "weight_kg": 7.98,
+        "quantity": 11,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-8521",
+        "description": "Bananas Box",
+        "length_mm": 498,
+        "width_mm": 400,
+        "height_mm": 243,
+        "weight_kg": 19.05,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-1990",
+        "description": "Chips Carton",
+        "length_mm": 589,
+        "width_mm": 394,
+        "height_mm": 399,
+        "weight_kg": 1.77,
+        "quantity": 9,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-8245",
+        "description": "Water Pack",
+        "length_mm": 278,
+        "width_mm": 187,
+        "height_mm": 331,
+        "weight_kg": 9.2,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0664",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-9429",
+        "description": "Water Pack",
+        "length_mm": 285,
+        "width_mm": 193,
+        "height_mm": 333,
+        "weight_kg": 9.07,
+        "quantity": 106,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-3077",
+        "description": "Sugar 10kg",
+        "length_mm": 398,
+        "width_mm": 295,
+        "height_mm": 149,
+        "weight_kg": 10.08,
+        "quantity": 58,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0665",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-4715",
+        "description": "Bananas Box",
+        "length_mm": 502,
+        "width_mm": 392,
+        "height_mm": 239,
+        "weight_kg": 19.3,
+        "quantity": 16,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-5172",
+        "description": "Chips Carton",
+        "length_mm": 592,
+        "width_mm": 395,
+        "height_mm": 404,
+        "weight_kg": 1.77,
+        "quantity": 30,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-8884",
+        "description": "Eggs 360pcs",
+        "length_mm": 627,
+        "width_mm": 320,
+        "height_mm": 345,
+        "weight_kg": 21.71,
+        "quantity": 7,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0666",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-7177",
+        "description": "Water Pack",
+        "length_mm": 279,
+        "width_mm": 190,
+        "height_mm": 334,
+        "weight_kg": 9.22,
+        "quantity": 30,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-3017",
+        "description": "Wine Case",
+        "length_mm": 245,
+        "width_mm": 168,
+        "height_mm": 326,
+        "weight_kg": 7.99,
+        "quantity": 22,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-1274",
+        "description": "Canned Peas",
+        "length_mm": 295,
+        "width_mm": 198,
+        "height_mm": 119,
+        "weight_kg": 5.92,
+        "quantity": 38,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0667",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-EGGS-8844",
+        "description": "Eggs 360pcs",
+        "length_mm": 633,
+        "width_mm": 318,
+        "height_mm": 345,
+        "weight_kg": 22.02,
+        "quantity": 22,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-7771",
+        "description": "Wine Case",
+        "length_mm": 246,
+        "width_mm": 173,
+        "height_mm": 314,
+        "weight_kg": 8.07,
+        "quantity": 7,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-2455",
+        "description": "Water Pack",
+        "length_mm": 283,
+        "width_mm": 190,
+        "height_mm": 325,
+        "weight_kg": 9.23,
+        "quantity": 22,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-9893",
+        "description": "Chips Carton",
+        "length_mm": 596,
+        "width_mm": 392,
+        "height_mm": 404,
+        "weight_kg": 1.78,
+        "quantity": 24,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-7794",
+        "description": "Sugar 10kg",
+        "length_mm": 406,
+        "width_mm": 301,
+        "height_mm": 148,
+        "weight_kg": 9.91,
+        "quantity": 8,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-2953",
+        "description": "Bananas Box",
+        "length_mm": 507,
+        "width_mm": 395,
+        "height_mm": 234,
+        "weight_kg": 18.81,
+        "quantity": 18,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-9044",
+        "description": "Canned Peas",
+        "length_mm": 304,
+        "width_mm": 202,
+        "height_mm": 120,
+        "weight_kg": 5.99,
+        "quantity": 14,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0668",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-2974",
+        "description": "Water Pack",
+        "length_mm": 275,
+        "width_mm": 187,
+        "height_mm": 336,
+        "weight_kg": 9.22,
+        "quantity": 119,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-3191",
+        "description": "Sugar 10kg",
+        "length_mm": 406,
+        "width_mm": 302,
+        "height_mm": 150,
+        "weight_kg": 10.07,
+        "quantity": 51,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0669",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-9524",
+        "description": "Bananas Box",
+        "length_mm": 502,
+        "width_mm": 389,
+        "height_mm": 237,
+        "weight_kg": 19.33,
+        "quantity": 12,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-9783",
+        "description": "Chips Carton",
+        "length_mm": 605,
+        "width_mm": 401,
+        "height_mm": 406,
+        "weight_kg": 1.79,
+        "quantity": 20,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-9638",
+        "description": "Eggs 360pcs",
+        "length_mm": 627,
+        "width_mm": 320,
+        "height_mm": 356,
+        "weight_kg": 22.12,
+        "quantity": 5,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0670",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-6782",
+        "description": "Water Pack",
+        "length_mm": 283,
+        "width_mm": 189,
+        "height_mm": 328,
+        "weight_kg": 9.11,
+        "quantity": 28,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-8080",
+        "description": "Wine Case",
+        "length_mm": 245,
+        "width_mm": 167,
+        "height_mm": 322,
+        "weight_kg": 7.97,
+        "quantity": 27,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-3403",
+        "description": "Canned Peas",
+        "length_mm": 305,
+        "width_mm": 198,
+        "height_mm": 121,
+        "weight_kg": 5.96,
+        "quantity": 35,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0671",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CANNED-1238",
+        "description": "Canned Peas",
+        "length_mm": 300,
+        "width_mm": 197,
+        "height_mm": 119,
+        "weight_kg": 6.1,
+        "quantity": 17,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-8487",
+        "description": "Wine Case",
+        "length_mm": 255,
+        "width_mm": 170,
+        "height_mm": 316,
+        "weight_kg": 8.09,
+        "quantity": 12,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-8802",
+        "description": "Eggs 360pcs",
+        "length_mm": 632,
+        "width_mm": 315,
+        "height_mm": 348,
+        "weight_kg": 21.87,
+        "quantity": 22,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-8540",
+        "description": "Chips Carton",
+        "length_mm": 595,
+        "width_mm": 400,
+        "height_mm": 405,
+        "weight_kg": 1.79,
+        "quantity": 10,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-1727",
+        "description": "Sugar 10kg",
+        "length_mm": 401,
+        "width_mm": 305,
+        "height_mm": 147,
+        "weight_kg": 10.14,
+        "quantity": 12,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0672",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-2738",
+        "description": "Water Pack",
+        "length_mm": 277,
+        "width_mm": 188,
+        "height_mm": 331,
+        "weight_kg": 9.23,
+        "quantity": 85,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-4573",
+        "description": "Sugar 10kg",
+        "length_mm": 407,
+        "width_mm": 304,
+        "height_mm": 149,
+        "weight_kg": 10.13,
+        "quantity": 45,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0673",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-6883",
+        "description": "Bananas Box",
+        "length_mm": 501,
+        "width_mm": 389,
+        "height_mm": 242,
+        "weight_kg": 18.88,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-3402",
+        "description": "Chips Carton",
+        "length_mm": 592,
+        "width_mm": 402,
+        "height_mm": 404,
+        "weight_kg": 1.81,
+        "quantity": 28,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-4427",
+        "description": "Eggs 360pcs",
+        "length_mm": 620,
+        "width_mm": 315,
+        "height_mm": 349,
+        "weight_kg": 22.39,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0674",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-2370",
+        "description": "Water Pack",
+        "length_mm": 275,
+        "width_mm": 194,
+        "height_mm": 325,
+        "weight_kg": 9.33,
+        "quantity": 29,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-6508",
+        "description": "Wine Case",
+        "length_mm": 254,
+        "width_mm": 168,
+        "height_mm": 326,
+        "weight_kg": 7.96,
+        "quantity": 21,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-7228",
+        "description": "Canned Peas",
+        "length_mm": 296,
+        "width_mm": 198,
+        "height_mm": 122,
+        "weight_kg": 6.07,
+        "quantity": 42,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0675",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WINE-1692",
+        "description": "Wine Case",
+        "length_mm": 251,
+        "width_mm": 173,
+        "height_mm": 316,
+        "weight_kg": 8.11,
+        "quantity": 17,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-3547",
+        "description": "Water Pack",
+        "length_mm": 282,
+        "width_mm": 190,
+        "height_mm": 334,
+        "weight_kg": 9.24,
+        "quantity": 25,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-6855",
+        "description": "Canned Peas",
+        "length_mm": 305,
+        "width_mm": 198,
+        "height_mm": 120,
+        "weight_kg": 6.05,
+        "quantity": 22,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-4800",
+        "description": "Eggs 360pcs",
+        "length_mm": 642,
+        "width_mm": 325,
+        "height_mm": 356,
+        "weight_kg": 21.92,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-5215",
+        "description": "Sugar 10kg",
+        "length_mm": 399,
+        "width_mm": 294,
+        "height_mm": 149,
+        "weight_kg": 9.94,
+        "quantity": 23,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-8610",
+        "description": "Chips Carton",
+        "length_mm": 606,
+        "width_mm": 406,
+        "height_mm": 405,
+        "weight_kg": 1.79,
+        "quantity": 5,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0676",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-8701",
+        "description": "Water Pack",
+        "length_mm": 283,
+        "width_mm": 190,
+        "height_mm": 329,
+        "weight_kg": 9.35,
+        "quantity": 105,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-5421",
+        "description": "Sugar 10kg",
+        "length_mm": 398,
+        "width_mm": 304,
+        "height_mm": 153,
+        "weight_kg": 9.99,
+        "quantity": 42,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0677",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-2092",
+        "description": "Bananas Box",
+        "length_mm": 505,
+        "width_mm": 397,
+        "height_mm": 239,
+        "weight_kg": 18.97,
+        "quantity": 17,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-4243",
+        "description": "Chips Carton",
+        "length_mm": 606,
+        "width_mm": 398,
+        "height_mm": 397,
+        "weight_kg": 1.79,
+        "quantity": 16,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-2490",
+        "description": "Eggs 360pcs",
+        "length_mm": 641,
+        "width_mm": 322,
+        "height_mm": 352,
+        "weight_kg": 22.1,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0678",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-6226",
+        "description": "Water Pack",
+        "length_mm": 274,
+        "width_mm": 192,
+        "height_mm": 326,
+        "weight_kg": 9.29,
+        "quantity": 21,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-1151",
+        "description": "Wine Case",
+        "length_mm": 246,
+        "width_mm": 167,
+        "height_mm": 320,
+        "weight_kg": 8.0,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-7749",
+        "description": "Canned Peas",
+        "length_mm": 301,
+        "width_mm": 198,
+        "height_mm": 122,
+        "weight_kg": 6.11,
+        "quantity": 30,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0679",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CANNED-9788",
+        "description": "Canned Peas",
+        "length_mm": 305,
+        "width_mm": 199,
+        "height_mm": 122,
+        "weight_kg": 6.08,
+        "quantity": 16,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-1161",
+        "description": "Water Pack",
+        "length_mm": 275,
+        "width_mm": 189,
+        "height_mm": 328,
+        "weight_kg": 9.03,
+        "quantity": 18,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-1700",
+        "description": "Bananas Box",
+        "length_mm": 498,
+        "width_mm": 387,
+        "height_mm": 236,
+        "weight_kg": 18.88,
+        "quantity": 21,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-1717",
+        "description": "Chips Carton",
+        "length_mm": 604,
+        "width_mm": 401,
+        "height_mm": 408,
+        "weight_kg": 1.82,
+        "quantity": 19,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-4805",
+        "description": "Eggs 360pcs",
+        "length_mm": 637,
+        "width_mm": 325,
+        "height_mm": 350,
+        "weight_kg": 21.57,
+        "quantity": 7,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-2018",
+        "description": "Sugar 10kg",
+        "length_mm": 395,
+        "width_mm": 299,
+        "height_mm": 153,
+        "weight_kg": 10.04,
+        "quantity": 10,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-8912",
+        "description": "Wine Case",
+        "length_mm": 253,
+        "width_mm": 168,
+        "height_mm": 317,
+        "weight_kg": 8.05,
+        "quantity": 15,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0680",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-9027",
+        "description": "Water Pack",
+        "length_mm": 284,
+        "width_mm": 187,
+        "height_mm": 334,
+        "weight_kg": 9.2,
+        "quantity": 114,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-6768",
+        "description": "Sugar 10kg",
+        "length_mm": 408,
+        "width_mm": 303,
+        "height_mm": 150,
+        "weight_kg": 9.93,
+        "quantity": 54,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0681",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-6168",
+        "description": "Bananas Box",
+        "length_mm": 494,
+        "width_mm": 393,
+        "height_mm": 238,
+        "weight_kg": 19.36,
+        "quantity": 15,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-1267",
+        "description": "Chips Carton",
+        "length_mm": 611,
+        "width_mm": 400,
+        "height_mm": 403,
+        "weight_kg": 1.81,
+        "quantity": 20,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-3477",
+        "description": "Eggs 360pcs",
+        "length_mm": 625,
+        "width_mm": 322,
+        "height_mm": 347,
+        "weight_kg": 21.57,
+        "quantity": 8,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0682",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-4829",
+        "description": "Water Pack",
+        "length_mm": 277,
+        "width_mm": 187,
+        "height_mm": 332,
+        "weight_kg": 9.3,
+        "quantity": 38,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-8490",
+        "description": "Wine Case",
+        "length_mm": 249,
+        "width_mm": 173,
+        "height_mm": 316,
+        "weight_kg": 8.13,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-5113",
+        "description": "Canned Peas",
+        "length_mm": 304,
+        "width_mm": 202,
+        "height_mm": 118,
+        "weight_kg": 5.96,
+        "quantity": 50,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0683",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-1868",
+        "description": "Water Pack",
+        "length_mm": 276,
+        "width_mm": 188,
+        "height_mm": 334,
+        "weight_kg": 9.17,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-6744",
+        "description": "Sugar 10kg",
+        "length_mm": 408,
+        "width_mm": 295,
+        "height_mm": 148,
+        "weight_kg": 10.08,
+        "quantity": 23,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-4796",
+        "description": "Eggs 360pcs",
+        "length_mm": 637,
+        "width_mm": 320,
+        "height_mm": 353,
+        "weight_kg": 21.82,
+        "quantity": 15,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-2047",
+        "description": "Bananas Box",
+        "length_mm": 493,
+        "width_mm": 398,
+        "height_mm": 244,
+        "weight_kg": 18.72,
+        "quantity": 21,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0684",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-8144",
+        "description": "Water Pack",
+        "length_mm": 285,
+        "width_mm": 190,
+        "height_mm": 329,
+        "weight_kg": 9.11,
+        "quantity": 121,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-8170",
+        "description": "Sugar 10kg",
+        "length_mm": 402,
+        "width_mm": 296,
+        "height_mm": 148,
+        "weight_kg": 9.9,
+        "quantity": 54,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0685",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-2367",
+        "description": "Bananas Box",
+        "length_mm": 497,
+        "width_mm": 391,
+        "height_mm": 234,
+        "weight_kg": 19.23,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-6057",
+        "description": "Chips Carton",
+        "length_mm": 600,
+        "width_mm": 402,
+        "height_mm": 392,
+        "weight_kg": 1.78,
+        "quantity": 17,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-8446",
+        "description": "Eggs 360pcs",
+        "length_mm": 633,
+        "width_mm": 324,
+        "height_mm": 344,
+        "weight_kg": 21.84,
+        "quantity": 7,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0686",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-9830",
+        "description": "Water Pack",
+        "length_mm": 278,
+        "width_mm": 188,
+        "height_mm": 334,
+        "weight_kg": 9.16,
+        "quantity": 35,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-5619",
+        "description": "Wine Case",
+        "length_mm": 252,
+        "width_mm": 170,
+        "height_mm": 322,
+        "weight_kg": 8.09,
+        "quantity": 18,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-4701",
+        "description": "Canned Peas",
+        "length_mm": 294,
+        "width_mm": 198,
+        "height_mm": 121,
+        "weight_kg": 5.96,
+        "quantity": 38,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0687",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CANNED-9426",
+        "description": "Canned Peas",
+        "length_mm": 297,
+        "width_mm": 203,
+        "height_mm": 120,
+        "weight_kg": 5.98,
+        "quantity": 8,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-9104",
+        "description": "Chips Carton",
+        "length_mm": 590,
+        "width_mm": 394,
+        "height_mm": 407,
+        "weight_kg": 1.79,
+        "quantity": 15,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-6464",
+        "description": "Wine Case",
+        "length_mm": 246,
+        "width_mm": 172,
+        "height_mm": 321,
+        "weight_kg": 8.08,
+        "quantity": 24,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-9274",
+        "description": "Bananas Box",
+        "length_mm": 505,
+        "width_mm": 389,
+        "height_mm": 241,
+        "weight_kg": 19.21,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-2244",
+        "description": "Eggs 360pcs",
+        "length_mm": 638,
+        "width_mm": 315,
+        "height_mm": 343,
+        "weight_kg": 22.33,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0688",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-5388",
+        "description": "Water Pack",
+        "length_mm": 278,
+        "width_mm": 189,
+        "height_mm": 330,
+        "weight_kg": 9.3,
+        "quantity": 96,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-4196",
+        "description": "Sugar 10kg",
+        "length_mm": 393,
+        "width_mm": 299,
+        "height_mm": 148,
+        "weight_kg": 10.0,
+        "quantity": 49,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0689",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-3618",
+        "description": "Bananas Box",
+        "length_mm": 509,
+        "width_mm": 386,
+        "height_mm": 239,
+        "weight_kg": 19.33,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-6486",
+        "description": "Chips Carton",
+        "length_mm": 605,
+        "width_mm": 395,
+        "height_mm": 406,
+        "weight_kg": 1.79,
+        "quantity": 18,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-7523",
+        "description": "Eggs 360pcs",
+        "length_mm": 640,
+        "width_mm": 314,
+        "height_mm": 351,
+        "weight_kg": 22.27,
+        "quantity": 8,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0690",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-8594",
+        "description": "Water Pack",
+        "length_mm": 285,
+        "width_mm": 190,
+        "height_mm": 334,
+        "weight_kg": 9.31,
+        "quantity": 38,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-5994",
+        "description": "Wine Case",
+        "length_mm": 251,
+        "width_mm": 172,
+        "height_mm": 321,
+        "weight_kg": 8.04,
+        "quantity": 17,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-4539",
+        "description": "Canned Peas",
+        "length_mm": 305,
+        "width_mm": 201,
+        "height_mm": 118,
+        "weight_kg": 5.98,
+        "quantity": 45,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0691",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-SUGAR-4221",
+        "description": "Sugar 10kg",
+        "length_mm": 402,
+        "width_mm": 298,
+        "height_mm": 151,
+        "weight_kg": 10.07,
+        "quantity": 16,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-8276",
+        "description": "Bananas Box",
+        "length_mm": 499,
+        "width_mm": 387,
+        "height_mm": 236,
+        "weight_kg": 19.36,
+        "quantity": 15,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-2166",
+        "description": "Wine Case",
+        "length_mm": 254,
+        "width_mm": 171,
+        "height_mm": 324,
+        "weight_kg": 7.96,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-3546",
+        "description": "Water Pack",
+        "length_mm": 276,
+        "width_mm": 191,
+        "height_mm": 333,
+        "weight_kg": 9.04,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-5162",
+        "description": "Canned Peas",
+        "length_mm": 301,
+        "width_mm": 196,
+        "height_mm": 122,
+        "weight_kg": 5.95,
+        "quantity": 6,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0692",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-3128",
+        "description": "Water Pack",
+        "length_mm": 281,
+        "width_mm": 190,
+        "height_mm": 329,
+        "weight_kg": 9.03,
+        "quantity": 81,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-4804",
+        "description": "Sugar 10kg",
+        "length_mm": 405,
+        "width_mm": 297,
+        "height_mm": 149,
+        "weight_kg": 9.97,
+        "quantity": 55,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0693",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-4950",
+        "description": "Bananas Box",
+        "length_mm": 504,
+        "width_mm": 401,
+        "height_mm": 236,
+        "weight_kg": 18.89,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-1748",
+        "description": "Chips Carton",
+        "length_mm": 590,
+        "width_mm": 407,
+        "height_mm": 400,
+        "weight_kg": 1.78,
+        "quantity": 24,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-4400",
+        "description": "Eggs 360pcs",
+        "length_mm": 628,
+        "width_mm": 322,
+        "height_mm": 354,
+        "weight_kg": 21.91,
+        "quantity": 7,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0694",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-8708",
+        "description": "Water Pack",
+        "length_mm": 284,
+        "width_mm": 192,
+        "height_mm": 325,
+        "weight_kg": 9.32,
+        "quantity": 29,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-5661",
+        "description": "Wine Case",
+        "length_mm": 253,
+        "width_mm": 173,
+        "height_mm": 323,
+        "weight_kg": 8.1,
+        "quantity": 26,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-8677",
+        "description": "Canned Peas",
+        "length_mm": 298,
+        "width_mm": 200,
+        "height_mm": 120,
+        "weight_kg": 5.95,
+        "quantity": 30,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0695",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CHIPS-5108",
+        "description": "Chips Carton",
+        "length_mm": 608,
+        "width_mm": 394,
+        "height_mm": 398,
+        "weight_kg": 1.8,
+        "quantity": 23,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-4198",
+        "description": "Water Pack",
+        "length_mm": 279,
+        "width_mm": 187,
+        "height_mm": 324,
+        "weight_kg": 9.23,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-7438",
+        "description": "Canned Peas",
+        "length_mm": 301,
+        "width_mm": 202,
+        "height_mm": 120,
+        "weight_kg": 5.94,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-2944",
+        "description": "Wine Case",
+        "length_mm": 247,
+        "width_mm": 171,
+        "height_mm": 322,
+        "weight_kg": 8.01,
+        "quantity": 6,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-9466",
+        "description": "Eggs 360pcs",
+        "length_mm": 624,
+        "width_mm": 325,
+        "height_mm": 350,
+        "weight_kg": 22.24,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0696",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-4858",
+        "description": "Water Pack",
+        "length_mm": 283,
+        "width_mm": 191,
+        "height_mm": 330,
+        "weight_kg": 9.12,
+        "quantity": 90,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-8157",
+        "description": "Sugar 10kg",
+        "length_mm": 406,
+        "width_mm": 302,
+        "height_mm": 150,
+        "weight_kg": 10.16,
+        "quantity": 42,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0697",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-1912",
+        "description": "Bananas Box",
+        "length_mm": 497,
+        "width_mm": 402,
+        "height_mm": 244,
+        "weight_kg": 18.68,
+        "quantity": 17,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-5099",
+        "description": "Chips Carton",
+        "length_mm": 604,
+        "width_mm": 393,
+        "height_mm": 398,
+        "weight_kg": 1.8,
+        "quantity": 29,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-4744",
+        "description": "Eggs 360pcs",
+        "length_mm": 636,
+        "width_mm": 317,
+        "height_mm": 346,
+        "weight_kg": 21.57,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0698",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-8931",
+        "description": "Water Pack",
+        "length_mm": 285,
+        "width_mm": 190,
+        "height_mm": 330,
+        "weight_kg": 9.11,
+        "quantity": 34,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-9648",
+        "description": "Wine Case",
+        "length_mm": 253,
+        "width_mm": 168,
+        "height_mm": 324,
+        "weight_kg": 7.91,
+        "quantity": 15,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-9741",
+        "description": "Canned Peas",
+        "length_mm": 302,
+        "width_mm": 203,
+        "height_mm": 121,
+        "weight_kg": 6.06,
+        "quantity": 50,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0699",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CANNED-1479",
+        "description": "Canned Peas",
+        "length_mm": 304,
+        "width_mm": 199,
+        "height_mm": 118,
+        "weight_kg": 6.04,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-4349",
+        "description": "Eggs 360pcs",
+        "length_mm": 631,
+        "width_mm": 314,
+        "height_mm": 355,
+        "weight_kg": 22.1,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-7990",
+        "description": "Bananas Box",
+        "length_mm": 509,
+        "width_mm": 398,
+        "height_mm": 235,
+        "weight_kg": 19.25,
+        "quantity": 16,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-2643",
+        "description": "Chips Carton",
+        "length_mm": 601,
+        "width_mm": 403,
+        "height_mm": 396,
+        "weight_kg": 1.78,
+        "quantity": 25,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-7216",
+        "description": "Wine Case",
+        "length_mm": 250,
+        "width_mm": 169,
+        "height_mm": 323,
+        "weight_kg": 7.92,
+        "quantity": 21,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0700",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-4142",
+        "description": "Water Pack",
+        "length_mm": 279,
+        "width_mm": 188,
+        "height_mm": 330,
+        "weight_kg": 9.31,
+        "quantity": 134,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-1087",
+        "description": "Sugar 10kg",
+        "length_mm": 402,
+        "width_mm": 301,
+        "height_mm": 151,
+        "weight_kg": 10.13,
+        "quantity": 50,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0701",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-5580",
+        "description": "Bananas Box",
+        "length_mm": 502,
+        "width_mm": 388,
+        "height_mm": 239,
+        "weight_kg": 18.8,
+        "quantity": 18,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-4658",
+        "description": "Chips Carton",
+        "length_mm": 612,
+        "width_mm": 401,
+        "height_mm": 393,
+        "weight_kg": 1.78,
+        "quantity": 18,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-3531",
+        "description": "Eggs 360pcs",
+        "length_mm": 632,
+        "width_mm": 326,
+        "height_mm": 356,
+        "weight_kg": 21.94,
+        "quantity": 7,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0702",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-3231",
+        "description": "Water Pack",
+        "length_mm": 275,
+        "width_mm": 192,
+        "height_mm": 327,
+        "weight_kg": 9.09,
+        "quantity": 29,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-8666",
+        "description": "Wine Case",
+        "length_mm": 254,
+        "width_mm": 169,
+        "height_mm": 315,
+        "weight_kg": 8.16,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-8875",
+        "description": "Canned Peas",
+        "length_mm": 306,
+        "width_mm": 202,
+        "height_mm": 118,
+        "weight_kg": 6.06,
+        "quantity": 43,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0703",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-SUGAR-2691",
+        "description": "Sugar 10kg",
+        "length_mm": 392,
+        "width_mm": 305,
+        "height_mm": 148,
+        "weight_kg": 10.01,
+        "quantity": 17,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-3645",
+        "description": "Wine Case",
+        "length_mm": 248,
+        "width_mm": 168,
+        "height_mm": 325,
+        "weight_kg": 7.92,
+        "quantity": 12,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-3823",
+        "description": "Canned Peas",
+        "length_mm": 296,
+        "width_mm": 199,
+        "height_mm": 118,
+        "weight_kg": 6.03,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-1905",
+        "description": "Eggs 360pcs",
+        "length_mm": 639,
+        "width_mm": 314,
+        "height_mm": 350,
+        "weight_kg": 21.66,
+        "quantity": 25,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-7158",
+        "description": "Bananas Box",
+        "length_mm": 495,
+        "width_mm": 392,
+        "height_mm": 240,
+        "weight_kg": 18.94,
+        "quantity": 11,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-3523",
+        "description": "Chips Carton",
+        "length_mm": 611,
+        "width_mm": 400,
+        "height_mm": 392,
+        "weight_kg": 1.81,
+        "quantity": 10,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0704",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-7110",
+        "description": "Water Pack",
+        "length_mm": 282,
+        "width_mm": 191,
+        "height_mm": 334,
+        "weight_kg": 9.17,
+        "quantity": 90,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-6308",
+        "description": "Sugar 10kg",
+        "length_mm": 399,
+        "width_mm": 298,
+        "height_mm": 148,
+        "weight_kg": 9.81,
+        "quantity": 46,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0705",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-1128",
+        "description": "Bananas Box",
+        "length_mm": 498,
+        "width_mm": 397,
+        "height_mm": 239,
+        "weight_kg": 18.79,
+        "quantity": 18,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-1254",
+        "description": "Chips Carton",
+        "length_mm": 598,
+        "width_mm": 394,
+        "height_mm": 406,
+        "weight_kg": 1.8,
+        "quantity": 24,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-6252",
+        "description": "Eggs 360pcs",
+        "length_mm": 622,
+        "width_mm": 325,
+        "height_mm": 353,
+        "weight_kg": 21.91,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0706",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-5323",
+        "description": "Water Pack",
+        "length_mm": 282,
+        "width_mm": 192,
+        "height_mm": 331,
+        "weight_kg": 9.19,
+        "quantity": 38,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-7898",
+        "description": "Wine Case",
+        "length_mm": 245,
+        "width_mm": 173,
+        "height_mm": 325,
+        "weight_kg": 7.91,
+        "quantity": 22,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-1700",
+        "description": "Canned Peas",
+        "length_mm": 295,
+        "width_mm": 203,
+        "height_mm": 118,
+        "weight_kg": 5.97,
+        "quantity": 36,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0707",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CHIPS-9295",
+        "description": "Chips Carton",
+        "length_mm": 609,
+        "width_mm": 400,
+        "height_mm": 405,
+        "weight_kg": 1.83,
+        "quantity": 8,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-9003",
+        "description": "Eggs 360pcs",
+        "length_mm": 629,
+        "width_mm": 322,
+        "height_mm": 347,
+        "weight_kg": 21.94,
+        "quantity": 24,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-5511",
+        "description": "Canned Peas",
+        "length_mm": 305,
+        "width_mm": 200,
+        "height_mm": 121,
+        "weight_kg": 5.99,
+        "quantity": 12,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-7559",
+        "description": "Wine Case",
+        "length_mm": 249,
+        "width_mm": 169,
+        "height_mm": 319,
+        "weight_kg": 7.97,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-2336",
+        "description": "Water Pack",
+        "length_mm": 280,
+        "width_mm": 193,
+        "height_mm": 331,
+        "weight_kg": 9.2,
+        "quantity": 5,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-8437",
+        "description": "Bananas Box",
+        "length_mm": 505,
+        "width_mm": 391,
+        "height_mm": 240,
+        "weight_kg": 18.62,
+        "quantity": 21,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0708",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-6727",
+        "description": "Water Pack",
+        "length_mm": 278,
+        "width_mm": 189,
+        "height_mm": 336,
+        "weight_kg": 9.24,
+        "quantity": 104,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-4439",
+        "description": "Sugar 10kg",
+        "length_mm": 402,
+        "width_mm": 298,
+        "height_mm": 148,
+        "weight_kg": 9.82,
+        "quantity": 53,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0709",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-5409",
+        "description": "Bananas Box",
+        "length_mm": 493,
+        "width_mm": 388,
+        "height_mm": 235,
+        "weight_kg": 18.91,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-1147",
+        "description": "Chips Carton",
+        "length_mm": 598,
+        "width_mm": 401,
+        "height_mm": 396,
+        "weight_kg": 1.79,
+        "quantity": 23,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-2126",
+        "description": "Eggs 360pcs",
+        "length_mm": 639,
+        "width_mm": 320,
+        "height_mm": 344,
+        "weight_kg": 22.32,
+        "quantity": 8,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0710",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-8337",
+        "description": "Water Pack",
+        "length_mm": 282,
+        "width_mm": 190,
+        "height_mm": 330,
+        "weight_kg": 9.14,
+        "quantity": 40,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-7945",
+        "description": "Wine Case",
+        "length_mm": 249,
+        "width_mm": 167,
+        "height_mm": 320,
+        "weight_kg": 8.01,
+        "quantity": 27,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-1910",
+        "description": "Canned Peas",
+        "length_mm": 301,
+        "width_mm": 202,
+        "height_mm": 120,
+        "weight_kg": 5.98,
+        "quantity": 50,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0711",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WINE-4643",
+        "description": "Wine Case",
+        "length_mm": 255,
+        "width_mm": 170,
+        "height_mm": 318,
+        "weight_kg": 7.89,
+        "quantity": 6,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-7611",
+        "description": "Eggs 360pcs",
+        "length_mm": 617,
+        "width_mm": 319,
+        "height_mm": 352,
+        "weight_kg": 22.38,
+        "quantity": 22,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-3925",
+        "description": "Canned Peas",
+        "length_mm": 296,
+        "width_mm": 197,
+        "height_mm": 122,
+        "weight_kg": 5.9,
+        "quantity": 18,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-8204",
+        "description": "Water Pack",
+        "length_mm": 280,
+        "width_mm": 187,
+        "height_mm": 328,
+        "weight_kg": 9.12,
+        "quantity": 21,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-8678",
+        "description": "Bananas Box",
+        "length_mm": 496,
+        "width_mm": 389,
+        "height_mm": 235,
+        "weight_kg": 19.17,
+        "quantity": 16,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-1237",
+        "description": "Sugar 10kg",
+        "length_mm": 405,
+        "width_mm": 300,
+        "height_mm": 150,
+        "weight_kg": 10.14,
+        "quantity": 18,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-2627",
+        "description": "Chips Carton",
+        "length_mm": 595,
+        "width_mm": 392,
+        "height_mm": 402,
+        "weight_kg": 1.77,
+        "quantity": 17,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0712",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-9185",
+        "description": "Water Pack",
+        "length_mm": 280,
+        "width_mm": 191,
+        "height_mm": 326,
+        "weight_kg": 9.25,
+        "quantity": 108,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-5453",
+        "description": "Sugar 10kg",
+        "length_mm": 401,
+        "width_mm": 302,
+        "height_mm": 152,
+        "weight_kg": 9.85,
+        "quantity": 54,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0713",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-5655",
+        "description": "Bananas Box",
+        "length_mm": 499,
+        "width_mm": 397,
+        "height_mm": 240,
+        "weight_kg": 18.82,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-8223",
+        "description": "Chips Carton",
+        "length_mm": 612,
+        "width_mm": 407,
+        "height_mm": 393,
+        "weight_kg": 1.82,
+        "quantity": 22,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-1647",
+        "description": "Eggs 360pcs",
+        "length_mm": 623,
+        "width_mm": 322,
+        "height_mm": 355,
+        "weight_kg": 22.13,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0714",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-2146",
+        "description": "Water Pack",
+        "length_mm": 285,
+        "width_mm": 187,
+        "height_mm": 329,
+        "weight_kg": 9.38,
+        "quantity": 22,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-1951",
+        "description": "Wine Case",
+        "length_mm": 247,
+        "width_mm": 173,
+        "height_mm": 315,
+        "weight_kg": 8.11,
+        "quantity": 28,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-4514",
+        "description": "Canned Peas",
+        "length_mm": 301,
+        "width_mm": 196,
+        "height_mm": 122,
+        "weight_kg": 6.05,
+        "quantity": 30,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0715",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-SUGAR-3227",
+        "description": "Sugar 10kg",
+        "length_mm": 398,
+        "width_mm": 304,
+        "height_mm": 151,
+        "weight_kg": 9.97,
+        "quantity": 23,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-4687",
+        "description": "Canned Peas",
+        "length_mm": 301,
+        "width_mm": 203,
+        "height_mm": 120,
+        "weight_kg": 6.02,
+        "quantity": 8,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-1689",
+        "description": "Bananas Box",
+        "length_mm": 512,
+        "width_mm": 398,
+        "height_mm": 237,
+        "weight_kg": 19.26,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-6704",
+        "description": "Chips Carton",
+        "length_mm": 589,
+        "width_mm": 399,
+        "height_mm": 394,
+        "weight_kg": 1.8,
+        "quantity": 14,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0716",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-8653",
+        "description": "Water Pack",
+        "length_mm": 283,
+        "width_mm": 188,
+        "height_mm": 335,
+        "weight_kg": 9.35,
+        "quantity": 111,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-3590",
+        "description": "Sugar 10kg",
+        "length_mm": 402,
+        "width_mm": 301,
+        "height_mm": 151,
+        "weight_kg": 10.13,
+        "quantity": 42,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0717",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-3509",
+        "description": "Bananas Box",
+        "length_mm": 510,
+        "width_mm": 395,
+        "height_mm": 243,
+        "weight_kg": 19.36,
+        "quantity": 11,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-1288",
+        "description": "Chips Carton",
+        "length_mm": 602,
+        "width_mm": 398,
+        "height_mm": 401,
+        "weight_kg": 1.81,
+        "quantity": 28,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-1394",
+        "description": "Eggs 360pcs",
+        "length_mm": 625,
+        "width_mm": 323,
+        "height_mm": 349,
+        "weight_kg": 21.73,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0718",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-4684",
+        "description": "Water Pack",
+        "length_mm": 284,
+        "width_mm": 190,
+        "height_mm": 336,
+        "weight_kg": 9.27,
+        "quantity": 37,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-5663",
+        "description": "Wine Case",
+        "length_mm": 250,
+        "width_mm": 172,
+        "height_mm": 321,
+        "weight_kg": 8.05,
+        "quantity": 29,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-9326",
+        "description": "Canned Peas",
+        "length_mm": 299,
+        "width_mm": 198,
+        "height_mm": 122,
+        "weight_kg": 6.03,
+        "quantity": 41,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0719",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-EGGS-7892",
+        "description": "Eggs 360pcs",
+        "length_mm": 634,
+        "width_mm": 325,
+        "height_mm": 349,
+        "weight_kg": 22.36,
+        "quantity": 22,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-9900",
+        "description": "Sugar 10kg",
+        "length_mm": 403,
+        "width_mm": 304,
+        "height_mm": 151,
+        "weight_kg": 10.05,
+        "quantity": 13,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-5095",
+        "description": "Chips Carton",
+        "length_mm": 593,
+        "width_mm": 406,
+        "height_mm": 398,
+        "weight_kg": 1.78,
+        "quantity": 9,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-9060",
+        "description": "Water Pack",
+        "length_mm": 280,
+        "width_mm": 187,
+        "height_mm": 331,
+        "weight_kg": 9.14,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0720",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-3546",
+        "description": "Water Pack",
+        "length_mm": 275,
+        "width_mm": 188,
+        "height_mm": 334,
+        "weight_kg": 9.19,
+        "quantity": 110,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-1533",
+        "description": "Sugar 10kg",
+        "length_mm": 405,
+        "width_mm": 304,
+        "height_mm": 152,
+        "weight_kg": 9.97,
+        "quantity": 49,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0721",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-7779",
+        "description": "Bananas Box",
+        "length_mm": 496,
+        "width_mm": 397,
+        "height_mm": 239,
+        "weight_kg": 19.11,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-8590",
+        "description": "Chips Carton",
+        "length_mm": 591,
+        "width_mm": 398,
+        "height_mm": 397,
+        "weight_kg": 1.82,
+        "quantity": 29,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-8292",
+        "description": "Eggs 360pcs",
+        "length_mm": 635,
+        "width_mm": 323,
+        "height_mm": 354,
+        "weight_kg": 22.07,
+        "quantity": 5,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0722",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-3483",
+        "description": "Water Pack",
+        "length_mm": 276,
+        "width_mm": 193,
+        "height_mm": 329,
+        "weight_kg": 9.07,
+        "quantity": 27,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-9906",
+        "description": "Wine Case",
+        "length_mm": 248,
+        "width_mm": 173,
+        "height_mm": 316,
+        "weight_kg": 8.09,
+        "quantity": 18,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-2299",
+        "description": "Canned Peas",
+        "length_mm": 304,
+        "width_mm": 196,
+        "height_mm": 119,
+        "weight_kg": 6.11,
+        "quantity": 48,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0723",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-SUGAR-3385",
+        "description": "Sugar 10kg",
+        "length_mm": 399,
+        "width_mm": 302,
+        "height_mm": 152,
+        "weight_kg": 10.16,
+        "quantity": 18,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-9728",
+        "description": "Water Pack",
+        "length_mm": 275,
+        "width_mm": 190,
+        "height_mm": 326,
+        "weight_kg": 9.15,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-5000",
+        "description": "Canned Peas",
+        "length_mm": 303,
+        "width_mm": 202,
+        "height_mm": 119,
+        "weight_kg": 5.96,
+        "quantity": 5,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-8569",
+        "description": "Eggs 360pcs",
+        "length_mm": 620,
+        "width_mm": 323,
+        "height_mm": 347,
+        "weight_kg": 21.87,
+        "quantity": 17,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-7679",
+        "description": "Chips Carton",
+        "length_mm": 589,
+        "width_mm": 404,
+        "height_mm": 396,
+        "weight_kg": 1.79,
+        "quantity": 25,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0724",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-5759",
+        "description": "Water Pack",
+        "length_mm": 283,
+        "width_mm": 192,
+        "height_mm": 332,
+        "weight_kg": 9.09,
+        "quantity": 131,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-6502",
+        "description": "Sugar 10kg",
+        "length_mm": 394,
+        "width_mm": 296,
+        "height_mm": 151,
+        "weight_kg": 9.91,
+        "quantity": 51,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0725",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-9156",
+        "description": "Bananas Box",
+        "length_mm": 493,
+        "width_mm": 395,
+        "height_mm": 243,
+        "weight_kg": 19.04,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-4543",
+        "description": "Chips Carton",
+        "length_mm": 596,
+        "width_mm": 407,
+        "height_mm": 400,
+        "weight_kg": 1.78,
+        "quantity": 15,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-2161",
+        "description": "Eggs 360pcs",
+        "length_mm": 631,
+        "width_mm": 318,
+        "height_mm": 350,
+        "weight_kg": 22.1,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0726",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-6839",
+        "description": "Water Pack",
+        "length_mm": 285,
+        "width_mm": 189,
+        "height_mm": 335,
+        "weight_kg": 9.25,
+        "quantity": 24,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-2400",
+        "description": "Wine Case",
+        "length_mm": 250,
+        "width_mm": 171,
+        "height_mm": 320,
+        "weight_kg": 8.05,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-9762",
+        "description": "Canned Peas",
+        "length_mm": 296,
+        "width_mm": 200,
+        "height_mm": 122,
+        "weight_kg": 5.98,
+        "quantity": 44,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0727",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CHIPS-9622",
+        "description": "Chips Carton",
+        "length_mm": 590,
+        "width_mm": 408,
+        "height_mm": 406,
+        "weight_kg": 1.81,
+        "quantity": 12,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-2780",
+        "description": "Bananas Box",
+        "length_mm": 494,
+        "width_mm": 389,
+        "height_mm": 244,
+        "weight_kg": 19.06,
+        "quantity": 5,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-1444",
+        "description": "Wine Case",
+        "length_mm": 255,
+        "width_mm": 168,
+        "height_mm": 318,
+        "weight_kg": 8.07,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-2530",
+        "description": "Sugar 10kg",
+        "length_mm": 394,
+        "width_mm": 301,
+        "height_mm": 147,
+        "weight_kg": 10.11,
+        "quantity": 17,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-1347",
+        "description": "Water Pack",
+        "length_mm": 281,
+        "width_mm": 187,
+        "height_mm": 327,
+        "weight_kg": 9.26,
+        "quantity": 11,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0728",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-8217",
+        "description": "Water Pack",
+        "length_mm": 284,
+        "width_mm": 192,
+        "height_mm": 331,
+        "weight_kg": 9.06,
+        "quantity": 80,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-6645",
+        "description": "Sugar 10kg",
+        "length_mm": 407,
+        "width_mm": 302,
+        "height_mm": 151,
+        "weight_kg": 9.83,
+        "quantity": 51,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0729",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-6362",
+        "description": "Bananas Box",
+        "length_mm": 510,
+        "width_mm": 395,
+        "height_mm": 235,
+        "weight_kg": 19.21,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-6748",
+        "description": "Chips Carton",
+        "length_mm": 592,
+        "width_mm": 399,
+        "height_mm": 407,
+        "weight_kg": 1.78,
+        "quantity": 18,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-2831",
+        "description": "Eggs 360pcs",
+        "length_mm": 620,
+        "width_mm": 321,
+        "height_mm": 352,
+        "weight_kg": 22.23,
+        "quantity": 6,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0730",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-3003",
+        "description": "Water Pack",
+        "length_mm": 281,
+        "width_mm": 194,
+        "height_mm": 330,
+        "weight_kg": 9.2,
+        "quantity": 25,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-5625",
+        "description": "Wine Case",
+        "length_mm": 248,
+        "width_mm": 168,
+        "height_mm": 320,
+        "weight_kg": 8.04,
+        "quantity": 15,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-2407",
+        "description": "Canned Peas",
+        "length_mm": 302,
+        "width_mm": 197,
+        "height_mm": 119,
+        "weight_kg": 5.93,
+        "quantity": 44,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0731",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-EGGS-7349",
+        "description": "Eggs 360pcs",
+        "length_mm": 629,
+        "width_mm": 322,
+        "height_mm": 350,
+        "weight_kg": 22.07,
+        "quantity": 21,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-9997",
+        "description": "Chips Carton",
+        "length_mm": 594,
+        "width_mm": 404,
+        "height_mm": 394,
+        "weight_kg": 1.83,
+        "quantity": 5,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-8550",
+        "description": "Bananas Box",
+        "length_mm": 508,
+        "width_mm": 400,
+        "height_mm": 237,
+        "weight_kg": 18.88,
+        "quantity": 18,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-5326",
+        "description": "Canned Peas",
+        "length_mm": 304,
+        "width_mm": 201,
+        "height_mm": 122,
+        "weight_kg": 5.95,
+        "quantity": 13,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0732",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-2978",
+        "description": "Water Pack",
+        "length_mm": 284,
+        "width_mm": 191,
+        "height_mm": 332,
+        "weight_kg": 9.11,
+        "quantity": 139,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-2542",
+        "description": "Sugar 10kg",
+        "length_mm": 400,
+        "width_mm": 296,
+        "height_mm": 151,
+        "weight_kg": 10.04,
+        "quantity": 45,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0733",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-8397",
+        "description": "Bananas Box",
+        "length_mm": 495,
+        "width_mm": 395,
+        "height_mm": 243,
+        "weight_kg": 19.18,
+        "quantity": 11,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-4618",
+        "description": "Chips Carton",
+        "length_mm": 595,
+        "width_mm": 395,
+        "height_mm": 404,
+        "weight_kg": 1.83,
+        "quantity": 29,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-4789",
+        "description": "Eggs 360pcs",
+        "length_mm": 624,
+        "width_mm": 324,
+        "height_mm": 346,
+        "weight_kg": 22.28,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0734",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-6581",
+        "description": "Water Pack",
+        "length_mm": 283,
+        "width_mm": 193,
+        "height_mm": 332,
+        "weight_kg": 9.34,
+        "quantity": 37,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-3910",
+        "description": "Wine Case",
+        "length_mm": 246,
+        "width_mm": 169,
+        "height_mm": 315,
+        "weight_kg": 7.85,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-2601",
+        "description": "Canned Peas",
+        "length_mm": 306,
+        "width_mm": 200,
+        "height_mm": 120,
+        "weight_kg": 6.03,
+        "quantity": 50,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0735",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-1771",
+        "description": "Bananas Box",
+        "length_mm": 498,
+        "width_mm": 395,
+        "height_mm": 234,
+        "weight_kg": 18.69,
+        "quantity": 11,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-3333",
+        "description": "Chips Carton",
+        "length_mm": 597,
+        "width_mm": 399,
+        "height_mm": 402,
+        "weight_kg": 1.82,
+        "quantity": 12,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-2965",
+        "description": "Wine Case",
+        "length_mm": 248,
+        "width_mm": 167,
+        "height_mm": 321,
+        "weight_kg": 8.06,
+        "quantity": 17,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-6677",
+        "description": "Canned Peas",
+        "length_mm": 300,
+        "width_mm": 199,
+        "height_mm": 118,
+        "weight_kg": 6.06,
+        "quantity": 16,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-3639",
+        "description": "Eggs 360pcs",
+        "length_mm": 619,
+        "width_mm": 323,
+        "height_mm": 349,
+        "weight_kg": 22.07,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0736",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-2142",
+        "description": "Water Pack",
+        "length_mm": 275,
+        "width_mm": 193,
+        "height_mm": 325,
+        "weight_kg": 9.34,
+        "quantity": 84,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-9266",
+        "description": "Sugar 10kg",
+        "length_mm": 397,
+        "width_mm": 306,
+        "height_mm": 152,
+        "weight_kg": 10.09,
+        "quantity": 54,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0737",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-4100",
+        "description": "Bananas Box",
+        "length_mm": 492,
+        "width_mm": 401,
+        "height_mm": 242,
+        "weight_kg": 19.18,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-9185",
+        "description": "Chips Carton",
+        "length_mm": 609,
+        "width_mm": 394,
+        "height_mm": 403,
+        "weight_kg": 1.78,
+        "quantity": 22,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-4520",
+        "description": "Eggs 360pcs",
+        "length_mm": 628,
+        "width_mm": 316,
+        "height_mm": 353,
+        "weight_kg": 21.73,
+        "quantity": 6,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0738",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-2515",
+        "description": "Water Pack",
+        "length_mm": 277,
+        "width_mm": 187,
+        "height_mm": 335,
+        "weight_kg": 9.12,
+        "quantity": 30,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-2141",
+        "description": "Wine Case",
+        "length_mm": 249,
+        "width_mm": 172,
+        "height_mm": 314,
+        "weight_kg": 8.06,
+        "quantity": 16,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-5898",
+        "description": "Canned Peas",
+        "length_mm": 299,
+        "width_mm": 204,
+        "height_mm": 119,
+        "weight_kg": 5.97,
+        "quantity": 47,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0739",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WINE-7599",
+        "description": "Wine Case",
+        "length_mm": 249,
+        "width_mm": 168,
+        "height_mm": 323,
+        "weight_kg": 8.14,
+        "quantity": 25,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-9849",
+        "description": "Eggs 360pcs",
+        "length_mm": 633,
+        "width_mm": 318,
+        "height_mm": 351,
+        "weight_kg": 22.14,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-1126",
+        "description": "Sugar 10kg",
+        "length_mm": 397,
+        "width_mm": 303,
+        "height_mm": 150,
+        "weight_kg": 9.93,
+        "quantity": 5,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-8109",
+        "description": "Chips Carton",
+        "length_mm": 594,
+        "width_mm": 403,
+        "height_mm": 395,
+        "weight_kg": 1.81,
+        "quantity": 9,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-6212",
+        "description": "Bananas Box",
+        "length_mm": 497,
+        "width_mm": 395,
+        "height_mm": 239,
+        "weight_kg": 19.12,
+        "quantity": 12,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-5447",
+        "description": "Water Pack",
+        "length_mm": 282,
+        "width_mm": 193,
+        "height_mm": 324,
+        "weight_kg": 9.04,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0740",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-1722",
+        "description": "Water Pack",
+        "length_mm": 284,
+        "width_mm": 188,
+        "height_mm": 326,
+        "weight_kg": 9.28,
+        "quantity": 140,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-5050",
+        "description": "Sugar 10kg",
+        "length_mm": 396,
+        "width_mm": 296,
+        "height_mm": 151,
+        "weight_kg": 10.09,
+        "quantity": 45,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0741",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-9616",
+        "description": "Bananas Box",
+        "length_mm": 507,
+        "width_mm": 386,
+        "height_mm": 238,
+        "weight_kg": 18.89,
+        "quantity": 11,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-2687",
+        "description": "Chips Carton",
+        "length_mm": 593,
+        "width_mm": 397,
+        "height_mm": 402,
+        "weight_kg": 1.83,
+        "quantity": 21,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-3101",
+        "description": "Eggs 360pcs",
+        "length_mm": 640,
+        "width_mm": 319,
+        "height_mm": 344,
+        "weight_kg": 21.84,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0742",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-6099",
+        "description": "Water Pack",
+        "length_mm": 276,
+        "width_mm": 191,
+        "height_mm": 333,
+        "weight_kg": 9.23,
+        "quantity": 40,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-1820",
+        "description": "Wine Case",
+        "length_mm": 249,
+        "width_mm": 168,
+        "height_mm": 322,
+        "weight_kg": 8.14,
+        "quantity": 26,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-4381",
+        "description": "Canned Peas",
+        "length_mm": 301,
+        "width_mm": 197,
+        "height_mm": 120,
+        "weight_kg": 5.95,
+        "quantity": 31,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0743",
+    "pallet": {
+      "length_mm": 1219,
+      "width_mm": 1016,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CHIPS-4999",
+        "description": "Chips Carton",
+        "length_mm": 607,
+        "width_mm": 401,
+        "height_mm": 407,
+        "weight_kg": 1.81,
+        "quantity": 24,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-BANANA-2530",
+        "description": "Bananas Box",
+        "length_mm": 507,
+        "width_mm": 387,
+        "height_mm": 241,
+        "weight_kg": 19.09,
+        "quantity": 21,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-3091",
+        "description": "Eggs 360pcs",
+        "length_mm": 625,
+        "width_mm": 323,
+        "height_mm": 357,
+        "weight_kg": 21.76,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-8148",
+        "description": "Wine Case",
+        "length_mm": 251,
+        "width_mm": 171,
+        "height_mm": 318,
+        "weight_kg": 8.01,
+        "quantity": 19,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-2983",
+        "description": "Sugar 10kg",
+        "length_mm": 404,
+        "width_mm": 305,
+        "height_mm": 152,
+        "weight_kg": 10.17,
+        "quantity": 18,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-9967",
+        "description": "Water Pack",
+        "length_mm": 280,
+        "width_mm": 192,
+        "height_mm": 336,
+        "weight_kg": 9.31,
+        "quantity": 8,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0744",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-9803",
+        "description": "Water Pack",
+        "length_mm": 284,
+        "width_mm": 190,
+        "height_mm": 334,
+        "weight_kg": 9.15,
+        "quantity": 100,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-5334",
+        "description": "Sugar 10kg",
+        "length_mm": 397,
+        "width_mm": 298,
+        "height_mm": 152,
+        "weight_kg": 9.85,
+        "quantity": 43,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0745",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-9982",
+        "description": "Bananas Box",
+        "length_mm": 499,
+        "width_mm": 400,
+        "height_mm": 234,
+        "weight_kg": 19.03,
+        "quantity": 16,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-7974",
+        "description": "Chips Carton",
+        "length_mm": 609,
+        "width_mm": 402,
+        "height_mm": 400,
+        "weight_kg": 1.8,
+        "quantity": 19,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-9552",
+        "description": "Eggs 360pcs",
+        "length_mm": 618,
+        "width_mm": 318,
+        "height_mm": 353,
+        "weight_kg": 21.68,
+        "quantity": 10,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "liquid_tetris_0746",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-9193",
+        "description": "Water Pack",
+        "length_mm": 276,
+        "width_mm": 192,
+        "height_mm": 331,
+        "weight_kg": 9.29,
+        "quantity": 40,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-4209",
+        "description": "Wine Case",
+        "length_mm": 252,
+        "width_mm": 173,
+        "height_mm": 316,
+        "weight_kg": 7.89,
+        "quantity": 25,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CANNED-6868",
+        "description": "Canned Peas",
+        "length_mm": 296,
+        "width_mm": 200,
+        "height_mm": 121,
+        "weight_kg": 6.0,
+        "quantity": 46,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "random_mixed_0747",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-CANNED-9291",
+        "description": "Canned Peas",
+        "length_mm": 300,
+        "width_mm": 202,
+        "height_mm": 119,
+        "weight_kg": 5.88,
+        "quantity": 7,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WINE-6376",
+        "description": "Wine Case",
+        "length_mm": 249,
+        "width_mm": 168,
+        "height_mm": 318,
+        "weight_kg": 7.96,
+        "quantity": 23,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-WATER-6005",
+        "description": "Water Pack",
+        "length_mm": 275,
+        "width_mm": 190,
+        "height_mm": 332,
+        "weight_kg": 9.08,
+        "quantity": 18,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-1200",
+        "description": "Chips Carton",
+        "length_mm": 607,
+        "width_mm": 399,
+        "height_mm": 392,
+        "weight_kg": 1.81,
+        "quantity": 21,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "heavy_water_0748",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 800,
+      "max_height_mm": 1800,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-WATER-3959",
+        "description": "Water Pack",
+        "length_mm": 285,
+        "width_mm": 189,
+        "height_mm": 328,
+        "weight_kg": 9.14,
+        "quantity": 101,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-SUGAR-7747",
+        "description": "Sugar 10kg",
+        "length_mm": 405,
+        "width_mm": 302,
+        "height_mm": 150,
+        "weight_kg": 10.07,
+        "quantity": 55,
+        "strict_upright": false,
+        "fragile": false,
+        "stackable": true
+      }
+    ]
+  },
+  {
+    "task_id": "fragile_tower_0749",
+    "pallet": {
+      "length_mm": 1200,
+      "width_mm": 1000,
+      "max_height_mm": 2000,
+      "max_weight_kg": 1000.0
+    },
+    "boxes": [
+      {
+        "sku_id": "SKU-BANANA-8317",
+        "description": "Bananas Box",
+        "length_mm": 507,
+        "width_mm": 389,
+        "height_mm": 237,
+        "weight_kg": 19.14,
+        "quantity": 20,
+        "strict_upright": true,
+        "fragile": false,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-CHIPS-1320",
+        "description": "Chips Carton",
+        "length_mm": 612,
+        "width_mm": 404,
+        "height_mm": 400,
+        "weight_kg": 1.8,
+        "quantity": 23,
+        "strict_upright": false,
+        "fragile": true,
+        "stackable": true
+      },
+      {
+        "sku_id": "SKU-EGGS-1375",
+        "description": "Eggs 360pcs",
+        "length_mm": 633,
+        "width_mm": 319,
+        "height_mm": 353,
+        "weight_kg": 22.11,
+        "quantity": 9,
+        "strict_upright": true,
+        "fragile": true,
+        "stackable": true
+      }
+    ]
+  }
+]
