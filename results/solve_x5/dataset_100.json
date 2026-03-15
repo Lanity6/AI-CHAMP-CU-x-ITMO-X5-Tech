@@ -2,7 +2,7 @@
   {
     "task_id": "heavy_water_0000",
     "solver_version": "1.0.0",
-    "solve_time_ms": 22,
+    "solve_time_ms": 21,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8808",
@@ -1592,7 +1592,7 @@
   {
     "task_id": "fragile_tower_0001",
     "solver_version": "1.0.0",
-    "solve_time_ms": 2,
+    "solve_time_ms": 4,
     "placements": [
       {
         "sku_id": "SKU-CHIPS-1464",
@@ -1832,7 +1832,7 @@
   {
     "task_id": "liquid_tetris_0002",
     "solver_version": "1.0.0",
-    "solve_time_ms": 14,
+    "solve_time_ms": 15,
     "placements": [
       {
         "sku_id": "SKU-WINE-4476",
@@ -3923,7 +3923,7 @@
   {
     "task_id": "heavy_water_0004",
     "solver_version": "1.0.0",
-    "solve_time_ms": 18,
+    "solve_time_ms": 19,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-5741",
@@ -5833,7 +5833,7 @@
   {
     "task_id": "liquid_tetris_0006",
     "solver_version": "1.0.0",
-    "solve_time_ms": 17,
+    "solve_time_ms": 16,
     "placements": [
       {
         "sku_id": "SKU-CANNED-9835",
@@ -8148,7 +8148,7 @@
   {
     "task_id": "heavy_water_0008",
     "solver_version": "1.0.0",
-    "solve_time_ms": 23,
+    "solve_time_ms": 21,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-9296",
@@ -9551,7 +9551,7 @@
   {
     "task_id": "fragile_tower_0009",
     "solver_version": "1.0.0",
-    "solve_time_ms": 5,
+    "solve_time_ms": 6,
     "placements": [
       {
         "sku_id": "SKU-BANANA-7116",
@@ -10010,7 +10010,7 @@
   {
     "task_id": "liquid_tetris_0010",
     "solver_version": "1.0.0",
-    "solve_time_ms": 17,
+    "solve_time_ms": 16,
     "placements": [
       {
         "sku_id": "SKU-CANNED-3272",
@@ -11594,7 +11594,7 @@
   {
     "task_id": "random_mixed_0011",
     "solver_version": "1.0.0",
-    "solve_time_ms": 19,
+    "solve_time_ms": 18,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-4200",
@@ -12970,7 +12970,7 @@
   {
     "task_id": "heavy_water_0012",
     "solver_version": "1.0.0",
-    "solve_time_ms": 23,
+    "solve_time_ms": 22,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8540",
@@ -14693,7 +14693,7 @@
   {
     "task_id": "fragile_tower_0013",
     "solver_version": "1.0.0",
-    "solve_time_ms": 6,
+    "solve_time_ms": 8,
     "placements": [
       {
         "sku_id": "SKU-BANANA-5763",
@@ -15120,7 +15120,7 @@
   {
     "task_id": "liquid_tetris_0014",
     "solver_version": "1.0.0",
-    "solve_time_ms": 18,
+    "solve_time_ms": 16,
     "placements": [
       {
         "sku_id": "SKU-CANNED-5266",
@@ -17163,7 +17163,7 @@
   {
     "task_id": "heavy_water_0016",
     "solver_version": "1.0.0",
-    "solve_time_ms": 25,
+    "solve_time_ms": 24,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-4897",
@@ -19260,7 +19260,7 @@
   {
     "task_id": "liquid_tetris_0018",
     "solver_version": "1.0.0",
-    "solve_time_ms": 14,
+    "solve_time_ms": 12,
     "placements": [
       {
         "sku_id": "SKU-WINE-5841",
@@ -21490,7 +21490,7 @@
   {
     "task_id": "heavy_water_0020",
     "solver_version": "1.0.0",
-    "solve_time_ms": 25,
+    "solve_time_ms": 23,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-1442",
@@ -25336,7 +25336,7 @@
   {
     "task_id": "heavy_water_0024",
     "solver_version": "1.0.0",
-    "solve_time_ms": 23,
+    "solve_time_ms": 22,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-3478",
@@ -27481,7 +27481,7 @@
   {
     "task_id": "liquid_tetris_0026",
     "solver_version": "1.0.0",
-    "solve_time_ms": 19,
+    "solve_time_ms": 18,
     "placements": [
       {
         "sku_id": "SKU-CANNED-1471",
@@ -30157,7 +30157,7 @@
   {
     "task_id": "heavy_water_0028",
     "solver_version": "1.0.0",
-    "solve_time_ms": 30,
+    "solve_time_ms": 29,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-4495",
@@ -31592,7 +31592,7 @@
   {
     "task_id": "fragile_tower_0029",
     "solver_version": "1.0.0",
-    "solve_time_ms": 7,
+    "solve_time_ms": 6,
     "placements": [
       {
         "sku_id": "SKU-BANANA-2247",
@@ -33555,7 +33555,7 @@
   {
     "task_id": "random_mixed_0031",
     "solver_version": "1.0.0",
-    "solve_time_ms": 11,
+    "solve_time_ms": 10,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-4373",
@@ -37534,7 +37534,7 @@
   {
     "task_id": "random_mixed_0035",
     "solver_version": "1.0.0",
-    "solve_time_ms": 21,
+    "solve_time_ms": 20,
     "placements": [
       {
         "sku_id": "SKU-CHIPS-8474",
@@ -38270,7 +38270,7 @@
   {
     "task_id": "heavy_water_0036",
     "solver_version": "1.0.0",
-    "solve_time_ms": 34,
+    "solve_time_ms": 35,
     "placements": [
       {
         "sku_id": "SKU-WATER-1956",
@@ -40425,7 +40425,7 @@
   {
     "task_id": "liquid_tetris_0038",
     "solver_version": "1.0.0",
-    "solve_time_ms": 19,
+    "solve_time_ms": 18,
     "placements": [
       {
         "sku_id": "SKU-CANNED-7565",
@@ -42057,7 +42057,7 @@
   {
     "task_id": "random_mixed_0039",
     "solver_version": "1.0.0",
-    "solve_time_ms": 10,
+    "solve_time_ms": 9,
     "placements": [
       {
         "sku_id": "SKU-CANNED-6132",
@@ -46558,7 +46558,7 @@
   {
     "task_id": "heavy_water_0044",
     "solver_version": "1.0.0",
-    "solve_time_ms": 27,
+    "solve_time_ms": 26,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-1144",
@@ -48543,7 +48543,7 @@
   {
     "task_id": "liquid_tetris_0046",
     "solver_version": "1.0.0",
-    "solve_time_ms": 13,
+    "solve_time_ms": 12,
     "placements": [
       {
         "sku_id": "SKU-WATER-7553",
@@ -50544,7 +50544,7 @@
   {
     "task_id": "heavy_water_0048",
     "solver_version": "1.0.0",
-    "solve_time_ms": 23,
+    "solve_time_ms": 25,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8141",
@@ -54070,7 +54070,7 @@
   {
     "task_id": "random_mixed_0051",
     "solver_version": "1.0.0",
-    "solve_time_ms": 7,
+    "solve_time_ms": 6,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-9983",
@@ -54683,7 +54683,7 @@
   {
     "task_id": "heavy_water_0052",
     "solver_version": "1.0.0",
-    "solve_time_ms": 26,
+    "solve_time_ms": 25,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-3607",
@@ -58982,7 +58982,7 @@
   {
     "task_id": "heavy_water_0056",
     "solver_version": "1.0.0",
-    "solve_time_ms": 32,
+    "solve_time_ms": 23,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-2548",
@@ -60844,7 +60844,7 @@
   {
     "task_id": "liquid_tetris_0058",
     "solver_version": "1.0.0",
-    "solve_time_ms": 19,
+    "solve_time_ms": 18,
     "placements": [
       {
         "sku_id": "SKU-CANNED-2713",
@@ -62801,7 +62801,7 @@
   {
     "task_id": "heavy_water_0060",
     "solver_version": "1.0.0",
-    "solve_time_ms": 23,
+    "solve_time_ms": 22,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-1674",
@@ -64866,7 +64866,7 @@
   {
     "task_id": "liquid_tetris_0062",
     "solver_version": "1.0.0",
-    "solve_time_ms": 13,
+    "solve_time_ms": 12,
     "placements": [
       {
         "sku_id": "SKU-CANNED-8718",
@@ -66226,7 +66226,7 @@
   {
     "task_id": "random_mixed_0063",
     "solver_version": "1.0.0",
-    "solve_time_ms": 27,
+    "solve_time_ms": 25,
     "placements": [
       {
         "sku_id": "SKU-CANNED-3096",
@@ -66982,7 +66982,7 @@
   {
     "task_id": "heavy_water_0064",
     "solver_version": "1.0.0",
-    "solve_time_ms": 24,
+    "solve_time_ms": 23,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-4299",
@@ -68625,7 +68625,7 @@
   {
     "task_id": "fragile_tower_0065",
     "solver_version": "1.0.0",
-    "solve_time_ms": 6,
+    "solve_time_ms": 5,
     "placements": [
       {
         "sku_id": "SKU-BANANA-5732",
@@ -69132,7 +69132,7 @@
   {
     "task_id": "liquid_tetris_0066",
     "solver_version": "1.0.0",
-    "solve_time_ms": 14,
+    "solve_time_ms": 13,
     "placements": [
       {
         "sku_id": "SKU-WINE-9108",
@@ -71437,7 +71437,7 @@
   {
     "task_id": "heavy_water_0068",
     "solver_version": "1.0.0",
-    "solve_time_ms": 28,
+    "solve_time_ms": 27,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8687",
@@ -73683,7 +73683,7 @@
   {
     "task_id": "liquid_tetris_0070",
     "solver_version": "1.0.0",
-    "solve_time_ms": 14,
+    "solve_time_ms": 12,
     "placements": [
       {
         "sku_id": "SKU-WINE-7726",
@@ -77317,7 +77317,7 @@
   {
     "task_id": "fragile_tower_0073",
     "solver_version": "1.0.0",
-    "solve_time_ms": 5,
+    "solve_time_ms": 4,
     "placements": [
       {
         "sku_id": "SKU-CHIPS-9200",
@@ -77824,7 +77824,7 @@
   {
     "task_id": "liquid_tetris_0074",
     "solver_version": "1.0.0",
-    "solve_time_ms": 14,
+    "solve_time_ms": 13,
     "placements": [
       {
         "sku_id": "SKU-CANNED-1049",
@@ -79168,7 +79168,7 @@
   {
     "task_id": "random_mixed_0075",
     "solver_version": "1.0.0",
-    "solve_time_ms": 20,
+    "solve_time_ms": 19,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8637",
@@ -83707,7 +83707,7 @@
   {
     "task_id": "random_mixed_0079",
     "solver_version": "1.0.0",
-    "solve_time_ms": 17,
+    "solve_time_ms": 16,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8963",
@@ -86053,7 +86053,7 @@
   {
     "task_id": "fragile_tower_0081",
     "solver_version": "1.0.0",
-    "solve_time_ms": 6,
+    "solve_time_ms": 5,
     "placements": [
       {
         "sku_id": "SKU-BANANA-8426",
@@ -87936,7 +87936,7 @@
   {
     "task_id": "random_mixed_0083",
     "solver_version": "1.0.0",
-    "solve_time_ms": 35,
+    "solve_time_ms": 34,
     "placements": [
       {
         "sku_id": "SKU-BANANA-3848",
@@ -89364,7 +89364,7 @@
   {
     "task_id": "heavy_water_0084",
     "solver_version": "1.0.0",
-    "solve_time_ms": 22,
+    "solve_time_ms": 21,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8541",
@@ -91242,7 +91242,7 @@
   {
     "task_id": "liquid_tetris_0086",
     "solver_version": "1.0.0",
-    "solve_time_ms": 18,
+    "solve_time_ms": 19,
     "placements": [
       {
         "sku_id": "SKU-CANNED-4482",
@@ -92757,7 +92757,7 @@
   {
     "task_id": "random_mixed_0087",
     "solver_version": "1.0.0",
-    "solve_time_ms": 7,
+    "solve_time_ms": 6,
     "placements": [
       {
         "sku_id": "SKU-CHIPS-2466",
@@ -93146,7 +93146,7 @@
   {
     "task_id": "heavy_water_0088",
     "solver_version": "1.0.0",
-    "solve_time_ms": 20,
+    "solve_time_ms": 21,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-8601",
@@ -94853,7 +94853,7 @@
   {
     "task_id": "fragile_tower_0089",
     "solver_version": "1.0.0",
-    "solve_time_ms": 2,
+    "solve_time_ms": 3,
     "placements": [
       {
         "sku_id": "SKU-CHIPS-6477",
@@ -95077,7 +95077,7 @@
   {
     "task_id": "liquid_tetris_0090",
     "solver_version": "1.0.0",
-    "solve_time_ms": 14,
+    "solve_time_ms": 13,
     "placements": [
       {
         "sku_id": "SKU-CANNED-7247",
@@ -97162,7 +97162,7 @@
   {
     "task_id": "heavy_water_0092",
     "solver_version": "1.0.0",
-    "solve_time_ms": 28,
+    "solve_time_ms": 27,
     "placements": [
       {
         "sku_id": "SKU-SUGAR-2547",
@@ -100528,7 +100528,7 @@
   {
     "task_id": "random_mixed_0095",
     "solver_version": "1.0.0",
-    "solve_time_ms": 12,
+    "solve_time_ms": 13,
     "placements": [
       {
         "sku_id": "SKU-WINE-2389",
@@ -103563,7 +103563,7 @@
   {
     "task_id": "liquid_tetris_0098",
     "solver_version": "1.0.0",
-    "solve_time_ms": 17,
+    "solve_time_ms": 16,
     "placements": [
       {
         "sku_id": "SKU-WINE-9143",
