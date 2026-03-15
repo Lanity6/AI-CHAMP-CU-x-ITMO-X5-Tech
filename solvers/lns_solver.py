@@ -42,7 +42,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 # CONFIG — все параметры алгоритма
 # ──────────────────────────────────────────────────────────────────────────────
 CONFIG: Dict[str, Any] = {
-    "time_budget_s":        9.0,
+    "time_budget_s":        2.0,
     "early_stop_patience":  15,
     "ils_kicks":            3,      # ILS: перезапусков после early_stop (0=выкл.)
 
