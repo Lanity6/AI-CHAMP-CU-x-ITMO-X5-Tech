@@ -20,6 +20,16 @@ from viz_utils import (
 MAX_CASES = 9
 RANDOM_SEED = 42
 
+FONT_REGULAR = "/usr/share/fonts/truetype/lato/Lato-Regular.ttf"
+FONT_BOLD = "/usr/share/fonts/truetype/lato/Lato-Bold.ttf"
+FONT_SEMIBOLD = "/usr/share/fonts/truetype/lato/Lato-Semibold.ttf"
+FONT_LIGHT = "/usr/share/fonts/truetype/lato/Lato-Light.ttf"
+
+COLOR_TITLE = "#1e293b"
+COLOR_SUBTITLE = "#475569"
+COLOR_LABEL = "#334155"
+COLOR_HEADER = "#0f172a"
+
 
 def hsv_to_rgb(h, s, v):
     i = int(h * 6.0)
@@ -250,7 +260,7 @@ box_type_color_map = build_global_box_type_color_map(inputs_raw)
 offsets = compute_offsets(cases)
 
 plotter = pv.Plotter(window_size=(1900, 1100))
-plotter.set_background("white")
+plotter.set_background("#f8fafc")
 plotter.show_axes()
 
 prepared_cases = []
@@ -266,7 +276,10 @@ ui_state = {
     "layer_states": {},
     "layer_label_names": [],
     "legend_text_names": [],
-    "main_text_name": "main_text",
+    "title_name": "title_text",
+    "task_id_name": "task_id_text",
+    "pallet_info_name": "pallet_info_text",
+    "size_info_name": "size_info_text",
     "case_label_name": "case_label",
     "layers_header_name": "layers_header",
     "show_all_label_name": "show_all_label",
@@ -346,23 +359,39 @@ def clear_legend_ui():
 def update_header(case_index: int):
     case_data = prepared_cases[case_index]
 
-    main_text = (
-        "3D Bin Packing Visualizer\n"
-        f"Task ID: {case_data['task_id']}\n"
-        f"Pallet type: {case_data['pallet_type']}\n"
-        f"Size: {case_data['container_length']} x "
-        f"{case_data['container_width']} x {case_data['container_height']} mm"
+    plotter.add_text(
+        "3D Bin Packing Visualizer",
+        position=(20, 1050), font_size=16, shadow=True,
+        color=COLOR_TITLE, name=ui_state["title_name"],
+        font_file=FONT_BOLD,
     )
 
     plotter.add_text(
-        main_text, position="upper_left", font_size=11,
-        color="black", name=ui_state["main_text_name"], font="arial",
+        f"Task ID: {case_data['task_id']}",
+        position=(20, 1020), font_size=11,
+        color=COLOR_SUBTITLE, name=ui_state["task_id_name"],
+        font_file=FONT_REGULAR,
+    )
+
+    plotter.add_text(
+        f"Pallet: {case_data['pallet_type']}",
+        position=(20, 995), font_size=11,
+        color=COLOR_SUBTITLE, name=ui_state["pallet_info_name"],
+        font_file=FONT_REGULAR,
+    )
+
+    plotter.add_text(
+        f"{case_data['container_length']} \u00d7 {case_data['container_width']} \u00d7 {case_data['container_height']} mm",
+        position=(20, 970), font_size=10,
+        color=COLOR_SUBTITLE, name=ui_state["size_info_name"],
+        font_file=FONT_LIGHT,
     )
 
     plotter.add_text(
         f"Active pallet {case_index + 1} / {len(prepared_cases)}",
-        position=(20, 120), font_size=10,
-        color="black", name=ui_state["case_label_name"], font="arial",
+        position=(20, 940), font_size=10,
+        color=COLOR_LABEL, name=ui_state["case_label_name"],
+        font_file=FONT_SEMIBOLD,
     )
 
 
@@ -375,11 +404,12 @@ def rebuild_legend_ui(case_index: int):
     legend_x = 1380
 
     plotter.add_text(
-        "Legend", position=(legend_x, 960), font_size=12,
-        color="black", name=ui_state["legend_header_name"], font="arial",
+        "Legend", position=(legend_x, 1050), font_size=13,
+        color=COLOR_HEADER, name=ui_state["legend_header_name"],
+        font_file=FONT_BOLD,
     )
 
-    y = 920
+    y = 1018
     for idx, (_, item) in enumerate(legend_items):
         name = f"legend_{idx}"
 
@@ -391,12 +421,13 @@ def rebuild_legend_ui(case_index: int):
         )
 
         plotter.add_text(
-            f"\u25a0 {text}", position=(legend_x, y), font_size=10,
-            color=item["color"], name=name, font="arial",
+            f"\u25a0  {text}", position=(legend_x, y), font_size=10,
+            color=item["color"], name=name,
+            font_file=FONT_REGULAR,
         )
         ui_state["legend_text_names"].append(name)
 
-        y -= 28
+        y -= 26
         if y < 60:
             break
 
@@ -461,22 +492,24 @@ def rebuild_layer_ui(case_index: int):
     ui_state["layer_states"] = {layer: False for layer in available_layers}
 
     plotter.add_text(
-        "Layers", position=(20, 840), font_size=12,
-        color="black", name=ui_state["layers_header_name"], font="arial",
+        "Layers", position=(20, 890), font_size=13,
+        color=COLOR_HEADER, name=ui_state["layers_header_name"],
+        font_file=FONT_BOLD,
     )
 
     plotter.add_text(
-        "Show all", position=(60, 795), font_size=10,
-        color="black", name=ui_state["show_all_label_name"], font="arial",
+        "Show all", position=(60, 858), font_size=10,
+        color=COLOR_LABEL, name=ui_state["show_all_label_name"],
+        font_file=FONT_REGULAR,
     )
 
     ui_state["show_all_button"] = plotter.add_checkbox_button_widget(
-        callback=on_show_all, value=True, position=(20, 795),
+        callback=on_show_all, value=True, position=(20, 858),
         size=20, color_on="green", color_off="lightgray", border_size=1,
     )
 
-    start_y = 755
-    step_y = 32
+    start_y = 822
+    step_y = 30
 
     for idx, layer_value in enumerate(available_layers):
         y_pos = start_y - idx * step_y
@@ -488,7 +521,8 @@ def rebuild_layer_ui(case_index: int):
 
         plotter.add_text(
             f"Layer {layer_value}", position=(60, y_pos), font_size=10,
-            color="black", name=label_name, font="arial",
+            color=COLOR_LABEL, name=label_name,
+            font_file=FONT_REGULAR,
         )
 
         widget = plotter.add_checkbox_button_widget(
