@@ -686,8 +686,8 @@ plotter.add_checkbox_button_widget(
     size=btn_size, color_on="steelblue", color_off="steelblue", border_size=2,
 )
 plotter.add_text(
-    "\u25c0", position=(center_x - btn_size - 2, 22),
-    font_size=14, color="white", name="prev_label", font="arial",
+    "<", position=(center_x - btn_size + 2, 25),
+    font_size=12, color="white", name="prev_label", font="arial",
 )
 
 plotter.add_checkbox_button_widget(
@@ -696,8 +696,8 @@ plotter.add_checkbox_button_widget(
     size=btn_size, color_on="steelblue", color_off="steelblue", border_size=2,
 )
 plotter.add_text(
-    "\u25b6", position=(center_x + 18, 22),
-    font_size=14, color="white", name="next_label", font="arial",
+    ">", position=(center_x + 22, 25),
+    font_size=12, color="white", name="next_label", font="arial",
 )
 
 highlight_active_case(0)
