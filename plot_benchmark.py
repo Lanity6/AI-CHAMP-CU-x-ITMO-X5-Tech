@@ -57,12 +57,9 @@ ax.legend(by_label.values(), by_label.keys(), title="Solver")
 ymin = max(0, pivot.min().min() - 0.05)
 ymax = min(1, pivot.max().max() + 0.05)
 ax.set_ylim(ymin, ymax)
-<<<<<<< HEAD
 for container in ax.containers:
     ax.bar_label(container, fmt="%.3f", fontsize=7, padding=2)
-=======
 ax.grid(axis="y", alpha=0.3)
->>>>>>> e9061337ee3f063aad2121a110103a8c2ae05c44
 plt.tight_layout()
 plt.savefig("benchmark_plot.png", dpi=150)
 print("Saved benchmark_plot.png")
