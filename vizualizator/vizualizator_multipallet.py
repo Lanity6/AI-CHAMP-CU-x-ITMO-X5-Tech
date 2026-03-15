@@ -269,6 +269,8 @@ for (input_case, result_case, original_index), offset in zip(cases, offsets):
     case_data["original_index"] = original_index
     prepared_cases.append(case_data)
 
+MAX_VISIBLE_LAYERS = 20
+
 ui_state = {
     "current_case_index": 0,
     "show_all_button": None,
@@ -284,6 +286,13 @@ ui_state = {
     "layers_header_name": "layers_header",
     "show_all_label_name": "show_all_label",
     "legend_header_name": "legend_header",
+    "layer_scroll_offset": 0,
+    "available_layers": [],
+    "scroll_up_widget": None,
+    "scroll_down_widget": None,
+    "scroll_up_label": "scroll_up_label",
+    "scroll_down_label": "scroll_down_label",
+    "scroll_info_label": "scroll_info_label",
 }
 
 
@@ -305,36 +314,44 @@ def highlight_active_case(case_index: int):
             container_actor.GetProperty().SetOpacity(0.35)
 
 
+def _kill_widget(w):
+    try:
+        w.Off()
+    except Exception:
+        pass
+    try:
+        w.SetEnabled(0)
+    except Exception:
+        pass
+    try:
+        w.GetRepresentation().SetVisibility(0)
+    except Exception:
+        pass
+    try:
+        w.SetCurrentRenderer(None)
+    except Exception:
+        pass
+    try:
+        w.SetInteractor(None)
+    except Exception:
+        pass
+
+
 def clear_layer_ui():
     for widget in ui_state["layer_widgets"]:
-        try:
-            widget.Off()
-        except Exception:
-            pass
-        try:
-            widget.SetCurrentRenderer(None)
-        except Exception:
-            pass
-        try:
-            widget.SetInteractor(None)
-        except Exception:
-            pass
+        _kill_widget(widget)
     ui_state["layer_widgets"].clear()
 
     if ui_state["show_all_button"] is not None:
-        try:
-            ui_state["show_all_button"].Off()
-        except Exception:
-            pass
-        try:
-            ui_state["show_all_button"].SetCurrentRenderer(None)
-        except Exception:
-            pass
-        try:
-            ui_state["show_all_button"].SetInteractor(None)
-        except Exception:
-            pass
+        _kill_widget(ui_state["show_all_button"])
         ui_state["show_all_button"] = None
+
+    if ui_state["scroll_up_widget"] is not None:
+        _kill_widget(ui_state["scroll_up_widget"])
+        ui_state["scroll_up_widget"] = None
+    if ui_state["scroll_down_widget"] is not None:
+        _kill_widget(ui_state["scroll_down_widget"])
+        ui_state["scroll_down_widget"] = None
 
     for text_name in ui_state["layer_label_names"]:
         try:
@@ -343,7 +360,12 @@ def clear_layer_ui():
             pass
     ui_state["layer_label_names"].clear()
 
-    ui_state["layer_states"] = {}
+    for name in (ui_state["scroll_up_label"], ui_state["scroll_down_label"], ui_state["scroll_info_label"]):
+        try:
+            plotter.remove_actor(name)
+        except Exception:
+            pass
+
     plotter.render()
 
 
@@ -484,12 +506,93 @@ def on_show_all(state):
     plotter.render()
 
 
+def _render_layer_page():
+    """Render the current page of layers based on scroll offset."""
+    case_index = ui_state["current_case_index"]
+    available_layers = ui_state["available_layers"]
+    offset = ui_state["layer_scroll_offset"]
+    total = len(available_layers)
+
+    for widget in ui_state["layer_widgets"]:
+        _kill_widget(widget)
+    ui_state["layer_widgets"].clear()
+
+    for text_name in ui_state["layer_label_names"]:
+        try:
+            plotter.remove_actor(text_name)
+        except Exception:
+            pass
+    ui_state["layer_label_names"].clear()
+
+    visible = available_layers[offset:offset + MAX_VISIBLE_LAYERS]
+    start_y = 822
+    step_y = 30
+
+    for idx, layer_value in enumerate(visible):
+        y_pos = start_y - idx * step_y
+
+        label_name = f"layer_label_{case_index}_{layer_value}"
+        ui_state["layer_label_names"].append(label_name)
+
+        plotter.add_text(
+            f"Layer {layer_value}", position=(60, y_pos), font_size=10,
+            color=COLOR_LABEL, name=label_name,
+            font_file=FONT_REGULAR,
+        )
+
+        is_on = ui_state["layer_states"].get(layer_value, False)
+        widget = plotter.add_checkbox_button_widget(
+            callback=lambda state, lv=layer_value: on_layer_toggle(lv, state),
+            value=is_on, position=(20, y_pos), size=20,
+            color_on="dodgerblue", color_off="lightgray", border_size=1,
+        )
+        ui_state["layer_widgets"].append(widget)
+
+    if total > MAX_VISIBLE_LAYERS:
+        end = min(offset + MAX_VISIBLE_LAYERS, total)
+        plotter.add_text(
+            f"{offset + 1}-{end} / {total}",
+            position=(60, 822 - len(visible) * step_y), font_size=9,
+            color=COLOR_SUBTITLE, name=ui_state["scroll_info_label"],
+            font_file=FONT_LIGHT,
+        )
+    else:
+        try:
+            plotter.remove_actor(ui_state["scroll_info_label"])
+        except Exception:
+            pass
+
+    plotter.render()
+
+
+def _scroll_layers_up(_state=None):
+    if ui_state["layer_scroll_offset"] > 0:
+        ui_state["layer_scroll_offset"] -= MAX_VISIBLE_LAYERS
+        if ui_state["layer_scroll_offset"] < 0:
+            ui_state["layer_scroll_offset"] = 0
+        _render_layer_page()
+
+
+def _scroll_layers_down(_state=None):
+    total = len(ui_state["available_layers"])
+    if ui_state["layer_scroll_offset"] + MAX_VISIBLE_LAYERS < total:
+        ui_state["layer_scroll_offset"] += MAX_VISIBLE_LAYERS
+        _render_layer_page()
+
+
 def rebuild_layer_ui(case_index: int):
     clear_layer_ui()
 
     case_data = prepared_cases[case_index]
     available_layers = sorted(case_data["layer_actors"].keys())
-    ui_state["layer_states"] = {layer: False for layer in available_layers}
+
+    old_states = ui_state["layer_states"]
+    new_states = {}
+    for layer in available_layers:
+        new_states[layer] = old_states.get(layer, False)
+    ui_state["layer_states"] = new_states
+    ui_state["available_layers"] = available_layers
+    ui_state["layer_scroll_offset"] = 0
 
     plotter.add_text(
         "Layers", position=(20, 890), font_size=13,
@@ -508,31 +611,30 @@ def rebuild_layer_ui(case_index: int):
         size=20, color_on="green", color_off="lightgray", border_size=1,
     )
 
-    start_y = 822
-    step_y = 30
-
-    for idx, layer_value in enumerate(available_layers):
-        y_pos = start_y - idx * step_y
-        if y_pos < 40:
-            break
-
-        label_name = f"layer_label_{case_index}_{layer_value}"
-        ui_state["layer_label_names"].append(label_name)
-
+    if len(available_layers) > MAX_VISIBLE_LAYERS:
+        scroll_x = 160
+        ui_state["scroll_up_widget"] = plotter.add_checkbox_button_widget(
+            callback=lambda state: _scroll_layers_up(),
+            value=False, position=(scroll_x, 862), size=18,
+            color_on="steelblue", color_off="steelblue", border_size=1,
+        )
         plotter.add_text(
-            f"Layer {layer_value}", position=(60, y_pos), font_size=10,
-            color=COLOR_LABEL, name=label_name,
-            font_file=FONT_REGULAR,
+            "\u25b2", position=(scroll_x + 4, 862),
+            font_size=9, color="white", name=ui_state["scroll_up_label"],
+            font="arial",
+        )
+        ui_state["scroll_down_widget"] = plotter.add_checkbox_button_widget(
+            callback=lambda state: _scroll_layers_down(),
+            value=False, position=(scroll_x + 26, 862), size=18,
+            color_on="steelblue", color_off="steelblue", border_size=1,
+        )
+        plotter.add_text(
+            "\u25bc", position=(scroll_x + 30, 862),
+            font_size=9, color="white", name=ui_state["scroll_down_label"],
+            font="arial",
         )
 
-        widget = plotter.add_checkbox_button_widget(
-            callback=lambda state, lv=layer_value: on_layer_toggle(lv, state),
-            value=False, position=(20, y_pos), size=20,
-            color_on="dodgerblue", color_off="lightgray", border_size=1,
-        )
-        ui_state["layer_widgets"].append(widget)
-
-    plotter.render()
+    _render_layer_page()
 
 
 def switch_case(new_index: int):
