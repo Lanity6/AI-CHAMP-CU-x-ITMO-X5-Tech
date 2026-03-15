@@ -61,30 +61,41 @@ def rgb_to_hex(r, g, b):
 
 
 def build_global_box_type_color_map(inputs_raw):
+    """Assign colors by description so that e.g. all 'Water Pack' boxes share one color."""
     input_list = inputs_raw if isinstance(inputs_raw, list) else [inputs_raw]
 
-    seen = set()
-    type_keys = []
+    # Collect unique descriptions and all type_keys
+    desc_order = []
+    desc_seen = set()
+    all_type_keys = []
 
     for input_case in input_list:
         for box in input_case.get("boxes", []):
+            desc = box.get("description", "").strip()
             type_key = get_box_type_key(box)
-            if type_key not in seen:
-                seen.add(type_key)
-                type_keys.append(type_key)
+            all_type_keys.append((type_key, desc))
+            if desc not in desc_seen:
+                desc_seen.add(desc)
+                desc_order.append(desc)
 
-    if len(type_keys) > 1000:
-        raise ValueError(f"Too many box types: {len(type_keys)} > 1000")
-
+    # Generate one color per unique description
     colors = []
-    for i in range(1000):
-        h = i / 1000.0
+    for i in range(max(len(desc_order), 1)):
+        h = i / max(len(desc_order), 1)
         s = 0.68 + 0.20 * ((i % 4) / 3.0)
         v = 0.78 + 0.18 * ((i % 5) / 4.0)
         r, g, b = hsv_to_rgb(h, s, v)
         colors.append(rgb_to_hex(r, g, b))
 
-    return {type_key: colors[i] for i, type_key in enumerate(type_keys)}
+    desc_to_color = {desc: colors[i] for i, desc in enumerate(desc_order)}
+
+    # Map every type_key to the color of its description
+    result = {}
+    for type_key, desc in all_type_keys:
+        if type_key not in result:
+            result[type_key] = desc_to_color[desc]
+
+    return result
 
 
 def normalize_cases(inputs_raw, results_raw):
@@ -425,8 +436,16 @@ def update_header(case_index: int):
 def rebuild_legend_ui(case_index: int):
     clear_legend_ui()
 
-    case_data = prepared_cases[case_index]
-    legend_items = sorted(case_data["type_legend"].items(), key=lambda x: x[1]["description"])
+    # Merge legends from all cases, deduplicate by description
+    seen_desc = set()
+    legend_items = []
+    for cd in prepared_cases:
+        for key, val in cd["type_legend"].items():
+            desc = val.get("description", "")
+            if desc not in seen_desc:
+                seen_desc.add(desc)
+                legend_items.append((key, val))
+    legend_items.sort(key=lambda x: x[1]["description"])
 
     legend_x = 1380
 

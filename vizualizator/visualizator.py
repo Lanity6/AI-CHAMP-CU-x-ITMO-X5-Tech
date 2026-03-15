@@ -340,8 +340,13 @@ def update_header(case_index: int):
 def rebuild_legend_ui(case_index: int):
     clear_legend_ui()
 
-    case_data = prepared_cases[case_index]
-    legend_items = sorted(case_data["type_legend"].items(), key=lambda x: x[1]["description"])
+    # Merge legends from all cases to show complete color map
+    merged_legend = {}
+    for case_data in prepared_cases:
+        for key, val in case_data["type_legend"].items():
+            if key not in merged_legend:
+                merged_legend[key] = val
+    legend_items = sorted(merged_legend.items(), key=lambda x: x[1]["description"])
 
     legend_x = 1080
 
