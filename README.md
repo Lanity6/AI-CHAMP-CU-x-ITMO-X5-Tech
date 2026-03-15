@@ -1,1 +1,0 @@
-# AI-CHAMP-CU-x-ITMO-X5-Tech
