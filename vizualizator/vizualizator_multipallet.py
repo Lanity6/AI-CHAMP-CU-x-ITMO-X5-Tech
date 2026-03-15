@@ -278,6 +278,7 @@ ui_state = {
     "layer_states": {},
     "layer_label_names": [],
     "legend_text_names": [],
+    "legend_color_widgets": [],
     "title_name": "title_text",
     "task_id_name": "task_id_text",
     "pallet_info_name": "pallet_info_text",
@@ -377,6 +378,10 @@ def clear_legend_ui():
             pass
     ui_state["legend_text_names"].clear()
 
+    for w in ui_state["legend_color_widgets"]:
+        _kill_widget(w)
+    ui_state["legend_color_widgets"].clear()
+
 
 def update_header(case_index: int):
     case_data = prepared_cases[case_index]
@@ -431,9 +436,10 @@ def rebuild_legend_ui(case_index: int):
         font_file=FONT_BOLD,
     )
 
+    swatch_size = 14
     y = 1018
     for idx, (_, item) in enumerate(legend_items):
-        name = f"legend_{idx}"
+        text_name = f"legend_text_{idx}"
 
         text = build_legend_description(
             description=item["description"],
@@ -442,12 +448,19 @@ def rebuild_legend_ui(case_index: int):
             stackable=item["stackable"],
         )
 
+        w = plotter.add_checkbox_button_widget(
+            callback=lambda state: None,
+            value=True, position=(legend_x, y), size=swatch_size,
+            color_on=item["color"], color_off=item["color"], border_size=1,
+        )
+        ui_state["legend_color_widgets"].append(w)
+
         plotter.add_text(
-            f"\u25a0  {text}", position=(legend_x, y), font_size=10,
-            color=item["color"], name=name,
+            text, position=(legend_x + swatch_size + 8, y), font_size=10,
+            color=COLOR_LABEL, name=text_name,
             font_file=FONT_REGULAR,
         )
-        ui_state["legend_text_names"].append(name)
+        ui_state["legend_text_names"].append(text_name)
 
         y -= 26
         if y < 60:
