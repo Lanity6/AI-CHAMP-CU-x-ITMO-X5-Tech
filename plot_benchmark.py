@@ -22,6 +22,8 @@ ax.legend(title="Solver")
 ymin = max(0, pivot.min().min() - 0.05)
 ymax = min(1, pivot.max().max() + 0.05)
 ax.set_ylim(ymin, ymax)
+for container in ax.containers:
+    ax.bar_label(container, fmt="%.3f", fontsize=7, padding=2)
 plt.tight_layout()
 plt.savefig("benchmark_plot.png", dpi=150)
 print(f"Saved benchmark_plot.png")
