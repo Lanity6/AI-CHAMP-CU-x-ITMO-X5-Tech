@@ -480,7 +480,6 @@ offsets = compute_offsets(cases)
 plotter = pv.Plotter(window_size=(1900, 1100))
 plotter.set_background("white")
 plotter.show_axes()
-plotter.camera_position = "iso"
 
 prepared_cases = []
 for (input_case, result_case, original_index), offset in zip(cases, offsets):
@@ -837,5 +836,22 @@ highlight_active_case(0)
 update_header(0)
 rebuild_layer_ui(0)
 rebuild_legend_ui(0)
+
+# Camera outside the scene looking at the grid center
+all_offsets = [c["offset"] for c in prepared_cases]
+max_ox = max(ox for ox, _, _ in all_offsets)
+max_oy = max(oy for _, oy, _ in all_offsets)
+max_l = max(c["container_length"] for c in prepared_cases)
+max_w = max(c["container_width"] for c in prepared_cases)
+max_h = max(c["container_height"] for c in prepared_cases)
+scene_cx = (max_ox + max_l) / 2
+scene_cy = (max_oy + max_w) / 2
+scene_cz = max_h / 2
+dist = max(max_ox + max_l, max_oy + max_w, max_h) * 1.8
+plotter.camera_position = [
+    (scene_cx + dist, scene_cy + dist * 0.6, scene_cz + dist * 0.8),
+    (scene_cx, scene_cy, scene_cz),
+    (0, 0, 1),
+]
 
 plotter.show()

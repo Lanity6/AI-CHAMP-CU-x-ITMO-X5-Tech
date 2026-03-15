@@ -403,7 +403,6 @@ box_type_color_map = build_global_box_type_color_map(cases)
 plotter = pv.Plotter(window_size=(1550, 950))
 plotter.set_background("white")
 plotter.show_axes()
-plotter.camera_position = "iso"
 
 prepared_cases = []
 for input_case, result_case, original_index in cases:
@@ -741,5 +740,17 @@ plotter.add_text(
 update_header(0)
 rebuild_layer_ui(0)
 rebuild_legend_ui(0)
+
+# Camera outside the scene looking at the pallet center
+case0 = prepared_cases[0]
+cx = case0["container_length"] / 2
+cy = case0["container_width"] / 2
+cz = case0["container_height"] / 2
+dist = max(case0["container_length"], case0["container_width"], case0["container_height"]) * 2.5
+plotter.camera_position = [
+    (cx + dist, cy + dist * 0.6, cz + dist * 0.8),  # camera position
+    (cx, cy, cz),                                      # focal point
+    (0, 0, 1),                                         # view up
+]
 
 plotter.show()
