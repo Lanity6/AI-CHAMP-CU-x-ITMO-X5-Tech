@@ -42,23 +42,23 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 # CONFIG — все параметры алгоритма
 # ──────────────────────────────────────────────────────────────────────────────
 CONFIG: Dict[str, Any] = {
-    "time_budget_s":        2.0,
-    "early_stop_patience":  15,
-    "ils_kicks":            3,      # ILS: перезапусков после early_stop (0=выкл.)
+    "time_budget_s":        4.8,
+    "early_stop_patience":  25,
+    "ils_kicks":            5,      # ILS: перезапусков после early_stop (0=выкл.)
 
-    "destroy_k_fraction":   0.12,
+    "destroy_k_fraction":   0.15,
     "destroy_k_min":        3,
-    "destroy_k_max":        12,
+    "destroy_k_max":        15,
 
-    "beam_width":           4,
-    "beam_eps_limit":       25,
-    "repair_queue_limit":   25,
+    "beam_width":           8,
+    "beam_eps_limit":       50,
+    "repair_queue_limit":   50,
 
     "repair_restarts":      2,
 
     # Phase 0: multi-start greedy — перебор случайных порядков внутри групп.
-    "greedy_restarts":      300,    # макс. число перезапусков (обрывается по времени)
-    "greedy_phase_s":       0.5,    # бюджет Phase 0; короткий → LNS стартует раньше,
+    "greedy_restarts":      800,    # макс. число перезапусков (обрывается по времени)
+    "greedy_phase_s":       1.5,    # бюджет Phase 0; короткий → LNS стартует раньше,
                                     # больше шансов найти улучшение до t=1s (time_score=1.0)
 
     "accept_criterion":     "sa",

@@ -373,6 +373,7 @@ def solve_task(request: Dict[str, Any]) -> Dict[str, Any]:
     total_weight = 0.0
 
     # Extreme points: O(1) membership check with set, O(n) iteration with list
+    EP_LIMIT = 50  # cap extreme points to limit search breadth
     eps: List[Tuple[int, int, int]] = [(0, 0, 0)]
     eps_set: set = {(0, 0, 0)}
 
@@ -430,11 +431,12 @@ def solve_task(request: Dict[str, Any]) -> Dict[str, Any]:
             grid.add(box_record)
             total_weight += item["weight"]
 
-            # O(1) duplicate check for extreme points
-            for ep in ((px + dl, py, pz), (px, py + dw, pz), (px, py, pz + dh)):
-                if ep not in eps_set:
-                    eps_set.add(ep)
-                    eps.append(ep)
+            # O(1) duplicate check for extreme points (capped at EP_LIMIT)
+            if len(eps) < EP_LIMIT:
+                for ep in ((px + dl, py, pz), (px, py + dw, pz), (px, py, pz + dh)):
+                    if ep not in eps_set:
+                        eps_set.add(ep)
+                        eps.append(ep)
 
             placements_out.append({
                 "sku_id": item["sku_id"],

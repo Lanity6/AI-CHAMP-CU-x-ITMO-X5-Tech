@@ -37,11 +37,11 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 # CONFIG
 # ──────────────────────────────────────────────────────────────────────────────
 CONFIG: Dict[str, Any] = {
-    "time_budget_s":        0.85,     # under 1s → time_score=1.0
-    "population_size":      14,       # GA population size
+    "time_budget_s":        0.98,     # under 1s → time_score=1.0
+    "population_size":      24,       # GA population size
     "tournament_size":      3,        # tournament selection size
     "crossover_rate":       0.85,     # probability of crossover
-    "mutation_rate":        0.30,     # probability of mutation (higher for more exploration)
+    "mutation_rate":        0.35,     # probability of mutation (higher for more exploration)
     "elitism_count":        2,        # number of elite individuals preserved
     "gan_interval":         3,        # inject GAN solutions every N generations
     "gan_inject_count":     2,        # how many GAN solutions to inject
@@ -50,8 +50,8 @@ CONFIG: Dict[str, Any] = {
     "gan_train_epochs":     2,        # GAN training epochs per interval
     "gan_lr":               0.01,     # GAN learning rate
     "alpha_discriminator":  0.03,     # weight for discriminator fitness augmentation
-    "multi_start_count":    15,       # initial random restarts for seeding
-    "eps_limit":            50,       # max extreme points in GA decode (speed)
+    "multi_start_count":    30,       # initial random restarts for seeding
+    "eps_limit":            80,       # max extreme points in GA decode (speed)
     "eps_limit_final":      200,      # max extreme points in final decode (quality)
 }
 

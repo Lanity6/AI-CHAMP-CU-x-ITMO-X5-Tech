@@ -96,6 +96,19 @@ def generate_scenario(task_id: str, scenario_type: str, seed: int = GLOBAL_SEED)
         boxes.append(create_box("wine", 15, 30))
         boxes.append(create_box("canned", 30, 50))
 
+    elif scenario_type == "high_count_mixed":
+        boxes.append(create_box("water", 60, 100))
+        boxes.append(create_box("sugar", 50, 80))
+        boxes.append(create_box("canned", 60, 100))
+        boxes.append(create_box("banana", 25, 40))
+        boxes.append(create_box("chips", 15, 30))
+
+    elif scenario_type == "heavy_fragile_mix":
+        boxes.append(create_box("eggs", 15, 30))
+        boxes.append(create_box("wine", 20, 40))
+        boxes.append(create_box("sugar", 40, 70))
+        boxes.append(create_box("water", 30, 50))
+
     elif scenario_type == "random_mixed":
         keys = list(FOOD_RETAIL_ARCHETYPES.keys())
         k = random.randint(4, min(7, len(keys)))
