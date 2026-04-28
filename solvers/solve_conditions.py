@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-X5 Tech Smart 3D Pallet Packing Solver
+conditions Smart 3D Pallet Packing Solver
 Adapted from Kaggle 'Packing Santa's Sleigh' maxrects solution.
 
 Usage:
-    python solve_x5.py <input.json> <output.json>
+    python solve_conditions.py <input.json> <output.json>
 """
 from __future__ import annotations
 

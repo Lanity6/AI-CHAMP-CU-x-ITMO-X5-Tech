@@ -1,5 +1,5 @@
 """
-Greedy 3D Bin Packing Solver — X5 Tech Smart Packing
+Greedy 3D Bin Packing Solver — conditions Smart Packing
 Algorithm: Extreme Points + Gravity Drop (Bottom-Left-Fill heuristic)
 """
 
@@ -579,7 +579,7 @@ def solve_task_multi(request: Dict[str, Any]) -> List[Dict[str, Any]]:
 # ──────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="X5 Greedy 3D Packing Solver")
+    parser = argparse.ArgumentParser(description="conditions Greedy 3D Packing Solver")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--input", help="Single request JSON file")
     group.add_argument("--dataset", help="Dataset JSON file (array of tasks)")

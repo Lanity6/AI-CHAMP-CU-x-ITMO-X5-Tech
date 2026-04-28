@@ -1,5 +1,5 @@
 """
-GAN-based Genetic Algorithm 3D Bin Packing Solver — X5 Tech Smart Packing
+GAN-based Genetic Algorithm 3D Bin Packing Solver — conditions Smart Packing
 
 Based on: "A novel approach for solving 3D bin packing problem by integrating
 a generative adversarial network with a genetic algorithm"

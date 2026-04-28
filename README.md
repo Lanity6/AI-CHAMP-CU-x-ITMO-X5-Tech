@@ -1,4 +1,4 @@
-# 3D Bin Packing — X5 Tech x ITMO
+# 3D_bin_packing_Irtyuga
 
 Решение задачи оптимальной 3D-укладки товаров на паллету для фуд-ритейла.
 

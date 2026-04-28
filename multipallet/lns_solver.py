@@ -1,5 +1,5 @@
 """
-LNS (Large Neighborhood Search) 3D Bin Packing Solver — X5 Tech Smart Packing
+LNS (Large Neighborhood Search) 3D Bin Packing Solver — conditions Smart Packing
 
 Начальное решение: жадный алгоритм с трёхуровневой сортировкой
   Группа 0: обычные коробки (normal)      → кладутся первыми, FFD по объёму
@@ -1828,7 +1828,7 @@ def solve_lns_multi(request: Dict, config: Dict = CONFIG_MULTI) -> List[Dict]:
 # ──────────────────────────────────────────────────────────────────────────────
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="X5 LNS 3D Packing Solver")
+    parser = argparse.ArgumentParser(description="conditions LNS 3D Packing Solver")
     group  = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--input",   help="Один файл запроса JSON")
     group.add_argument("--dataset", help="Датасет JSON (массив задач)")

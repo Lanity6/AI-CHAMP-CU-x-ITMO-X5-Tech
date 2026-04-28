@@ -1,5 +1,5 @@
 """
-Greedy 3D Bin Packing Solver — X5 Tech Smart Packing
+Greedy 3D Bin Packing Solver — conditions Smart Packing
 Algorithm: Extreme Points + Gravity Drop (Bottom-Left-Fill heuristic)
 """
 

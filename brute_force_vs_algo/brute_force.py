@@ -1,5 +1,5 @@
 """
-Brute-Force 3D Bin Packing Solver — X5 Tech Smart Packing
+Brute-Force 3D Bin Packing Solver — conditions Smart Packing
 Algorithm: DFS Branch-and-Bound with extreme points.
   - Exact mode (N <= 12): full BB search, optimal guarantee
   - LDS mode (N > 12): limited-discrepancy search, anytime best result
